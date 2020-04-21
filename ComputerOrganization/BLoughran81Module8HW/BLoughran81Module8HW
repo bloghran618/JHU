@@ -1,0 +1,226 @@
+.data
+prompt: 	.asciiz "Enter a Roman numeral (IVXLCDM): "
+again:  	.asciiz "Run again? (1=yes, 0=no): "
+stop:   	.asciiz "Stopped."  
+newline:	.asciiz "\n"
+letters: 	.space 21 	# assume roman numeral <=20 chars
+
+.globl main
+main:
+.text
+
+# beginning of the loop
+thetop:
+
+    # get user input for Roman Numeral
+    li $v0, 4       	# system call for print string
+    la $a0, prompt	# the address of the string to print
+    syscall		# print prompt
+    li $v0, 8       	# system call for read_string
+    la $a0, letters	# specify buffer
+    li $a1, 21		# specify length
+    syscall		# save letters
+
+    jal convert_char	# convert roman numeral to decimal
+
+    # display the result
+    move $s0, $v0
+    li $v0, 1
+    move $a0, $s0
+    syscall
+    li $v0, 4       	# system call for print string
+    la $a0, newline	# the address of the string to print
+    syscall		# print newline
+    
+    # check if the user wants to play again
+    li $v0, 4       	# system call for print string
+    la $a0, again	# the address of the string to print
+    syscall		# print prompt asking the user if they want to play again
+    li $v0, 5        	# system call for read_int
+    syscall            	# save selection
+    move $s0, $v0     	# save input in $s0
+    beq $s0, 1, thetop	# start over if the user wants to play again
+
+    # terminate the system
+    li $v0, 4       	# system call for print_str
+    la $a0, stop 	# address of the string to print
+    syscall		# print string to end program		
+    li $v0, 10		# system call for exit()
+    syscall		# exit()
+
+# convert roman numeral to decimal
+# first letter is passed to $a0
+# result saved to $v0
+convert_char:
+
+    # get inputs
+    sw $ra, 8($sp)	# save return address
+    sw $a0, 4($sp)	# save the roman numeral as a word
+    sw $s0, 0($sp)	# initialize
+    addi $sp, $sp, -12	# reset address
+    
+    # initialize values
+    li $s0, 0 		# initialize return value to 0
+    lb $t0, 0($a0)  	# get 0th letter of word
+    
+    # check if end of string, else go to next character
+    beq $t0, 10, return   	# '\n' = end string -> return
+    lb $t1, 1($a0)       	# save next char to $t1
+
+# Check if first character I (73)
+I_: # 
+    bne $t0, 73, X_ # first character is not I, check if X
+IV:
+    # check if second char is V
+    bne $t1, 86, IX   # second character is not V, try X
+    addi $t3, $a0, 2  # move forward 2 letters
+    li $s0, 4         # increment value by 4
+    j recursion       # jump to convert next char
+
+IX:
+    # check if second char is X
+    bne $t1, 88, IC   # second character is not X, try C
+    addi $t3, $a0, 2  # move forward 2 letters
+    li $s0, 9         # increment value by 9
+    j recursion       # jump to convert next char
+    
+IC: 
+    # check if second char is C
+    bne $t1, 67, ID   # second character is not C, try D
+    addi $t3, $a0, 2  # move foward 2 letters
+    li $s0, 99        # increment value by 99
+    j recursion       # jump to convert next char
+    
+ID: 
+    #check if second char is D
+    bne $t1, 68, I    # second character is not D, handle I
+    addi $t3, $a0, 2  # move forward 2 letters
+    li $s0, 499       # increment value by 499
+    j recursion       # jump to convert next char
+
+I:
+    # single I, value is 1
+    addi $t3, $a0, 1  # move forward one letter
+    li $s0, 1         # increment value by 1
+    j recursion       # jump to convert next char
+
+
+# check if first character X (88)
+X_:
+    bne $t0, 88, C_ # first character is not X, check C
+XL:
+    # check if the second char is L
+    bne $t1, 76, XC   # second character is not L, try C
+    addi $t3, $a0, 2  # move forward two letters
+    li $s0, 40        # increment value by 40
+    j recursion       # jump to convert next char
+
+XC:
+    # check if second char is C
+    bne $t1, 67, XM   # second character is not C, try M
+    addi $t3, $a0, 2  # move forward two letters
+    li $s0, 90        # increment value by 90
+    j recursion       # jump to convert next char
+    
+XM: 
+    # check if second char is M
+    bne $t1, 77, X   # second character is not M, handle X
+    addi $t3, $a0, 2 # move forward 2 letters
+    li $s0, 990      # increment value by 990
+    j recursion      # jump to convert next char
+
+X:
+    # single X, value is 10
+    addi $t3, $a0, 1  # jump forward one letter
+    li $s0, 10        # increment value by 10
+    j recursion       # jump to convert next char
+
+# check if first character C (67)
+C_:
+    bne $t0, 67, V_ # first character is not C, try V
+CD:
+    # check if the second char is D
+    bne $t1, 68, CM   # second character is not D, try M
+    addi $t3, $a0, 2  # jump forward 2 letters
+    li $s0, 400       # increment value by 400
+    j recursion       # jump to convert next char
+
+CM:
+    # check if the second char is M
+    bne $t1, 77, C    # second character is not M, handle C
+    addi $t3, $a0, 2  # jump forward 2 letters
+    li $s0, 900       # increment value by 900
+    j recursion       # jump to converrt next char
+
+C:
+    # single C, value is 100
+    addi $t3, $a0, 1  # jump forward one letter
+    li $s0, 100       # increment value by 10
+    j recursion       # jump to convert next char
+
+# check if first character V (86)
+V_: 
+    bne $t0, 86, L_   # first character is not V, try L   
+VM:
+    # check if second char is M
+    bne $t1, 77, V   # second character is not M, handle V
+    addi $t3, $a0, 2 # jump forward 2 letters
+    li $s0, 995      # increemnt value by 995
+    j recursion      # jump to convert next char
+    
+V:
+    # single V, value is 5
+    addi $t3, $a0, 1  # jump forward one letter
+    li $s0, 5         # inncrement value by 5
+    j recursion       # jump to convert next char
+
+# check if first character L (76)
+L_: 
+    bne $t0, 76, D_   # first character is not L, try D
+    addi $t3, $a0, 1  # jump forward one letter
+    li $s0, 50        # increment value by 50
+    j recursion       # jump to convert next char
+
+# check if first character D (68)
+D_: 
+    bne $t0, 68, M_   # first character is not D, try M
+    addi $t3, $a0, 1  # jump forward one char
+    li $s0, 500       # increment value by 500
+    j recursion       # jump to convert next char
+
+# check if first character M (77)
+M_: 
+    bne $t0, 77, unknownchar  # first character is not roman numeral
+    addi $t3, $a0, 1  # jump forward one char
+    li $s0, 1000      # increment value by 1000
+    j recursion       # jump to convert next char
+
+# character is not recognized. Skip it.
+unknownchar:
+    addi $t3, $a0, 1  # jump forward one char
+    li $s0, 0         # increment value by 0
+    j recursion       # jump to convert next char
+    
+recursion:
+    move $a0, $t3    	# remove calculated numerals from current numeral
+    jal convert_char	# convert remaining numerals to decimal
+    add $s0, $s0, $v0 	# add calculated value for numeral to total
+    
+    #li $v0, 1		# debug code, print accumulated value (backwards??)
+    #move $t7, $s0
+    #move $t6, $a0
+    #move $a0, $s0
+    #syscall
+    #la $a0, newline
+    #li $v0, 4       # print new line
+    #syscall
+    #move $s0, $t7
+    #move $a0, $t6
+
+return:
+    move $v0, $s0	# place return value in $v0
+    addi $sp, $sp, 12  # recover return address
+    lw $ra, 8($sp)	# recover return address
+    lw $a0, 4($sp)	# recover the word
+    lw $s0, 0($sp)	# reset initializer
+    jr $ra		# return 

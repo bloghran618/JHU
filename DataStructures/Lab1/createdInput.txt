@@ -1,0 +1,30 @@
+John	1	3
+Jimmy	1	2
+James	1	5
+Jack	0	4
+Joe	1	2
+Brian  2	4
+Nick	3	5
+Timmy	1	6
+Tom	3	4
+Zach	5	2
+Dale	5	1
+Phil	4	-1
+Evan	4	1
+Henry	1	3
+Carlos	1  4
+NOTHING
+Kevin	1	3
+Alan,3	4
+Gabby	4	5
+Meg	5	1
+Maddie	1	5
+Kayla	1	5
+Alice	1	5
+Moe	5	4
+Wendy	3	2
+Costa	4	9
+Ryan	1	2
+Eric	1	3
+Julia	1	4
+Joey	1	5

@@ -1,0 +1,138 @@
+.data
+prompt: 	.asciiz "Enter a simple expression: "
+again:  	.asciiz "Run again? (1=yes, 0=no): "
+stop:   	.asciiz "Stopped."  
+newline:	.asciiz "\n"
+letters: 	.space 21 	# assume expression <=20 chars
+variable:   	.space 21	# char buffer
+first:		.space 21	# first int buffer
+op:		.space 1	# operator buffer
+second:		.space 21 	# second int buffer
+flag:		.space 1	# flag buffer
+
+
+.globl main
+main:
+.text
+
+thetop:
+	
+    # get user input for Simple Expressoin
+    li $v0, 4       	# system call for print string
+    la $a0, prompt	# the address of the string to print
+    syscall		# print prompt
+    li $v0, 8       	# system call for read_string
+    la $a0, letters	# specify buffer
+    li $a1, 21		# specify length
+    syscall		# save letters
+    
+    jal convertExpression
+    
+    # check if the user wants to play again
+    li $v0, 4       	# system call for print string
+    la $a0, again	# the address of the string to print
+    syscall		# print prompt asking the user if they want to play again
+    li $v0, 5        	# system call for read_int
+    syscall            	# save selection
+    move $s0, $v0     	# save input in $s0
+    beq $s0, 1, thetop	# start over if the user wants to play again
+
+    # terminate the system
+    li $v0, 4       	# system call for print_str
+    la $a0, stop 	# address of the string to print
+    syscall		# print string to end program		
+    li $v0, 10		# system call for exit()
+    syscall		# exit()
+    
+# convert roman numeral to decimal
+# first letter is passed to $a0
+# result saved to $v0
+convertExpression:
+    # get inputs
+    sw $ra, 8($sp)		# save return address
+    sw $a0, 4($sp)		# save the expression as a word
+    sw $s0, 0($sp)		# initialize
+    addi $sp, $sp, -12		# reset address
+    
+    li $t0, 0
+    
+    # initialize values
+    #la $s0, 0 		# initialize variable name to 0
+    #la $s1, first   		# initialize first int to 0
+    #la $s2, op			# initialize operator to 0
+    #la $s3, second		# initialize second int to 0
+    #la $s4, flag		# initialize = flag to false
+    # li $s5, 0			# initialize operator flag to false
+    
+    # debug code
+    li $v0, 4
+    syscall		# print prompt
+    
+    lb $t0, 0($a0)  		# get 0th letter of word
+    
+    lb $t5, 50000000($a0)
+    
+    # debug code
+    move $a0, $t7
+    move $v0, $t6
+    li $v0, 4
+    move $t0, $a0
+    syscall
+    move $t7, $a0
+    move $t6, $v0
+    
+    # check if end of string, else go to next character
+    beq $t0, 10, return   	# '\n' = end string -> return
+    #lb $t1, 1($a0)       	# save next char to $t1
+    
+varName: 
+    beq $s4, 1, firstInt	# jump to firstInt if we already have variable
+    beq $t1, 0, recursion	# jump to recursion if char is space
+    beq $t1, 29, finishVar	# check if "=" -> variable is complete
+    
+    # debug code
+    li $v0, 4       	# system call for print_str
+    la $a0, stop 	# address of the string to print
+    syscall		# print string to end program
+    
+    sb $t1, ($s0)		# add char to variable
+    addi $s0, $s0, 1		# move variable pointer forward
+    j recursion			# jump to recursive call
+    
+firstInt:
+    bne $s2, 0, secondInt	# jump to secondInt if we already have operator
+    beq $t1, 0, recursion	# jump to recursion if char is space
+    
+    beq $t1, 11, operator	# jump to operator if char is +
+    beq $t1, 13, operator	# jump to operator if char is -
+    beq $t1, 10, operator	# jump to operator if char is *
+    beq $t1, 15, operator	# jump to operator if char is /
+    
+    j recursion			# jump to recursive call
+    
+secondInt:
+    beq $t1, 0, recursion	# jump to recursion if char is space
+    
+    j recursion			# jump to recursive call
+    
+finishVar: 
+    li $s4, 1			# set = flag to true
+    j recursion
+    
+operator:
+    lw $s2, 0($t1)			# set operator to character
+    j recursion
+    
+recursion: 
+    li $t3, 1
+    move $a0, $t3    		# remove calculated numerals from current numeral
+    jal convertExpression	# convert remaining numerals to decimal
+    
+return:
+    # do other stuff too
+    jr $ra		# return 
+    
+    
+    
+    
+    

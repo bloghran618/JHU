@@ -1,0 +1,36 @@
+The initial vals are:
+[6546, 6781, 2585, 6267, 9869, 7930, 8720, 2070, 6672, 1194]
+The range of the partition is: 0-9
+The median of 6546, 9869 and 1194 is: 6546 at index: 0
+The median-of-three pivot is: 6546
+After sending pivot 6546 to index 4:
+[1194, 2585, 6267, 2070, 6546, 7930, 8720, 6781, 6672, 9869]
+The range of the partition is: 0-3
+The median of 1194, 2585 and 2070 is: 2070 at index: 3
+The median-of-three pivot is: 2070
+After sending pivot 2070 to index 1:
+[1194, 2070, 6267, 2585, 6546, 7930, 8720, 6781, 6672, 9869]
+The range of the partition is: 2-3
+The median-of-three pivot is: 2585
+After sending pivot 2585 to index 2:
+[1194, 2070, 2585, 6267, 6546, 7930, 8720, 6781, 6672, 9869]
+The range of the partition is: 5-9
+The median of 7930, 6781 and 9869 is: 7930 at index: 5
+The median-of-three pivot is: 7930
+After sending pivot 7930 to index 7:
+[1194, 2070, 2585, 6267, 6546, 6781, 6672, 7930, 8720, 9869]
+The range of the partition is: 5-6
+The median-of-three pivot is: 6672
+After sending pivot 6672 to index 5:
+[1194, 2070, 2585, 6267, 6546, 6672, 6781, 7930, 8720, 9869]
+The range of the partition is: 8-9
+The median-of-three pivot is: 9869
+After sending pivot 9869 to index 9:
+[1194, 2070, 2585, 6267, 6546, 6672, 6781, 7930, 8720, 9869]
+The total number of comparisons: 19
+Sorted:
+[1194, 2070, 2585, 6267, 6546, 6672, 6781, 7930, 8720, 9869]
+The median of 1453, 8545 and 7907 is: 7907 at index: 9
+The median of 1453, 7426 and 3816 is: 3816 at index: 6
+The median of 1453, 3697 and 313 is: 1453 at index: 0
+The median of 5989, 6279 and 7426 is: 6279 at index: 5

@@ -1,0 +1,40 @@
+The initial vals are:
+[1453, 6279, 3697, 7426, 8545, 5989, 313, 8731, 3816, 7907]
+The depth limit counter is: 6
+The index range is: 0-9
+Depth limit is not 0, do quick sort
+The range of the partition is: 0-9
+The median-of-three pivot is: 7907
+After sending pivot 7907 to index 7:
+[1453, 6279, 3697, 7426, 5989, 313, 3816, 7907, 8545, 8731]
+The depth limit counter is: 5
+The index range is: 0-6
+Depth limit is not 0, do quick sort
+The range of the partition is: 0-6
+The median-of-three pivot is: 3816
+After sending pivot 3816 to index 3:
+[1453, 3697, 313, 3816, 5989, 6279, 7426, 7907, 8545, 8731]
+The depth limit counter is: 4
+The index range is: 0-2
+Depth limit is not 0, do quick sort
+The range of the partition is: 0-2
+The median-of-three pivot is: 1453
+After sending pivot 1453 to index 1:
+[313, 1453, 3697, 3816, 5989, 6279, 7426, 7907, 8545, 8731]
+The depth limit counter is: 4
+The index range is: 4-6
+Depth limit is not 0, do quick sort
+The range of the partition is: 4-6
+The median-of-three pivot is: 6279
+After sending pivot 6279 to index 5:
+[313, 1453, 3697, 3816, 5989, 6279, 7426, 7907, 8545, 8731]
+The depth limit counter is: 5
+The index range is: 8-9
+Depth limit is not 0, do quick sort
+The range of the partition is: 8-9
+The median-of-three pivot is: 8731
+After sending pivot 8731 to index 9:
+[313, 1453, 3697, 3816, 5989, 6279, 7426, 7907, 8545, 8731]
+The total number of comparisons: 20
+Sorted:
+[313, 1453, 3697, 3816, 5989, 6279, 7426, 7907, 8545, 8731]

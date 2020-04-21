@@ -1,0 +1,47 @@
+The initial vals are:
+[3037, 5145, 1468, 1587, 7539, 3269, 3943, 7835, 8798, 3327]
+The depth limit counter is: 6
+The index range is: 0-9
+Depth limit is not 0, do quick sort
+The range of the partition is: 0-9
+The pivot is the last value in range: 3327
+After sending pivot 3327 to index 4:
+[3037, 1468, 1587, 3269, 3327, 5145, 3943, 7835, 8798, 7539]
+The depth limit counter is: 5
+The index range is: 0-3
+Depth limit is not 0, do quick sort
+The range of the partition is: 0-3
+The pivot is the last value in range: 3269
+After sending pivot 3269 to index 3:
+[3037, 1468, 1587, 3269, 3327, 5145, 3943, 7835, 8798, 7539]
+The depth limit counter is: 4
+The index range is: 0-2
+Depth limit is not 0, do quick sort
+The range of the partition is: 0-2
+The pivot is the last value in range: 1587
+After sending pivot 1587 to index 1:
+[1468, 1587, 3037, 3269, 3327, 5145, 3943, 7835, 8798, 7539]
+The depth limit counter is: 5
+The index range is: 5-9
+Depth limit is not 0, do quick sort
+The range of the partition is: 5-9
+The pivot is the last value in range: 7539
+After sending pivot 7539 to index 7:
+[1468, 1587, 3037, 3269, 3327, 5145, 3943, 7539, 8798, 7835]
+The depth limit counter is: 4
+The index range is: 5-6
+Depth limit is not 0, do quick sort
+The range of the partition is: 5-6
+The pivot is the last value in range: 3943
+After sending pivot 3943 to index 5:
+[1468, 1587, 3037, 3269, 3327, 3943, 5145, 7539, 8798, 7835]
+The depth limit counter is: 4
+The index range is: 8-9
+Depth limit is not 0, do quick sort
+The range of the partition is: 8-9
+The pivot is the last value in range: 7835
+After sending pivot 7835 to index 8:
+[1468, 1587, 3037, 3269, 3327, 3943, 5145, 7539, 7835, 8798]
+The total number of comparisons: 20
+Sorted:
+[1468, 1587, 3037, 3269, 3327, 3943, 5145, 7539, 7835, 8798]

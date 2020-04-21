@@ -1,0 +1,5 @@
+Henry     Brooks         JP Morgan Chase          (123) 875-8383      hbroo@gmail.com                         
+Evan      Goldstien      JP Morgan Chase          (860) 867-5309      egoldstien@jpmorgan.com                 
+Brian     Loughran       Pratt & Whitney          (201) 317-3254      bloughran618@gmail.com                  
+Kevin     Mcgee          Marketing.co             (987) 376-5541      kmcgoo8@gmail.com                       
+Alan      Wopperer       Unemployed               (869) 694-7699      amw@lehigh.edu                          

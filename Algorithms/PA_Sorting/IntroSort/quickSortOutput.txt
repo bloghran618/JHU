@@ -1,0 +1,33 @@
+The initial vals are:
+[4875, 3744, 231, 8493, 1568, 3361, 2434, 7824, 4979, 2495]
+The range of the partition is: 0-9
+The pivot is the last value in range: 2495
+After sending pivot 2495 to index 3:
+[231, 1568, 2434, 2495, 3744, 3361, 4875, 7824, 4979, 8493]
+The range of the partition is: 0-2
+The pivot is the last value in range: 2434
+After sending pivot 2434 to index 2:
+[231, 1568, 2434, 2495, 3744, 3361, 4875, 7824, 4979, 8493]
+The range of the partition is: 0-1
+The pivot is the last value in range: 1568
+After sending pivot 1568 to index 1:
+[231, 1568, 2434, 2495, 3744, 3361, 4875, 7824, 4979, 8493]
+The range of the partition is: 4-9
+The pivot is the last value in range: 8493
+After sending pivot 8493 to index 9:
+[231, 1568, 2434, 2495, 3744, 3361, 4875, 7824, 4979, 8493]
+The range of the partition is: 4-8
+The pivot is the last value in range: 4979
+After sending pivot 4979 to index 7:
+[231, 1568, 2434, 2495, 3744, 3361, 4875, 4979, 7824, 8493]
+The range of the partition is: 4-6
+The pivot is the last value in range: 4875
+After sending pivot 4875 to index 6:
+[231, 1568, 2434, 2495, 3744, 3361, 4875, 4979, 7824, 8493]
+The range of the partition is: 4-5
+The pivot is the last value in range: 3361
+After sending pivot 3361 to index 4:
+[231, 1568, 2434, 2495, 3361, 3744, 4875, 4979, 7824, 8493]
+The total number of comparisons: 24
+Sorted:
+[231, 1568, 2434, 2495, 3361, 3744, 4875, 4979, 7824, 8493]

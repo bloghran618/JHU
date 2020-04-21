@@ -1,0 +1,58 @@
+
+Transition Table: 
+Alphabet:  | 0 | 1 | #
+state=q0 | read=0, qnew=q0, write=0, s=1 | read=1, qnew=q0, write=1, s=1 | read=#, qnew=q1, write=#, s=-1
+state=q1 | read=0, qnew=q2, write=#, s=-1 | read=1, qnew=q3, write=#, s=-1 | read=#, qnew=qn, write=#, s=-1
+state=q2 | read=0, qnew=qy, write=#, s=-1 | read=1, qnew=qn, write=#, s=-1 | read=#, qnew=qn, write=#, s=-1
+state=q3 | read=0, qnew=qn, write=#, s=-1 | read=1, qnew=qn, write=#, s=-1 | read=#, qnew=qn, write=#, s=-1
+
+
+Turning the Turing machine
+The current state is: q0
+The tape looks like: 10100
+read <1> at tape index 0
+Change state to <q0>, write <1> and move head right
+
+Turning the Turing machine
+The current state is: q0
+The tape looks like: 10100
+read <0> at tape index 1
+Change state to <q0>, write <0> and move head right
+
+Turning the Turing machine
+The current state is: q0
+The tape looks like: 10100
+read <1> at tape index 2
+Change state to <q0>, write <1> and move head right
+
+Turning the Turing machine
+The current state is: q0
+The tape looks like: 10100
+read <0> at tape index 3
+Change state to <q0>, write <0> and move head right
+
+Turning the Turing machine
+The current state is: q0
+The tape looks like: 10100
+read <0> at tape index 4
+Change state to <q0>, write <0> and move head right
+
+Turning the Turing machine
+The current state is: q0
+The tape looks like: 10100
+read <#> at tape index 5
+Change state to <q1>, write <#> and move head left
+
+Turning the Turing machine
+The current state is: q1
+The tape looks like: 10100#
+read <0> at tape index 4
+Change state to <q2>, write <#> and move head left
+
+Turning the Turing machine
+The current state is: q2
+The tape looks like: 1010##
+read <0> at tape index 3
+Change state to <qy>, write <#> and move head left
+
+Turing machine successfully ran. Final state is: qy

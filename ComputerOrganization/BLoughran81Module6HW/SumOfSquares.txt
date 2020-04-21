@@ -1,0 +1,55 @@
+W0320 18:41:41.025868       1 commandlineflags.cc:1503] Ignoring RegisterValidateFunction() for flag pointer 0x107072940: no flag found at that address
+Optional({
+    CustomerToken = "acct_1EFsBgLkLizc0aA7";
+    email = Test2;
+    fname = Test2;
+    id = "-LaNTPjqvV90KC8jlJBI";
+    lname = Test2;
+})
+This is the dict: Optional({
+    CustomerToken = "acct_1EFsBgLkLizc0aA7";
+    email = Test2;
+    fname = Test2;
+    id = "-LaNTPjqvV90KC8jlJBI";
+    lname = Test2;
+})
+-LaNTPjqvV90KC8jlJBI
+run createCustomerKey()
+API Version: 2015-10-12
+CustomerToken: 
+Last Name: Test2
+https://spotbird-backend-bloughran618.herokuapp.com/ephemeral_keys
+end createCustomerKey
+run createCustomerKey()
+API Version: 2015-10-12
+CustomerToken: 
+Last Name: Test2
+https://spotbird-backend-bloughran618.herokuapp.com/ephemeral_keys
+end createCustomerKey
+run createCustomerKey()
+API Version: 2015-10-12
+CustomerToken: 
+Last Name: Test2
+https://spotbird-backend-bloughran618.herokuapp.com/ephemeral_keys
+end createCustomerKey
+run createCustomerKey()
+API Version: 2015-10-12
+CustomerToken: 
+Last Name: Test2
+https://spotbird-backend-bloughran618.herokuapp.com/ephemeral_keys
+end createCustomerKey
+Entered required init
+5000
+Optional(<Spotbirdparking.ProfileTableViewController: 0x7fd742647080>)
+CoreData: annotation:  Failed to load optimized model at path '/Users/user138340/Library/Developer/CoreSimulator/Devices/F08DFCC1-7C34-4624-A415-D4601F1301B9/data/Containers/Bundle/Application/1B4CE2F0-9C01-4BC1-9E2D-5B7C7B3B0420/Spotbirdparking.app/GoogleMaps.bundle/GMSCacheStorage.momd/StorageWithTileProto.omo'
+CoreData: annotation:  Failed to load optimized model at path '/Users/user138340/Library/Developer/CoreSimulator/Devices/F08DFCC1-7C34-4624-A415-D4601F1301B9/data/Containers/Bundle/Application/1B4CE2F0-9C01-4BC1-9E2D-5B7C7B3B0420/Spotbirdparking.app/GoogleMaps.bundle/GMSCacheStorage.momd/StorageWithTileProto.omo'
+CoreData: annotation:  Failed to load optimized model at path '/Users/user138340/Library/Developer/CoreSimulator/Devices/F08DFCC1-7C34-4624-A415-D4601F1301B9/data/Containers/Bundle/Application/1B4CE2F0-9C01-4BC1-9E2D-5B7C7B3B0420/Spotbirdparking.app/GoogleMaps.bundle/GMSCacheStorage.momd/StorageWithTileProto.omo'
+-LaNTPjqvV90KC8jlJBI
+Second line of code executed
+true
+Initializer first name: Test2
+Initializer last name: Test2
+Initializer Customer ID: 
+Initializer Account ID: 
+The operation couldn’t be completed. (kCLErrorDomain error 0.)
+idle tap infor wirndow markers

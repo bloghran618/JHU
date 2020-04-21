@@ -1,0 +1,192 @@
+Unrecognized input: Jack	0	4
+Unrecognized input: Brian  2	4
+Unrecognized input: Timmy	1	6
+Unrecognized input: Phil	4	-1
+Unrecognized input: Carlos	1  4
+Unrecognized input: NOTHING
+Unrecognized input: Alan,3	4
+Unrecognized input: Costa	4	9
+
+Recognized Input: 
+Format: Name  Origin  Destination (same as input file)
+James	1	5
+Joe	1	2
+Nick	3	5
+Tom	3	4
+Zach	5	2
+Dale	5	1
+Evan	4	1
+Henry	1	3
+Kevin	1	3
+Gabby	4	5
+Meg	5	1
+Maddie	1	5
+Kayla	1	5
+Alice	1	5
+Moe	5	4
+Wendy	3	2
+Ryan	1	2
+Eric	1	3
+Julia	1	4
+Joey	1	5
+
+Arriving at floor 1
+Arriving with nobody
+Elevator is empty
+James has entered the elevator, and will depart at floor 5
+Joe has entered the elevator, and will depart at floor 2
+Departing with James Joe 
+
+Arriving at floor 2
+Arriving with James Joe 
+Joe has left the elevator
+Joe had to leave the elevator temporarily 0 times
+Departing with James 
+
+Arriving at floor 3
+Arriving with James 
+Nick has entered the elevator, and will depart at floor 5
+Tom has entered the elevator, and will depart at floor 4
+Departing with James Nick Tom 
+
+Arriving at floor 4
+Arriving with James Nick Tom 
+Tom has left the elevator
+Tom had to leave the elevator temporarily 0 times
+Departing with James Nick 
+
+Arriving at floor 5
+Arriving with James Nick 
+Nick has left the elevator
+Nick had to leave the elevator temporarily 0 times
+James has left the elevator
+James had to leave the elevator temporarily 0 times
+Zach has entered the elevator, and will depart at floor 2
+Dale has entered the elevator, and will depart at floor 1
+Departing with Zach Dale 
+
+Arriving at floor 4
+Arriving with Zach Dale 
+Evan has entered the elevator, and will depart at floor 1
+Departing with Zach Dale Evan 
+
+Arriving at floor 2
+Arriving with Zach Dale Evan 
+Zach has left the elevator
+Zach had to leave the elevator temporarily 0 times
+Dale had to leave the elevator temporarily
+Evan had to leave the elevator temporarily
+Departing with Dale Evan 
+
+Arriving at floor 1
+Arriving with Dale Evan 
+Evan has left the elevator
+Evan had to leave the elevator temporarily 1 times
+Dale has left the elevator
+Dale had to leave the elevator temporarily 1 times
+Henry has entered the elevator, and will depart at floor 3
+Kevin has entered the elevator, and will depart at floor 3
+Departing with Henry Kevin 
+
+Arriving at floor 3
+Arriving with Henry Kevin 
+Kevin has left the elevator
+Kevin had to leave the elevator temporarily 0 times
+Henry has left the elevator
+Henry had to leave the elevator temporarily 0 times
+Departing with nobody
+
+Arriving at floor 4
+Arriving with nobody
+Elevator is empty
+Gabby has entered the elevator, and will depart at floor 5
+Departing with Gabby 
+
+Arriving at floor 5
+Arriving with Gabby 
+Gabby has left the elevator
+Gabby had to leave the elevator temporarily 0 times
+Meg has entered the elevator, and will depart at floor 1
+Departing with Meg 
+
+Arriving at floor 1
+Arriving with Meg 
+Meg has left the elevator
+Meg had to leave the elevator temporarily 0 times
+Maddie has entered the elevator, and will depart at floor 5
+Kayla has entered the elevator, and will depart at floor 5
+Alice has entered the elevator, and will depart at floor 5
+Departing with Maddie Kayla Alice 
+
+Arriving at floor 5
+Arriving with Maddie Kayla Alice 
+Alice has left the elevator
+Alice had to leave the elevator temporarily 0 times
+Kayla has left the elevator
+Kayla had to leave the elevator temporarily 0 times
+Maddie has left the elevator
+Maddie had to leave the elevator temporarily 0 times
+Moe has entered the elevator, and will depart at floor 4
+Departing with Moe 
+
+Arriving at floor 4
+Arriving with Moe 
+Moe has left the elevator
+Moe had to leave the elevator temporarily 0 times
+Departing with nobody
+
+Arriving at floor 3
+Arriving with nobody
+Elevator is empty
+Wendy has entered the elevator, and will depart at floor 2
+Departing with Wendy 
+
+Arriving at floor 2
+Arriving with Wendy 
+Wendy has left the elevator
+Wendy had to leave the elevator temporarily 0 times
+Departing with nobody
+
+Arriving at floor 1
+Arriving with nobody
+Elevator is empty
+Ryan has entered the elevator, and will depart at floor 2
+Eric has entered the elevator, and will depart at floor 3
+Julia has entered the elevator, and will depart at floor 4
+Joey has entered the elevator, and will depart at floor 5
+Departing with Ryan Eric Julia Joey 
+
+Arriving at floor 2
+Arriving with Ryan Eric Julia Joey 
+Ryan has left the elevator
+Ryan had to leave the elevator temporarily 0 times
+Eric had to leave the elevator temporarily
+Julia had to leave the elevator temporarily
+Joey had to leave the elevator temporarily
+Departing with Eric Julia Joey 
+
+Arriving at floor 3
+Arriving with Eric Julia Joey 
+Eric has left the elevator
+Eric had to leave the elevator temporarily 1 times
+Julia had to leave the elevator temporarily
+Joey had to leave the elevator temporarily
+Departing with Julia Joey 
+
+Arriving at floor 4
+Arriving with Julia Joey 
+Julia has left the elevator
+Julia had to leave the elevator temporarily 2 times
+Joey had to leave the elevator temporarily
+Departing with Joey 
+
+Arriving at floor 5
+Arriving with Joey 
+Joey has left the elevator
+Joey had to leave the elevator temporarily 3 times
+
+
+Number of people who rode: 20
+Number of people who took the stairs: 0
+Number of times the elevator was empty: 4
+The simulation is complete

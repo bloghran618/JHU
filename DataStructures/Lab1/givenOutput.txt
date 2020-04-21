@@ -1,0 +1,384 @@
+
+Recognized Input: 
+Format: Name  Origin  Destination (same as input file)
+Eli	1	5
+Babs	1	3
+Fred	1	2
+Tom 	1	4
+Ian	2	3
+Tip	2	4
+Barb	3	5
+Tina	5	2
+Joe	5	1
+Hal	4	2
+Ted	3	1
+Deb	2	1
+Ann	1	3
+Jim	1	3
+Sal	1	3
+Vic	1	4
+Flo	1	5
+Ada	1	5
+Dina	2	3
+Bob	2	5
+Lee	5	3
+Wil	4	3
+Gia	4	1
+Isa	3	1
+Abe	1	3
+Lou	1	3
+Yul	1	4
+Al	1	4
+Lew	2	5
+Nan	2	3
+Ina 	3	4
+Bif	3	5
+Moe	3	5
+Jan	5	1
+Mia	1	3
+Lisa	1	4
+Cal	2	5
+Pat	4	5
+Tess	4	2
+Nora	3	1
+Don	2	1
+Sam	1	5
+Liv	5	4
+Nina	1	3
+Mary	5	2
+Ed	1	2
+Tad	2	3
+Ali	3	4
+Sue	4	5
+
+Arriving at floor 1
+Arriving with nobody
+Elevator is empty
+Eli has entered the elevator, and will depart at floor 5
+Babs has entered the elevator, and will depart at floor 3
+Fred has entered the elevator, and will depart at floor 2
+Tom  has entered the elevator, and will depart at floor 4
+Departing with Eli Babs Fred Tom  
+
+Arriving at floor 2
+Arriving with Eli Babs Fred Tom  
+Fred has left the elevator
+Fred had to leave the elevator temporarily 0 times
+Tom  had to leave the elevator temporarily
+Ian has entered the elevator, and will depart at floor 3
+Tip has entered the elevator, and will depart at floor 4
+Elevator is full
+Departing with Eli Babs Tom  Ian Tip 
+
+Arriving at floor 3
+Arriving with Eli Babs Tom  Ian Tip 
+Ian has left the elevator
+Ian had to leave the elevator temporarily 0 times
+Babs has left the elevator
+Babs had to leave the elevator temporarily 0 times
+Tom  had to leave the elevator temporarily
+Tip had to leave the elevator temporarily
+Barb has entered the elevator, and will depart at floor 5
+Departing with Eli Tom  Tip Barb 
+
+Arriving at floor 4
+Arriving with Eli Tom  Tip Barb 
+Tip has left the elevator
+Tip had to leave the elevator temporarily 1 times
+Tom  has left the elevator
+Tom  had to leave the elevator temporarily 2 times
+Barb had to leave the elevator temporarily
+Departing with Eli Barb 
+
+Arriving at floor 5
+Arriving with Eli Barb 
+Barb has left the elevator
+Barb had to leave the elevator temporarily 1 times
+Eli has left the elevator
+Eli had to leave the elevator temporarily 0 times
+Tina has entered the elevator, and will depart at floor 2
+Joe has entered the elevator, and will depart at floor 1
+Departing with Tina Joe 
+
+Arriving at floor 4
+Arriving with Tina Joe 
+Hal has entered the elevator, and will depart at floor 2
+Departing with Tina Joe Hal 
+
+Arriving at floor 3
+Arriving with Tina Joe Hal 
+Ted has entered the elevator, and will depart at floor 1
+Departing with Tina Joe Hal Ted 
+
+Arriving at floor 2
+Arriving with Tina Joe Hal Ted 
+Hal has left the elevator
+Hal had to leave the elevator temporarily 0 times
+Tina has left the elevator
+Tina had to leave the elevator temporarily 0 times
+Joe had to leave the elevator temporarily
+Ted had to leave the elevator temporarily
+Deb has entered the elevator, and will depart at floor 1
+Departing with Joe Ted Deb 
+
+Arriving at floor 1
+Arriving with Joe Ted Deb 
+Deb has left the elevator
+Deb had to leave the elevator temporarily 0 times
+Ted has left the elevator
+Ted had to leave the elevator temporarily 1 times
+Joe has left the elevator
+Joe had to leave the elevator temporarily 1 times
+Ann has entered the elevator, and will depart at floor 3
+Jim has entered the elevator, and will depart at floor 3
+Sal has entered the elevator, and will depart at floor 3
+Vic has entered the elevator, and will depart at floor 4
+Flo has entered the elevator, and will depart at floor 5
+Ada had to take the stairs
+
+Elevator is full
+Departing with Ann Jim Sal Vic Flo 
+
+Arriving at floor 2
+Arriving with Ann Jim Sal Vic Flo 
+Dina had to take the stairs
+
+Bob had to take the stairs
+
+Elevator is full
+Departing with Ann Jim Sal Vic Flo 
+
+Arriving at floor 3
+Arriving with Ann Jim Sal Vic Flo 
+Sal has left the elevator
+Sal had to leave the elevator temporarily 0 times
+Jim has left the elevator
+Jim had to leave the elevator temporarily 0 times
+Ann has left the elevator
+Ann had to leave the elevator temporarily 0 times
+Vic had to leave the elevator temporarily
+Flo had to leave the elevator temporarily
+Departing with Vic Flo 
+
+Arriving at floor 4
+Arriving with Vic Flo 
+Vic has left the elevator
+Vic had to leave the elevator temporarily 1 times
+Flo had to leave the elevator temporarily
+Departing with Flo 
+
+Arriving at floor 5
+Arriving with Flo 
+Flo has left the elevator
+Flo had to leave the elevator temporarily 2 times
+Lee has entered the elevator, and will depart at floor 3
+Departing with Lee 
+
+Arriving at floor 4
+Arriving with Lee 
+Wil has entered the elevator, and will depart at floor 3
+Gia has entered the elevator, and will depart at floor 1
+Departing with Lee Wil Gia 
+
+Arriving at floor 3
+Arriving with Lee Wil Gia 
+Wil has left the elevator
+Wil had to leave the elevator temporarily 0 times
+Lee has left the elevator
+Lee had to leave the elevator temporarily 0 times
+Gia had to leave the elevator temporarily
+Isa has entered the elevator, and will depart at floor 1
+Departing with Gia Isa 
+
+Arriving at floor 1
+Arriving with Gia Isa 
+Isa has left the elevator
+Isa had to leave the elevator temporarily 0 times
+Gia has left the elevator
+Gia had to leave the elevator temporarily 1 times
+Abe has entered the elevator, and will depart at floor 3
+Lou has entered the elevator, and will depart at floor 3
+Yul has entered the elevator, and will depart at floor 4
+Al has entered the elevator, and will depart at floor 4
+Departing with Abe Lou Yul Al 
+
+Arriving at floor 2
+Arriving with Abe Lou Yul Al 
+Lew has entered the elevator, and will depart at floor 5
+Nan had to take the stairs
+
+Elevator is full
+Departing with Abe Lou Yul Al Lew 
+
+Arriving at floor 3
+Arriving with Abe Lou Yul Al Lew 
+Lou has left the elevator
+Lou had to leave the elevator temporarily 0 times
+Abe has left the elevator
+Abe had to leave the elevator temporarily 0 times
+Yul had to leave the elevator temporarily
+Al had to leave the elevator temporarily
+Lew had to leave the elevator temporarily
+Ina  has entered the elevator, and will depart at floor 4
+Bif has entered the elevator, and will depart at floor 5
+Moe had to take the stairs
+
+Elevator is full
+Departing with Yul Al Lew Ina  Bif 
+
+Arriving at floor 4
+Arriving with Yul Al Lew Ina  Bif 
+Ina  has left the elevator
+Ina  had to leave the elevator temporarily 0 times
+Al has left the elevator
+Al had to leave the elevator temporarily 1 times
+Yul has left the elevator
+Yul had to leave the elevator temporarily 1 times
+Lew had to leave the elevator temporarily
+Bif had to leave the elevator temporarily
+Departing with Lew Bif 
+
+Arriving at floor 5
+Arriving with Lew Bif 
+Bif has left the elevator
+Bif had to leave the elevator temporarily 1 times
+Lew has left the elevator
+Lew had to leave the elevator temporarily 2 times
+Jan has entered the elevator, and will depart at floor 1
+Departing with Jan 
+
+Arriving at floor 1
+Arriving with Jan 
+Jan has left the elevator
+Jan had to leave the elevator temporarily 0 times
+Mia has entered the elevator, and will depart at floor 3
+Lisa has entered the elevator, and will depart at floor 4
+Departing with Mia Lisa 
+
+Arriving at floor 2
+Arriving with Mia Lisa 
+Cal has entered the elevator, and will depart at floor 5
+Departing with Mia Lisa Cal 
+
+Arriving at floor 3
+Arriving with Mia Lisa Cal 
+Mia has left the elevator
+Mia had to leave the elevator temporarily 0 times
+Lisa had to leave the elevator temporarily
+Cal had to leave the elevator temporarily
+Departing with Lisa Cal 
+
+Arriving at floor 4
+Arriving with Lisa Cal 
+Lisa has left the elevator
+Lisa had to leave the elevator temporarily 1 times
+Cal had to leave the elevator temporarily
+Pat has entered the elevator, and will depart at floor 5
+Tess has entered the elevator, and will depart at floor 2
+Departing with Cal Pat Tess 
+
+Arriving at floor 5
+Arriving with Cal Pat Tess 
+Pat has left the elevator
+Pat had to leave the elevator temporarily 0 times
+Cal has left the elevator
+Cal had to leave the elevator temporarily 2 times
+Tess had to leave the elevator temporarily
+Departing with Tess 
+
+Arriving at floor 3
+Arriving with Tess 
+Nora has entered the elevator, and will depart at floor 1
+Departing with Tess Nora 
+
+Arriving at floor 2
+Arriving with Tess Nora 
+Tess has left the elevator
+Tess had to leave the elevator temporarily 1 times
+Nora had to leave the elevator temporarily
+Don has entered the elevator, and will depart at floor 1
+Departing with Nora Don 
+
+Arriving at floor 1
+Arriving with Nora Don 
+Don has left the elevator
+Don had to leave the elevator temporarily 0 times
+Nora has left the elevator
+Nora had to leave the elevator temporarily 1 times
+Sam has entered the elevator, and will depart at floor 5
+Departing with Sam 
+
+Arriving at floor 5
+Arriving with Sam 
+Sam has left the elevator
+Sam had to leave the elevator temporarily 0 times
+Liv has entered the elevator, and will depart at floor 4
+Departing with Liv 
+
+Arriving at floor 4
+Arriving with Liv 
+Liv has left the elevator
+Liv had to leave the elevator temporarily 0 times
+Departing with nobody
+
+Arriving at floor 1
+Arriving with nobody
+Elevator is empty
+Nina has entered the elevator, and will depart at floor 3
+Departing with Nina 
+
+Arriving at floor 3
+Arriving with Nina 
+Nina has left the elevator
+Nina had to leave the elevator temporarily 0 times
+Departing with nobody
+
+Arriving at floor 5
+Arriving with nobody
+Elevator is empty
+Mary has entered the elevator, and will depart at floor 2
+Departing with Mary 
+
+Arriving at floor 2
+Arriving with Mary 
+Mary has left the elevator
+Mary had to leave the elevator temporarily 0 times
+Departing with nobody
+
+Arriving at floor 1
+Arriving with nobody
+Elevator is empty
+Ed has entered the elevator, and will depart at floor 2
+Departing with Ed 
+
+Arriving at floor 2
+Arriving with Ed 
+Ed has left the elevator
+Ed had to leave the elevator temporarily 0 times
+Tad has entered the elevator, and will depart at floor 3
+Departing with Tad 
+
+Arriving at floor 3
+Arriving with Tad 
+Tad has left the elevator
+Tad had to leave the elevator temporarily 0 times
+Ali has entered the elevator, and will depart at floor 4
+Departing with Ali 
+
+Arriving at floor 4
+Arriving with Ali 
+Ali has left the elevator
+Ali had to leave the elevator temporarily 0 times
+Sue has entered the elevator, and will depart at floor 5
+Departing with Sue 
+
+Arriving at floor 5
+Arriving with Sue 
+Sue has left the elevator
+Sue had to leave the elevator temporarily 0 times
+
+
+Number of people who rode: 49
+Number of people who took the stairs: 5
+Number of times the elevator was empty: 4
+The simulation is complete

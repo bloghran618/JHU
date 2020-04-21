@@ -1,0 +1,2845 @@
+The larger number to multiply with is: 11111111 (255)
+The smaller number to multiply is: 1111 (15)
+
+Transition Table: 
+state=q0
+read=000, qnew=q0, write=0, write_to=1, s=1
+read=001, qnew=q0, write=0, write_to=1, s=1
+read=010, qnew=q0, write=1, write_to=1, s=1
+read=011, qnew=q0, write=1, write_to=1, s=1
+read=100, qnew=q0, write=0, write_to=1, s=1
+read=101, qnew=q0, write=0, write_to=1, s=1
+read=110, qnew=q0, write=1, write_to=1, s=1
+read=111, qnew=q0, write=1, write_to=1, s=1
+read=00#, qnew=q0, write=0, write_to=1, s=1
+read=01#, qnew=q0, write=1, write_to=1, s=1
+read=10#, qnew=q0, write=0, write_to=1, s=1
+read=11#, qnew=q0, write=1, write_to=1, s=1
+read=0#0, qnew=q1, write=#, write_to=1, s=-1
+read=0#1, qnew=q1, write=#, write_to=1, s=-1
+read=1#0, qnew=q1, write=#, write_to=1, s=-1
+read=1#1, qnew=q1, write=#, write_to=1, s=-1
+read=#00, qnew=qn, write=#, write_to=1, s=1
+read=#01, qnew=qn, write=#, write_to=1, s=1
+read=#10, qnew=qn, write=#, write_to=1, s=1
+read=#11, qnew=qn, write=#, write_to=1, s=1
+read=0##, qnew=q1, write=#, write_to=1, s=-1
+read=1##, qnew=q1, write=#, write_to=1, s=-1
+read=#0#, qnew=qn, write=#, write_to=1, s=1
+read=#1#, qnew=qn, write=#, write_to=1, s=1
+read=##0, qnew=q11, write=#, write_to=1, s=-1
+read=##1, qnew=q11, write=#, write_to=1, s=-1
+read=###, qnew=q11, write=#, write_to=1, s=-1
+state=q1
+read=000, qnew=q2, write=#, write_to=1, s=1
+read=001, qnew=q2, write=#, write_to=1, s=1
+read=010, qnew=q3, write=#, write_to=1, s=1
+read=011, qnew=q3, write=#, write_to=1, s=1
+read=100, qnew=q2, write=#, write_to=1, s=1
+read=101, qnew=q2, write=#, write_to=1, s=1
+read=110, qnew=q3, write=#, write_to=1, s=1
+read=111, qnew=q3, write=#, write_to=1, s=1
+read=00#, qnew=q2, write=#, write_to=1, s=1
+read=01#, qnew=q3, write=#, write_to=1, s=1
+read=10#, qnew=q2, write=#, write_to=1, s=1
+read=11#, qnew=q3, write=#, write_to=1, s=1
+read=0#0, qnew=q5, write=#, write_to=1, s=1
+read=0#1, qnew=q5, write=#, write_to=1, s=1
+read=1#0, qnew=q5, write=#, write_to=1, s=1
+read=1#1, qnew=q5, write=#, write_to=1, s=1
+read=#00, qnew=qn, write=#, write_to=1, s=1
+read=#01, qnew=qn, write=#, write_to=1, s=1
+read=#10, qnew=qn, write=#, write_to=1, s=1
+read=#11, qnew=qn, write=#, write_to=1, s=1
+read=0##, qnew=q5, write=#, write_to=1, s=1
+read=1##, qnew=q5, write=#, write_to=1, s=1
+read=#0#, qnew=qn, write=#, write_to=1, s=1
+read=#1#, qnew=qn, write=#, write_to=1, s=1
+read=##0, qnew=q5, write=#, write_to=1, s=1
+read=##1, qnew=q5, write=#, write_to=1, s=1
+read=###, qnew=q5, write=#, write_to=1, s=1
+state=q2
+read=000, qnew=qn, write=#, write_to=1, s=1
+read=001, qnew=qn, write=#, write_to=1, s=1
+read=010, qnew=qn, write=#, write_to=1, s=1
+read=011, qnew=qn, write=#, write_to=1, s=1
+read=100, qnew=qn, write=#, write_to=1, s=1
+read=101, qnew=qn, write=#, write_to=1, s=1
+read=110, qnew=qn, write=#, write_to=1, s=1
+read=111, qnew=qn, write=#, write_to=1, s=1
+read=00#, qnew=qn, write=#, write_to=1, s=1
+read=01#, qnew=qn, write=#, write_to=1, s=1
+read=10#, qnew=qn, write=#, write_to=1, s=1
+read=11#, qnew=qn, write=#, write_to=1, s=1
+read=0#0, qnew=q4, write=0, write_to=1, s=-1
+read=0#1, qnew=q4, write=0, write_to=1, s=-1
+read=1#0, qnew=q4, write=0, write_to=1, s=-1
+read=1#1, qnew=q4, write=0, write_to=1, s=-1
+read=#00, qnew=qn, write=#, write_to=1, s=1
+read=#01, qnew=qn, write=#, write_to=1, s=1
+read=#10, qnew=qn, write=#, write_to=1, s=1
+read=#11, qnew=qn, write=#, write_to=1, s=1
+read=0##, qnew=q4, write=0, write_to=1, s=-1
+read=1##, qnew=q4, write=0, write_to=1, s=-1
+read=#0#, qnew=qn, write=#, write_to=1, s=1
+read=#1#, qnew=qn, write=#, write_to=1, s=1
+read=##0, qnew=qn, write=#, write_to=1, s=1
+read=##1, qnew=qn, write=#, write_to=1, s=1
+read=###, qnew=qn, write=#, write_to=1, s=1
+state=q3
+read=000, qnew=qn, write=#, write_to=1, s=1
+read=001, qnew=qn, write=#, write_to=1, s=1
+read=010, qnew=qn, write=#, write_to=1, s=1
+read=011, qnew=qn, write=#, write_to=1, s=1
+read=100, qnew=qn, write=#, write_to=1, s=1
+read=101, qnew=qn, write=#, write_to=1, s=1
+read=110, qnew=qn, write=#, write_to=1, s=1
+read=111, qnew=qn, write=#, write_to=1, s=1
+read=00#, qnew=qn, write=#, write_to=1, s=1
+read=01#, qnew=qn, write=#, write_to=1, s=1
+read=10#, qnew=qn, write=#, write_to=1, s=1
+read=11#, qnew=qn, write=#, write_to=1, s=1
+read=0#0, qnew=q4, write=1, write_to=1, s=-1
+read=0#1, qnew=q4, write=1, write_to=1, s=-1
+read=1#0, qnew=q4, write=1, write_to=1, s=-1
+read=1#1, qnew=q4, write=1, write_to=1, s=-1
+read=#00, qnew=qn, write=#, write_to=1, s=1
+read=#01, qnew=qn, write=#, write_to=1, s=1
+read=#10, qnew=qn, write=#, write_to=1, s=1
+read=#11, qnew=qn, write=#, write_to=1, s=1
+read=0##, qnew=q4, write=1, write_to=1, s=-1
+read=1##, qnew=q4, write=1, write_to=1, s=-1
+read=#0#, qnew=qn, write=#, write_to=1, s=1
+read=#1#, qnew=qn, write=#, write_to=1, s=1
+read=##0, qnew=qn, write=#, write_to=1, s=1
+read=##1, qnew=qn, write=#, write_to=1, s=1
+read=###, qnew=qn, write=#, write_to=1, s=1
+state=q4
+read=000, qnew=qn, write=#, write_to=1, s=1
+read=001, qnew=qn, write=#, write_to=1, s=1
+read=010, qnew=qn, write=#, write_to=1, s=1
+read=011, qnew=qn, write=#, write_to=1, s=1
+read=100, qnew=qn, write=#, write_to=1, s=1
+read=101, qnew=qn, write=#, write_to=1, s=1
+read=110, qnew=qn, write=#, write_to=1, s=1
+read=111, qnew=qn, write=#, write_to=1, s=1
+read=00#, qnew=qn, write=#, write_to=1, s=1
+read=01#, qnew=qn, write=#, write_to=1, s=1
+read=10#, qnew=qn, write=#, write_to=1, s=1
+read=11#, qnew=qn, write=#, write_to=1, s=1
+read=0#0, qnew=q1, write=#, write_to=1, s=-1
+read=0#1, qnew=q1, write=#, write_to=1, s=-1
+read=1#0, qnew=q1, write=#, write_to=1, s=-1
+read=1#1, qnew=q1, write=#, write_to=1, s=-1
+read=#00, qnew=qn, write=#, write_to=1, s=1
+read=#01, qnew=qn, write=#, write_to=1, s=1
+read=#10, qnew=qn, write=#, write_to=1, s=1
+read=#11, qnew=qn, write=#, write_to=1, s=1
+read=0##, qnew=q1, write=#, write_to=1, s=-1
+read=1##, qnew=q1, write=#, write_to=1, s=-1
+read=#0#, qnew=qn, write=#, write_to=1, s=1
+read=#1#, qnew=qn, write=#, write_to=1, s=1
+read=##0, qnew=q0, write=#, write_to=1, s=1
+read=##1, qnew=q0, write=#, write_to=1, s=1
+read=###, qnew=q0, write=#, write_to=1, s=1
+state=q5
+read=000, qnew=q0, write=0, write_to=1, s=1
+read=001, qnew=q0, write=0, write_to=1, s=1
+read=010, qnew=q0, write=1, write_to=1, s=1
+read=011, qnew=q0, write=1, write_to=1, s=1
+read=100, qnew=q0, write=0, write_to=1, s=1
+read=101, qnew=q0, write=0, write_to=1, s=1
+read=110, qnew=q0, write=1, write_to=1, s=1
+read=111, qnew=q0, write=1, write_to=1, s=1
+read=00#, qnew=q0, write=0, write_to=1, s=1
+read=01#, qnew=q0, write=1, write_to=1, s=1
+read=10#, qnew=q0, write=0, write_to=1, s=1
+read=11#, qnew=q0, write=1, write_to=1, s=1
+read=0#0, qnew=q5, write=#, write_to=1, s=1
+read=0#1, qnew=q5, write=#, write_to=1, s=1
+read=1#0, qnew=q5, write=#, write_to=1, s=1
+read=1#1, qnew=q5, write=#, write_to=1, s=1
+read=#00, qnew=qn, write=#, write_to=1, s=1
+read=#01, qnew=qn, write=#, write_to=1, s=1
+read=#10, qnew=qn, write=#, write_to=1, s=1
+read=#11, qnew=qn, write=#, write_to=1, s=1
+read=0##, qnew=q5, write=#, write_to=1, s=1
+read=1##, qnew=q5, write=#, write_to=1, s=1
+read=#0#, qnew=qn, write=#, write_to=1, s=1
+read=#1#, qnew=qn, write=#, write_to=1, s=1
+read=##0, qnew=qn, write=#, write_to=1, s=1
+read=##1, qnew=qn, write=#, write_to=1, s=1
+read=###, qnew=qn, write=#, write_to=1, s=1
+state=q6
+read=000, qnew=q6, write=0, write_to=0, s=-1
+read=001, qnew=q6, write=0, write_to=0, s=-1
+read=010, qnew=q6, write=0, write_to=0, s=-1
+read=011, qnew=q6, write=0, write_to=0, s=-1
+read=100, qnew=q6, write=1, write_to=0, s=-1
+read=101, qnew=q6, write=1, write_to=0, s=-1
+read=110, qnew=q6, write=1, write_to=0, s=-1
+read=111, qnew=q6, write=1, write_to=0, s=-1
+read=00#, qnew=q6, write=0, write_to=0, s=-1
+read=01#, qnew=q6, write=0, write_to=0, s=-1
+read=10#, qnew=q6, write=1, write_to=0, s=-1
+read=11#, qnew=q6, write=1, write_to=0, s=-1
+read=0#0, qnew=q6, write=0, write_to=0, s=-1
+read=0#1, qnew=q6, write=0, write_to=0, s=-1
+read=1#0, qnew=q6, write=1, write_to=0, s=-1
+read=1#1, qnew=q6, write=1, write_to=0, s=-1
+read=#00, qnew=q7, write=#, write_to=0, s=1
+read=#01, qnew=q7, write=#, write_to=0, s=1
+read=#10, qnew=q7, write=#, write_to=0, s=1
+read=#11, qnew=q7, write=#, write_to=0, s=1
+read=0##, qnew=q6, write=0, write_to=0, s=-1
+read=1##, qnew=q6, write=1, write_to=0, s=-1
+read=#0#, qnew=q7, write=#, write_to=0, s=1
+read=#1#, qnew=q7, write=#, write_to=0, s=1
+read=##0, qnew=q7, write=#, write_to=0, s=1
+read=##1, qnew=q7, write=#, write_to=0, s=1
+read=###, qnew=q7, write=#, write_to=0, s=1
+state=q7
+read=000, qnew=q8, write=#, write_to=0, s=-1
+read=001, qnew=q8, write=#, write_to=0, s=-1
+read=010, qnew=q8, write=#, write_to=0, s=-1
+read=011, qnew=q8, write=#, write_to=0, s=-1
+read=100, qnew=q9, write=#, write_to=0, s=-1
+read=101, qnew=q9, write=#, write_to=0, s=-1
+read=110, qnew=q9, write=#, write_to=0, s=-1
+read=111, qnew=q9, write=#, write_to=0, s=-1
+read=00#, qnew=q8, write=#, write_to=0, s=-1
+read=01#, qnew=q8, write=#, write_to=0, s=-1
+read=10#, qnew=q9, write=#, write_to=0, s=-1
+read=11#, qnew=q9, write=#, write_to=0, s=-1
+read=0#0, qnew=q8, write=#, write_to=0, s=-1
+read=0#1, qnew=q8, write=#, write_to=0, s=-1
+read=1#0, qnew=q9, write=#, write_to=0, s=-1
+read=1#1, qnew=q9, write=#, write_to=0, s=-1
+read=#00, qnew=q16, write=#, write_to=0, s=-1
+read=#01, qnew=q16, write=#, write_to=0, s=-1
+read=#10, qnew=q16, write=#, write_to=0, s=-1
+read=#11, qnew=q16, write=#, write_to=0, s=-1
+read=0##, qnew=q8, write=#, write_to=0, s=-1
+read=1##, qnew=q9, write=#, write_to=0, s=-1
+read=#0#, qnew=q16, write=#, write_to=0, s=-1
+read=#1#, qnew=q16, write=#, write_to=0, s=-1
+read=##0, qnew=q16, write=#, write_to=0, s=-1
+read=##1, qnew=q16, write=#, write_to=0, s=-1
+read=###, qnew=q16, write=#, write_to=0, s=-1
+state=q8
+read=000, qnew=qn, write=#, write_to=0, s=-1
+read=001, qnew=qn, write=#, write_to=0, s=-1
+read=010, qnew=qn, write=#, write_to=0, s=-1
+read=011, qnew=qn, write=#, write_to=0, s=-1
+read=100, qnew=qn, write=#, write_to=0, s=-1
+read=101, qnew=qn, write=#, write_to=0, s=-1
+read=110, qnew=qn, write=#, write_to=0, s=-1
+read=111, qnew=qn, write=#, write_to=0, s=-1
+read=00#, qnew=qn, write=#, write_to=0, s=-1
+read=01#, qnew=qn, write=#, write_to=0, s=-1
+read=10#, qnew=qn, write=#, write_to=0, s=-1
+read=11#, qnew=qn, write=#, write_to=0, s=-1
+read=0#0, qnew=qn, write=#, write_to=0, s=-1
+read=0#1, qnew=qn, write=#, write_to=0, s=-1
+read=1#0, qnew=qn, write=#, write_to=0, s=-1
+read=1#1, qnew=qn, write=#, write_to=0, s=-1
+read=#00, qnew=q10, write=0, write_to=0, s=1
+read=#01, qnew=q10, write=0, write_to=0, s=1
+read=#10, qnew=q10, write=0, write_to=0, s=1
+read=#11, qnew=q10, write=0, write_to=0, s=1
+read=0##, qnew=qn, write=#, write_to=0, s=-1
+read=1##, qnew=q10, write=0, write_to=0, s=1
+read=#0#, qnew=q10, write=0, write_to=0, s=1
+read=#1#, qnew=q10, write=0, write_to=0, s=1
+read=##0, qnew=q10, write=0, write_to=0, s=1
+read=##1, qnew=q10, write=0, write_to=0, s=1
+read=###, qnew=q10, write=0, write_to=0, s=1
+state=q9
+read=000, qnew=qn, write=#, write_to=0, s=-1
+read=001, qnew=qn, write=#, write_to=0, s=-1
+read=010, qnew=qn, write=#, write_to=0, s=-1
+read=011, qnew=qn, write=#, write_to=0, s=-1
+read=100, qnew=qn, write=#, write_to=0, s=-1
+read=101, qnew=qn, write=#, write_to=0, s=-1
+read=110, qnew=qn, write=#, write_to=0, s=-1
+read=111, qnew=qn, write=#, write_to=0, s=-1
+read=00#, qnew=qn, write=#, write_to=0, s=-1
+read=01#, qnew=qn, write=#, write_to=0, s=-1
+read=10#, qnew=qn, write=#, write_to=0, s=-1
+read=11#, qnew=qn, write=#, write_to=0, s=-1
+read=0#0, qnew=qn, write=#, write_to=0, s=-1
+read=0#1, qnew=qn, write=#, write_to=0, s=-1
+read=1#0, qnew=qn, write=#, write_to=0, s=-1
+read=1#1, qnew=qn, write=#, write_to=0, s=-1
+read=#00, qnew=q10, write=1, write_to=0, s=1
+read=#01, qnew=q10, write=1, write_to=0, s=1
+read=#10, qnew=q10, write=1, write_to=0, s=1
+read=#11, qnew=q10, write=1, write_to=0, s=1
+read=0##, qnew=qn, write=#, write_to=0, s=-1
+read=1##, qnew=q10, write=1, write_to=0, s=1
+read=#0#, qnew=q10, write=1, write_to=0, s=1
+read=#1#, qnew=q10, write=1, write_to=0, s=1
+read=##0, qnew=q10, write=1, write_to=0, s=1
+read=##1, qnew=q10, write=1, write_to=0, s=1
+read=###, qnew=q10, write=1, write_to=0, s=1
+state=q10
+read=000, qnew=qn, write=#, write_to=0, s=-1
+read=001, qnew=qn, write=#, write_to=0, s=-1
+read=010, qnew=qn, write=#, write_to=0, s=-1
+read=011, qnew=qn, write=#, write_to=0, s=-1
+read=100, qnew=qn, write=#, write_to=0, s=-1
+read=101, qnew=qn, write=#, write_to=0, s=-1
+read=110, qnew=qn, write=#, write_to=0, s=-1
+read=111, qnew=qn, write=#, write_to=0, s=-1
+read=00#, qnew=qn, write=#, write_to=0, s=-1
+read=01#, qnew=qn, write=#, write_to=0, s=-1
+read=10#, qnew=qn, write=#, write_to=0, s=-1
+read=11#, qnew=qn, write=#, write_to=0, s=-1
+read=0#0, qnew=qn, write=#, write_to=0, s=-1
+read=0#1, qnew=qn, write=#, write_to=0, s=-1
+read=1#0, qnew=qn, write=#, write_to=0, s=-1
+read=1#1, qnew=qn, write=#, write_to=0, s=-1
+read=#00, qnew=q7, write=#, write_to=0, s=1
+read=#01, qnew=q7, write=#, write_to=0, s=1
+read=#10, qnew=q7, write=#, write_to=0, s=1
+read=#11, qnew=q7, write=#, write_to=0, s=1
+read=0##, qnew=qn, write=#, write_to=0, s=-1
+read=1##, qnew=q7, write=#, write_to=0, s=1
+read=#0#, qnew=q7, write=#, write_to=0, s=1
+read=#1#, qnew=q7, write=#, write_to=0, s=1
+read=##0, qnew=q7, write=#, write_to=0, s=1
+read=##1, qnew=q7, write=#, write_to=0, s=1
+read=###, qnew=q7, write=#, write_to=0, s=1
+state=q11
+read=000, qnew=q6, write=0, write_to=2, s=-1
+read=001, qnew=q6, write=1, write_to=2, s=-1
+read=010, qnew=q12, write=0, write_to=2, s=-1
+read=011, qnew=q12, write=1, write_to=2, s=-1
+read=100, qnew=q6, write=0, write_to=2, s=-1
+read=101, qnew=q6, write=1, write_to=2, s=-1
+read=110, qnew=q12, write=0, write_to=2, s=-1
+read=111, qnew=q12, write=1, write_to=2, s=-1
+read=00#, qnew=q6, write=#, write_to=2, s=-1
+read=01#, qnew=q12, write=#, write_to=2, s=-1
+read=10#, qnew=q6, write=#, write_to=2, s=-1
+read=11#, qnew=q12, write=#, write_to=2, s=-1
+read=0#0, qnew=qy, write=0, write_to=2, s=-1
+read=0#1, qnew=qy, write=1, write_to=2, s=-1
+read=1#0, qnew=qy, write=0, write_to=2, s=-1
+read=1#1, qnew=qy, write=1, write_to=2, s=-1
+read=#00, qnew=q6, write=0, write_to=2, s=-1
+read=#01, qnew=q6, write=1, write_to=2, s=-1
+read=#10, qnew=q12, write=0, write_to=2, s=-1
+read=#11, qnew=q12, write=1, write_to=2, s=-1
+read=0##, qnew=qy, write=#, write_to=2, s=-1
+read=1##, qnew=qy, write=#, write_to=2, s=-1
+read=#0#, qnew=q6, write=#, write_to=2, s=-1
+read=#1#, qnew=q12, write=#, write_to=2, s=-1
+read=##0, qnew=qy, write=0, write_to=2, s=-1
+read=##1, qnew=qy, write=1, write_to=2, s=-1
+read=###, qnew=qy, write=#, write_to=2, s=-1
+state=q12
+read=000, qnew=q13, write=0, write_to=2, s=1
+read=001, qnew=q13, write=1, write_to=2, s=1
+read=010, qnew=q13, write=0, write_to=2, s=1
+read=011, qnew=q13, write=1, write_to=2, s=1
+read=100, qnew=q13, write=0, write_to=2, s=1
+read=101, qnew=q13, write=1, write_to=2, s=1
+read=110, qnew=q13, write=0, write_to=2, s=1
+read=111, qnew=q13, write=1, write_to=2, s=1
+read=00#, qnew=q13, write=#, write_to=2, s=1
+read=01#, qnew=q13, write=#, write_to=2, s=1
+read=10#, qnew=q13, write=#, write_to=2, s=1
+read=11#, qnew=q13, write=#, write_to=2, s=1
+read=0#0, qnew=q13, write=0, write_to=2, s=1
+read=0#1, qnew=q13, write=1, write_to=2, s=1
+read=1#0, qnew=q13, write=0, write_to=2, s=1
+read=1#1, qnew=q13, write=1, write_to=2, s=1
+read=#00, qnew=q13, write=0, write_to=2, s=1
+read=#01, qnew=q13, write=1, write_to=2, s=1
+read=#10, qnew=q13, write=0, write_to=2, s=1
+read=#11, qnew=q13, write=1, write_to=2, s=1
+read=0##, qnew=q13, write=#, write_to=2, s=1
+read=1##, qnew=q13, write=#, write_to=2, s=1
+read=#0#, qnew=q13, write=#, write_to=2, s=1
+read=#1#, qnew=q13, write=#, write_to=2, s=1
+read=##0, qnew=q13, write=0, write_to=2, s=1
+read=##1, qnew=q13, write=1, write_to=2, s=1
+read=###, qnew=q13, write=#, write_to=2, s=1
+state=q13
+read=000, qnew=q13, write=0, write_to=2, s=-1
+read=001, qnew=q13, write=1, write_to=2, s=-1
+read=010, qnew=q13, write=0, write_to=2, s=-1
+read=011, qnew=q13, write=1, write_to=2, s=-1
+read=100, qnew=q13, write=1, write_to=2, s=-1
+read=101, qnew=q14, write=0, write_to=2, s=-1
+read=110, qnew=q13, write=1, write_to=2, s=-1
+read=111, qnew=q14, write=0, write_to=2, s=-1
+read=00#, qnew=q13, write=0, write_to=2, s=-1
+read=01#, qnew=q13, write=0, write_to=2, s=-1
+read=10#, qnew=q13, write=1, write_to=2, s=-1
+read=11#, qnew=q13, write=1, write_to=2, s=-1
+read=0#0, qnew=q13, write=0, write_to=2, s=-1
+read=0#1, qnew=q13, write=1, write_to=2, s=-1
+read=1#0, qnew=q13, write=1, write_to=2, s=-1
+read=1#1, qnew=q14, write=0, write_to=2, s=-1
+read=#00, qnew=q16, write=#, write_to=2, s=1
+read=#01, qnew=q15, write=#, write_to=2, s=1
+read=#10, qnew=q15, write=#, write_to=2, s=1
+read=#11, qnew=q15, write=#, write_to=2, s=1
+read=0##, qnew=q13, write=0, write_to=2, s=-1
+read=1##, qnew=q13, write=1, write_to=2, s=-1
+read=#0#, qnew=q15, write=#, write_to=2, s=1
+read=#1#, qnew=q15, write=#, write_to=2, s=1
+read=##0, qnew=q15, write=#, write_to=2, s=1
+read=##1, qnew=q15, write=#, write_to=2, s=1
+read=###, qnew=q15, write=#, write_to=2, s=1
+state=q14
+read=000, qnew=q13, write=1, write_to=2, s=-1
+read=001, qnew=q14, write=0, write_to=2, s=-1
+read=010, qnew=q13, write=1, write_to=2, s=-1
+read=011, qnew=q14, write=0, write_to=2, s=-1
+read=100, qnew=q14, write=0, write_to=2, s=-1
+read=101, qnew=q14, write=1, write_to=2, s=-1
+read=110, qnew=q14, write=0, write_to=2, s=-1
+read=111, qnew=q14, write=1, write_to=2, s=-1
+read=00#, qnew=q13, write=1, write_to=2, s=-1
+read=01#, qnew=q13, write=1, write_to=2, s=-1
+read=10#, qnew=q14, write=0, write_to=2, s=-1
+read=11#, qnew=q14, write=0, write_to=2, s=-1
+read=0#0, qnew=q13, write=1, write_to=2, s=-1
+read=0#1, qnew=q14, write=0, write_to=2, s=-1
+read=1#0, qnew=q14, write=0, write_to=2, s=-1
+read=1#1, qnew=q14, write=1, write_to=2, s=-1
+read=#00, qnew=q13, write=1, write_to=2, s=-1
+read=#01, qnew=q13, write=1, write_to=2, s=-1
+read=#10, qnew=q13, write=1, write_to=2, s=-1
+read=#11, qnew=q13, write=1, write_to=2, s=-1
+read=0##, qnew=q13, write=1, write_to=2, s=-1
+read=1##, qnew=q14, write=0, write_to=2, s=-1
+read=#0#, qnew=q13, write=1, write_to=2, s=-1
+read=#1#, qnew=q13, write=1, write_to=2, s=-1
+read=##0, qnew=q13, write=1, write_to=2, s=-1
+read=##1, qnew=q13, write=1, write_to=2, s=-1
+read=###, qnew=q13, write=1, write_to=2, s=-1
+state=q15
+read=000, qnew=q8, write=#, write_to=0, s=-1
+read=001, qnew=q8, write=#, write_to=0, s=-1
+read=010, qnew=q8, write=#, write_to=0, s=-1
+read=011, qnew=q8, write=#, write_to=0, s=-1
+read=100, qnew=q9, write=#, write_to=0, s=-1
+read=101, qnew=q9, write=#, write_to=0, s=-1
+read=110, qnew=q9, write=#, write_to=0, s=-1
+read=111, qnew=q9, write=#, write_to=0, s=-1
+read=00#, qnew=q8, write=#, write_to=0, s=-1
+read=01#, qnew=q8, write=#, write_to=0, s=-1
+read=10#, qnew=q9, write=#, write_to=0, s=-1
+read=11#, qnew=q9, write=#, write_to=0, s=-1
+read=0#0, qnew=q8, write=#, write_to=0, s=-1
+read=0#1, qnew=q8, write=#, write_to=0, s=-1
+read=1#0, qnew=q9, write=#, write_to=0, s=-1
+read=1#1, qnew=q9, write=#, write_to=0, s=-1
+read=#00, qnew=q7, write=#, write_to=0, s=1
+read=#01, qnew=q7, write=#, write_to=0, s=1
+read=#10, qnew=q7, write=#, write_to=0, s=1
+read=#11, qnew=q7, write=#, write_to=0, s=1
+read=0##, qnew=q8, write=#, write_to=0, s=-1
+read=1##, qnew=q9, write=#, write_to=0, s=-1
+read=#0#, qnew=q7, write=#, write_to=0, s=1
+read=#1#, qnew=q7, write=#, write_to=0, s=1
+read=##0, qnew=q7, write=#, write_to=0, s=1
+read=##1, qnew=q7, write=#, write_to=0, s=1
+read=###, qnew=q7, write=#, write_to=0, s=1
+state=q16
+read=000, qnew=q11, write=0, write_to=0, s=-1
+read=001, qnew=q11, write=0, write_to=0, s=-1
+read=010, qnew=q11, write=0, write_to=0, s=-1
+read=011, qnew=q11, write=0, write_to=0, s=-1
+read=100, qnew=q11, write=1, write_to=0, s=-1
+read=101, qnew=q11, write=1, write_to=0, s=-1
+read=110, qnew=q11, write=1, write_to=0, s=-1
+read=111, qnew=q11, write=1, write_to=0, s=-1
+read=00#, qnew=q11, write=0, write_to=0, s=-1
+read=01#, qnew=q11, write=0, write_to=0, s=-1
+read=10#, qnew=q11, write=1, write_to=0, s=-1
+read=11#, qnew=q11, write=1, write_to=0, s=-1
+read=0#0, qnew=q11, write=0, write_to=0, s=-1
+read=0#1, qnew=q11, write=0, write_to=0, s=-1
+read=1#0, qnew=q11, write=1, write_to=0, s=-1
+read=1#1, qnew=q11, write=1, write_to=0, s=-1
+read=#00, qnew=q11, write=#, write_to=0, s=-1
+read=#01, qnew=q11, write=#, write_to=0, s=-1
+read=#10, qnew=q11, write=#, write_to=0, s=-1
+read=#11, qnew=q11, write=#, write_to=0, s=-1
+read=0##, qnew=q11, write=0, write_to=0, s=-1
+read=1##, qnew=q11, write=1, write_to=0, s=-1
+read=#0#, qnew=q11, write=#, write_to=0, s=-1
+read=#1#, qnew=q11, write=#, write_to=0, s=-1
+read=##0, qnew=q11, write=#, write_to=0, s=-1
+read=##1, qnew=q11, write=#, write_to=0, s=-1
+read=###, qnew=q11, write=#, write_to=0, s=-1
+
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 0
+Aligned Index % 10:       01234567
+Tape input_1 looks like:  11111111
+Tape input_2 looks like:  1111####
+Tape output_1 looks like: ########
+read <11#> at tape index 0
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 1
+Aligned Index % 10:       01234567
+Tape input_1 looks like:  11111111
+Tape input_2 looks like:  1111####
+Tape output_1 looks like: ########
+read <11#> at tape index 1
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 2
+Aligned Index % 10:       01234567
+Tape input_1 looks like:  11111111
+Tape input_2 looks like:  1111####
+Tape output_1 looks like: ########
+read <11#> at tape index 2
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 3
+Aligned Index % 10:       01234567
+Tape input_1 looks like:  11111111
+Tape input_2 looks like:  1111####
+Tape output_1 looks like: ########
+read <11#> at tape index 3
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 4
+Aligned Index % 10:       01234567
+Tape input_1 looks like:  11111111
+Tape input_2 looks like:  1111####
+Tape output_1 looks like: ########
+read <1##> at tape index 4
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: 3
+Aligned Index % 10:       01234567
+Tape input_1 looks like:  11111111
+Tape input_2 looks like:  1111####
+Tape output_1 looks like: ########
+read <11#> at tape index 3
+Change state to <q3>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q3
+The current index is: 4
+Aligned Index % 10:       01234567
+Tape input_1 looks like:  11111111
+Tape input_2 looks like:  111#####
+Tape output_1 looks like: ########
+read <1##> at tape index 4
+Change state to <q4>, write <1> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q4
+The current index is: 3
+Aligned Index % 10:       01234567
+Tape input_1 looks like:  11111111
+Tape input_2 looks like:  111#1###
+Tape output_1 looks like: ########
+read <1##> at tape index 3
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: 2
+Aligned Index % 10:       01234567
+Tape input_1 looks like:  11111111
+Tape input_2 looks like:  111#1###
+Tape output_1 looks like: ########
+read <11#> at tape index 2
+Change state to <q3>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q3
+The current index is: 3
+Aligned Index % 10:       01234567
+Tape input_1 looks like:  11111111
+Tape input_2 looks like:  11##1###
+Tape output_1 looks like: ########
+read <1##> at tape index 3
+Change state to <q4>, write <1> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q4
+The current index is: 2
+Aligned Index % 10:       01234567
+Tape input_1 looks like:  11111111
+Tape input_2 looks like:  11#11###
+Tape output_1 looks like: ########
+read <1##> at tape index 2
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: 1
+Aligned Index % 10:       01234567
+Tape input_1 looks like:  11111111
+Tape input_2 looks like:  11#11###
+Tape output_1 looks like: ########
+read <11#> at tape index 1
+Change state to <q3>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q3
+The current index is: 2
+Aligned Index % 10:       01234567
+Tape input_1 looks like:  11111111
+Tape input_2 looks like:  1##11###
+Tape output_1 looks like: ########
+read <1##> at tape index 2
+Change state to <q4>, write <1> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q4
+The current index is: 1
+Aligned Index % 10:       01234567
+Tape input_1 looks like:  11111111
+Tape input_2 looks like:  1#111###
+Tape output_1 looks like: ########
+read <1##> at tape index 1
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: 0
+Aligned Index % 10:       01234567
+Tape input_1 looks like:  11111111
+Tape input_2 looks like:  1#111###
+Tape output_1 looks like: ########
+read <11#> at tape index 0
+Change state to <q3>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q3
+The current index is: 1
+Aligned Index % 10:       01234567
+Tape input_1 looks like:  11111111
+Tape input_2 looks like:  ##111###
+Tape output_1 looks like: ########
+read <1##> at tape index 1
+Change state to <q4>, write <1> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q4
+The current index is: 0
+Aligned Index % 10:       01234567
+Tape input_1 looks like:  11111111
+Tape input_2 looks like:  #1111###
+Tape output_1 looks like: ########
+read <1##> at tape index 0
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: -1
+Aligned Index % 10:       01234567
+Tape input_1 looks like:  11111111
+Tape input_2 looks like:  #1111###
+Tape output_1 looks like: ########
+read <###> at tape index -1
+Change state to <q5>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q5
+The current index is: 0
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ##1111###
+Tape output_1 looks like: #########
+read <1##> at tape index 0
+Change state to <q5>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q5
+The current index is: 1
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ##1111###
+Tape output_1 looks like: #########
+read <11#> at tape index 1
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 2
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ##1111###
+Tape output_1 looks like: #########
+read <11#> at tape index 2
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 3
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ##1111###
+Tape output_1 looks like: #########
+read <11#> at tape index 3
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 4
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ##1111###
+Tape output_1 looks like: #########
+read <11#> at tape index 4
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 5
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ##1111###
+Tape output_1 looks like: #########
+read <1##> at tape index 5
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: 4
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ##1111###
+Tape output_1 looks like: #########
+read <11#> at tape index 4
+Change state to <q3>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q3
+The current index is: 5
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ##111####
+Tape output_1 looks like: #########
+read <1##> at tape index 5
+Change state to <q4>, write <1> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q4
+The current index is: 4
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ##111#1##
+Tape output_1 looks like: #########
+read <1##> at tape index 4
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: 3
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ##111#1##
+Tape output_1 looks like: #########
+read <11#> at tape index 3
+Change state to <q3>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q3
+The current index is: 4
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ##11##1##
+Tape output_1 looks like: #########
+read <1##> at tape index 4
+Change state to <q4>, write <1> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q4
+The current index is: 3
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ##11#11##
+Tape output_1 looks like: #########
+read <1##> at tape index 3
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: 2
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ##11#11##
+Tape output_1 looks like: #########
+read <11#> at tape index 2
+Change state to <q3>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q3
+The current index is: 3
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ##1##11##
+Tape output_1 looks like: #########
+read <1##> at tape index 3
+Change state to <q4>, write <1> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q4
+The current index is: 2
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ##1#111##
+Tape output_1 looks like: #########
+read <1##> at tape index 2
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: 1
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ##1#111##
+Tape output_1 looks like: #########
+read <11#> at tape index 1
+Change state to <q3>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q3
+The current index is: 2
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ####111##
+Tape output_1 looks like: #########
+read <1##> at tape index 2
+Change state to <q4>, write <1> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q4
+The current index is: 1
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ###1111##
+Tape output_1 looks like: #########
+read <1##> at tape index 1
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: 0
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ###1111##
+Tape output_1 looks like: #########
+read <1##> at tape index 0
+Change state to <q5>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q5
+The current index is: 1
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ###1111##
+Tape output_1 looks like: #########
+read <1##> at tape index 1
+Change state to <q5>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q5
+The current index is: 2
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ###1111##
+Tape output_1 looks like: #########
+read <11#> at tape index 2
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 3
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ###1111##
+Tape output_1 looks like: #########
+read <11#> at tape index 3
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 4
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ###1111##
+Tape output_1 looks like: #########
+read <11#> at tape index 4
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 5
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ###1111##
+Tape output_1 looks like: #########
+read <11#> at tape index 5
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 6
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ###1111##
+Tape output_1 looks like: #########
+read <1##> at tape index 6
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: 5
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ###1111##
+Tape output_1 looks like: #########
+read <11#> at tape index 5
+Change state to <q3>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q3
+The current index is: 6
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ###111###
+Tape output_1 looks like: #########
+read <1##> at tape index 6
+Change state to <q4>, write <1> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q4
+The current index is: 5
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ###111#1#
+Tape output_1 looks like: #########
+read <1##> at tape index 5
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: 4
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ###111#1#
+Tape output_1 looks like: #########
+read <11#> at tape index 4
+Change state to <q3>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q3
+The current index is: 5
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ###11##1#
+Tape output_1 looks like: #########
+read <1##> at tape index 5
+Change state to <q4>, write <1> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q4
+The current index is: 4
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ###11#11#
+Tape output_1 looks like: #########
+read <1##> at tape index 4
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: 3
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ###11#11#
+Tape output_1 looks like: #########
+read <11#> at tape index 3
+Change state to <q3>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q3
+The current index is: 4
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ###1##11#
+Tape output_1 looks like: #########
+read <1##> at tape index 4
+Change state to <q4>, write <1> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q4
+The current index is: 3
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ###1#111#
+Tape output_1 looks like: #########
+read <1##> at tape index 3
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: 2
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ###1#111#
+Tape output_1 looks like: #########
+read <11#> at tape index 2
+Change state to <q3>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q3
+The current index is: 3
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  #####111#
+Tape output_1 looks like: #########
+read <1##> at tape index 3
+Change state to <q4>, write <1> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q4
+The current index is: 2
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ####1111#
+Tape output_1 looks like: #########
+read <1##> at tape index 2
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: 1
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ####1111#
+Tape output_1 looks like: #########
+read <1##> at tape index 1
+Change state to <q5>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q5
+The current index is: 2
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ####1111#
+Tape output_1 looks like: #########
+read <1##> at tape index 2
+Change state to <q5>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q5
+The current index is: 3
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ####1111#
+Tape output_1 looks like: #########
+read <11#> at tape index 3
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 4
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ####1111#
+Tape output_1 looks like: #########
+read <11#> at tape index 4
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 5
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ####1111#
+Tape output_1 looks like: #########
+read <11#> at tape index 5
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 6
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ####1111#
+Tape output_1 looks like: #########
+read <11#> at tape index 6
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 7
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ####1111#
+Tape output_1 looks like: #########
+read <1##> at tape index 7
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: 6
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ####1111#
+Tape output_1 looks like: #########
+read <11#> at tape index 6
+Change state to <q3>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q3
+The current index is: 7
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ####111##
+Tape output_1 looks like: #########
+read <1##> at tape index 7
+Change state to <q4>, write <1> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q4
+The current index is: 6
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ####111#1
+Tape output_1 looks like: #########
+read <1##> at tape index 6
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: 5
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ####111#1
+Tape output_1 looks like: #########
+read <11#> at tape index 5
+Change state to <q3>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q3
+The current index is: 6
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ####11##1
+Tape output_1 looks like: #########
+read <1##> at tape index 6
+Change state to <q4>, write <1> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q4
+The current index is: 5
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ####11#11
+Tape output_1 looks like: #########
+read <1##> at tape index 5
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: 4
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ####11#11
+Tape output_1 looks like: #########
+read <11#> at tape index 4
+Change state to <q3>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q3
+The current index is: 5
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ####1##11
+Tape output_1 looks like: #########
+read <1##> at tape index 5
+Change state to <q4>, write <1> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q4
+The current index is: 4
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ####1#111
+Tape output_1 looks like: #########
+read <1##> at tape index 4
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: 3
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ####1#111
+Tape output_1 looks like: #########
+read <11#> at tape index 3
+Change state to <q3>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q3
+The current index is: 4
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  ######111
+Tape output_1 looks like: #########
+read <1##> at tape index 4
+Change state to <q4>, write <1> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q4
+The current index is: 3
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  #####1111
+Tape output_1 looks like: #########
+read <1##> at tape index 3
+Change state to <q1>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q1
+The current index is: 2
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  #####1111
+Tape output_1 looks like: #########
+read <1##> at tape index 2
+Change state to <q5>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q5
+The current index is: 3
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  #####1111
+Tape output_1 looks like: #########
+read <1##> at tape index 3
+Change state to <q5>, write <#> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q5
+The current index is: 4
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  #####1111
+Tape output_1 looks like: #########
+read <11#> at tape index 4
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 5
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  #####1111
+Tape output_1 looks like: #########
+read <11#> at tape index 5
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 6
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  #####1111
+Tape output_1 looks like: #########
+read <11#> at tape index 6
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 7
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  #####1111
+Tape output_1 looks like: #########
+read <11#> at tape index 7
+Change state to <q0>, write <1> on tape <1> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q0
+The current index is: 8
+Aligned Index % 10:       901234567
+Tape input_1 looks like:  #11111111
+Tape input_2 looks like:  #####1111
+Tape output_1 looks like: #########
+read <###> at tape index 8
+Change state to <q11>, write <#> on tape <1> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q11
+The current index is: 7
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  #11111111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: ##########
+read <11#> at tape index 7
+Change state to <q12>, write <#> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q12
+The current index is: 6
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  #11111111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: ##########
+read <11#> at tape index 6
+Change state to <q13>, write <#> on tape <2> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q13
+The current index is: 7
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  #11111111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: ##########
+read <11#> at tape index 7
+Change state to <q13>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q13
+The current index is: 6
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  #11111111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: ########1#
+read <11#> at tape index 6
+Change state to <q13>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q13
+The current index is: 5
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  #11111111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #######11#
+read <11#> at tape index 5
+Change state to <q13>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q13
+The current index is: 4
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  #11111111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: ######111#
+read <11#> at tape index 4
+Change state to <q13>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q13
+The current index is: 3
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  #11111111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #####1111#
+read <1##> at tape index 3
+Change state to <q13>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q13
+The current index is: 2
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  #11111111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: ####11111#
+read <1##> at tape index 2
+Change state to <q13>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q13
+The current index is: 1
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  #11111111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: ###111111#
+read <1##> at tape index 1
+Change state to <q13>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q13
+The current index is: 0
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  #11111111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: ##1111111#
+read <1##> at tape index 0
+Change state to <q13>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q13
+The current index is: -1
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  #11111111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <###> at tape index -1
+Change state to <q15>, write <#> on tape <2> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q15
+The current index is: 0
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  #11111111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <1#1> at tape index 0
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: -1
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  ##1111111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <###> at tape index -1
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 0
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  1#1111111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <##1> at tape index 0
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 1
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  1#1111111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <1#1> at tape index 1
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 0
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  1##111111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <##1> at tape index 0
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 1
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11#111111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <##1> at tape index 1
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 2
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11#111111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <1#1> at tape index 2
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 1
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11##11111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <##1> at tape index 1
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 2
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  111#11111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <##1> at tape index 2
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 3
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  111#11111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <1#1> at tape index 3
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 2
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  111##1111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <##1> at tape index 2
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 3
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  1111#1111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <##1> at tape index 3
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 4
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  1111#1111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <111> at tape index 4
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 3
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  1111##111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <##1> at tape index 3
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 4
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11111#111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <#11> at tape index 4
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 5
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11111#111#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <111> at tape index 5
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 4
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11111##11#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <#11> at tape index 4
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 5
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  111111#11#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <#11> at tape index 5
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 6
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  111111#11#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <111> at tape index 6
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 5
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  111111##1#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <#11> at tape index 5
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 6
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  1111111#1#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <#11> at tape index 6
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 7
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  1111111#1#
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <111> at tape index 7
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 6
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  1111111###
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <#11> at tape index 6
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 7
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11111111##
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <#11> at tape index 7
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 8
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11111111##
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <###> at tape index 8
+Change state to <q16>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q16
+The current index is: 7
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11111111##
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <#11> at tape index 7
+Change state to <q11>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q11
+The current index is: 6
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11111111##
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <111> at tape index 6
+Change state to <q12>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q12
+The current index is: 5
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11111111##
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <111> at tape index 5
+Change state to <q13>, write <1> on tape <2> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q13
+The current index is: 6
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11111111##
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111111#
+read <111> at tape index 6
+Change state to <q14>, write <0> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: 5
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11111111##
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111101#
+read <111> at tape index 5
+Change state to <q14>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: 4
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11111111##
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111101#
+read <111> at tape index 4
+Change state to <q14>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: 3
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11111111##
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111101#
+read <1#1> at tape index 3
+Change state to <q14>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: 2
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11111111##
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111101#
+read <1#1> at tape index 2
+Change state to <q14>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: 1
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11111111##
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111101#
+read <1#1> at tape index 1
+Change state to <q14>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: 0
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11111111##
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111101#
+read <1#1> at tape index 0
+Change state to <q14>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: -1
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11111111##
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: #11111101#
+read <1##> at tape index -1
+Change state to <q14>, write <0> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: -2
+Aligned Index % 10:       9012345678
+Tape input_1 looks like:  11111111##
+Tape input_2 looks like:  #####1111#
+Tape output_1 looks like: 011111101#
+read <###> at tape index -2
+Change state to <q13>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q13
+The current index is: -3
+Aligned Index % 10:       89012345678
+Tape input_1 looks like:  #11111111##
+Tape input_2 looks like:  ######1111#
+Tape output_1 looks like: 1011111101#
+read <###> at tape index -3
+Change state to <q15>, write <#> on tape <2> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q15
+The current index is: -2
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  ##11111111##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <##1> at tape index -2
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: -1
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  ##11111111##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <1#0> at tape index -1
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: -2
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  ###1111111##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <##1> at tape index -2
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: -1
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #1#1111111##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <##0> at tape index -1
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 0
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #1#1111111##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <1#1> at tape index 0
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: -1
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #1##111111##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <##0> at tape index -1
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 0
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11#111111##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <##1> at tape index 0
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 1
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11#111111##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <1#1> at tape index 1
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 0
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11##11111##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <##1> at tape index 0
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 1
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #111#11111##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <##1> at tape index 1
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 2
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #111#11111##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <1#1> at tape index 2
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 1
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #111##1111##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <##1> at tape index 1
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 2
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #1111#1111##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <##1> at tape index 2
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 3
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #1111#1111##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <1#1> at tape index 3
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 2
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #1111##111##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <##1> at tape index 2
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 3
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11111#111##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <##1> at tape index 3
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 4
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11111#111##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <111> at tape index 4
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 3
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11111##11##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <##1> at tape index 3
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 4
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #111111#11##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <#11> at tape index 4
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 5
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #111111#11##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <111> at tape index 5
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 4
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #111111##1##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <#11> at tape index 4
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 5
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #1111111#1##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <#11> at tape index 5
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 6
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #1111111#1##
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <110> at tape index 6
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 5
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #1111111####
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <#11> at tape index 5
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 6
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11111111###
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <#10> at tape index 6
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 7
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11111111###
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <#11> at tape index 7
+Change state to <q16>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q16
+The current index is: 6
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11111111###
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <#10> at tape index 6
+Change state to <q11>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q11
+The current index is: 5
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11111111###
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <111> at tape index 5
+Change state to <q12>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q12
+The current index is: 4
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11111111###
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <111> at tape index 4
+Change state to <q13>, write <1> on tape <2> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q13
+The current index is: 5
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11111111###
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111101#
+read <111> at tape index 5
+Change state to <q14>, write <0> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: 4
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11111111###
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111001#
+read <111> at tape index 4
+Change state to <q14>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: 3
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11111111###
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111001#
+read <1#1> at tape index 3
+Change state to <q14>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: 2
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11111111###
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111001#
+read <1#1> at tape index 2
+Change state to <q14>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: 1
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11111111###
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111001#
+read <1#1> at tape index 1
+Change state to <q14>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: 0
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11111111###
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111001#
+read <1#1> at tape index 0
+Change state to <q14>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: -1
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11111111###
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111001#
+read <1#0> at tape index -1
+Change state to <q14>, write <0> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: -2
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11111111###
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111001#
+read <1#1> at tape index -2
+Change state to <q14>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: -3
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11111111###
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: #1011111001#
+read <###> at tape index -3
+Change state to <q13>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q13
+The current index is: -4
+Aligned Index % 10:       789012345678
+Tape input_1 looks like:  #11111111###
+Tape input_2 looks like:  #######1111#
+Tape output_1 looks like: 11011111001#
+read <###> at tape index -4
+Change state to <q15>, write <#> on tape <2> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q15
+The current index is: -3
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  ##11111111###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <##1> at tape index -3
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: -2
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  ##11111111###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <1#1> at tape index -2
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: -3
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  ###1111111###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <##1> at tape index -3
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: -2
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #1#1111111###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <##1> at tape index -2
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: -1
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #1#1111111###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <1#0> at tape index -1
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: -2
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #1##111111###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <##1> at tape index -2
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: -1
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11#111111###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <##0> at tape index -1
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 0
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11#111111###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <1#1> at tape index 0
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: -1
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11##11111###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <##0> at tape index -1
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 0
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #111#11111###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <##1> at tape index 0
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 1
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #111#11111###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <1#1> at tape index 1
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 0
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #111##1111###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <##1> at tape index 0
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 1
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #1111#1111###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <##1> at tape index 1
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 2
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #1111#1111###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <1#1> at tape index 2
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 1
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #1111##111###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <##1> at tape index 1
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 2
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11111#111###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <##1> at tape index 2
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 3
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11111#111###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <1#1> at tape index 3
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 2
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11111##11###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <##1> at tape index 2
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 3
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #111111#11###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <##1> at tape index 3
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 4
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #111111#11###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <111> at tape index 4
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 3
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #111111##1###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <##1> at tape index 3
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 4
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #1111111#1###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <#11> at tape index 4
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 5
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #1111111#1###
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <110> at tape index 5
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 4
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #1111111#####
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <#11> at tape index 4
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 5
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11111111####
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <#10> at tape index 5
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 6
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11111111####
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <#10> at tape index 6
+Change state to <q16>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q16
+The current index is: 5
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11111111####
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <#10> at tape index 5
+Change state to <q11>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q11
+The current index is: 4
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11111111####
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <111> at tape index 4
+Change state to <q12>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q12
+The current index is: 3
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11111111####
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <1#1> at tape index 3
+Change state to <q13>, write <1> on tape <2> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q13
+The current index is: 4
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11111111####
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011111001#
+read <111> at tape index 4
+Change state to <q14>, write <0> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: 3
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11111111####
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011110001#
+read <1#1> at tape index 3
+Change state to <q14>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: 2
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11111111####
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011110001#
+read <1#1> at tape index 2
+Change state to <q14>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: 1
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11111111####
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011110001#
+read <1#1> at tape index 1
+Change state to <q14>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: 0
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11111111####
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011110001#
+read <1#1> at tape index 0
+Change state to <q14>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: -1
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11111111####
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011110001#
+read <1#0> at tape index -1
+Change state to <q14>, write <0> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: -2
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11111111####
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011110001#
+read <1#1> at tape index -2
+Change state to <q14>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: -3
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11111111####
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011110001#
+read <1#1> at tape index -3
+Change state to <q14>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q14
+The current index is: -4
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11111111####
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: #11011110001#
+read <###> at tape index -4
+Change state to <q13>, write <1> on tape <2> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q13
+The current index is: -5
+Aligned Index % 10:       6789012345678
+Tape input_1 looks like:  #11111111####
+Tape input_2 looks like:  ########1111#
+Tape output_1 looks like: 111011110001#
+read <###> at tape index -5
+Change state to <q15>, write <#> on tape <2> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q15
+The current index is: -4
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  ##11111111####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <##1> at tape index -4
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: -3
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  ##11111111####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <1#1> at tape index -3
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: -4
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  ###1111111####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <##1> at tape index -4
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: -3
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #1#1111111####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <##1> at tape index -3
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: -2
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #1#1111111####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <1#1> at tape index -2
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: -3
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #1##111111####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <##1> at tape index -3
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: -2
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #11#111111####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <##1> at tape index -2
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: -1
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #11#111111####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <1#0> at tape index -1
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: -2
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #11##11111####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <##1> at tape index -2
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: -1
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #111#11111####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <##0> at tape index -1
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 0
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #111#11111####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <1#1> at tape index 0
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: -1
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #111##1111####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <##0> at tape index -1
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 0
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #1111#1111####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <##1> at tape index 0
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 1
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #1111#1111####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <1#1> at tape index 1
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 0
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #1111##111####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <##1> at tape index 0
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 1
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #11111#111####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <##1> at tape index 1
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 2
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #11111#111####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <1#1> at tape index 2
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 1
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #11111##11####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <##1> at tape index 1
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 2
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #111111#11####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <##1> at tape index 2
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 3
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #111111#11####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <1#1> at tape index 3
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 2
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #111111##1####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <##1> at tape index 2
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 3
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #1111111#1####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <##1> at tape index 3
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 4
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #1111111#1####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <110> at tape index 4
+Change state to <q9>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q9
+The current index is: 3
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #1111111######
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <##1> at tape index 3
+Change state to <q10>, write <1> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q10
+The current index is: 4
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #11111111#####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <#10> at tape index 4
+Change state to <q7>, write <#> on tape <0> and move head right
+
+Operating Turing Machine cycle:
+The current state is: q7
+The current index is: 5
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #11111111#####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <#10> at tape index 5
+Change state to <q16>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q16
+The current index is: 4
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #11111111#####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <#10> at tape index 4
+Change state to <q11>, write <#> on tape <0> and move head left
+
+Operating Turing Machine cycle:
+The current state is: q11
+The current index is: 3
+Aligned Index % 10:       56789012345678
+Tape input_1 looks like:  #11111111#####
+Tape input_2 looks like:  #########1111#
+Tape output_1 looks like: #111011110001#
+read <1#1> at tape index 3
+Change state to <qy>, write <1> on tape <2> and move head left
+
+Turing machine successfully ran. Result is: 111011110001
+
+Or if you prefer, 255 * 15 = 3825

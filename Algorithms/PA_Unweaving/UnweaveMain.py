@@ -32,7 +32,7 @@ def dump_output(output_file):
         print("task complete, see results in " + output_file)
 
 
-# raed a single line from the input file
+# read a single line from the input file
 def read_line(line_num):
     with open(input_file) as file:
         lines = file.readlines()
@@ -42,20 +42,21 @@ def read_line(line_num):
 
 # get the signal from the input file as a string
 def read_signal():
-    return read_line(0)
+    return read_line(0).strip()
 
 
 def read_x():
-    signal_x = read_line(1)
+    signal_x = read_line(1).strip()
     return KnownSignal(signal_x)
 
 
 def read_y():
-    signal_y = read_line(2)
+    signal_y = read_line(2).strip()
     return KnownSignal(signal_y)
 
 
-def permute_possibilitie_solutions(old_possible_solutions, x, y):
+# create a set of possible solutions for the next index of s based on the last set of solutions
+def permute_possible_solutions(old_possible_solutions, x, y):
     new_possible_solutions = []
 
     # if possible solutions is empty try the current index of x and y
@@ -104,6 +105,7 @@ def permute_possibilitie_solutions(old_possible_solutions, x, y):
     return new_possible_solutions
 
 
+# remove solutions that are not correct
 def pop_incorrect_solutions(candidate_solutions, match_string):
     possible_solutions = []
 
@@ -116,7 +118,7 @@ def pop_incorrect_solutions(candidate_solutions, match_string):
 
 
 # any solution with the same final_x_index and final_y_index are effectively duplicates, remove them
-def remove_duplicates(poss_solutions):
+def pop_duplicates(poss_solutions):
     recorded_final_indexes = {}
     possible_solutions = []
 
@@ -125,7 +127,7 @@ def remove_duplicates(poss_solutions):
         final_y = solution.get_fin_y_index()
 
         # hash is the dictionary entry for the final x index and final y index pair
-        hash = str(final_x) + str(final_y)
+        hash = str(final_x) + '-' + str(final_y)
 
         if not recorded_final_indexes.get(hash):
             recorded_final_indexes[hash] = True
@@ -143,7 +145,12 @@ def unweave(s, x, y):
     unassigned = ""
     poss_solutions = []
     unwoven = []
-    pop_front = ""
+    counter = 0
+
+    # check the signal is long enough for at least one full match of x and y
+    if len(s) < (x.get_signal_length() + y.get_signal_length()):
+        write_to_output("Signal s is not big enough to find a full match of x and y")
+        return False
 
     # iterate through each index in s
     while s_index < len(s):
@@ -154,36 +161,36 @@ def unweave(s, x, y):
         write_to_output("The unassigned values from s are: " + unassigned)
 
         # create a set of solutions for the next index in s
-        poss_solutions = permute_possibilitie_solutions(poss_solutions, x, y)
+        poss_solutions = permute_possible_solutions(poss_solutions, x, y)
         write_to_output("\nThe " + str(len(poss_solutions)) + " permuted solutions are:")
         for solution in poss_solutions:
             write_to_output(solution)
 
+            # increment counter for each of the solutions we have to check
+            counter += 1
+
         # check each of the solutions to see if they match the signal
         poss_solutions = pop_incorrect_solutions(poss_solutions, unassigned)
-        write_to_output("\nThe " + str(len(poss_solutions)) + " correct solutions are:")
+        write_to_output("\nThe " + str(len(poss_solutions)) + " solutions that match s are:")
         for solution in poss_solutions:
             write_to_output(solution)
+
+            # increment counter for each of the solutions we have to check
+            counter += 1
 
         # remove duplicate solutions
-        poss_solutions = remove_duplicates(poss_solutions)
-        write_to_output("\nThe " + str(len(poss_solutions)) + " correct, non-duplicate solutions are:")
+        poss_solutions = pop_duplicates(poss_solutions)
+        write_to_output("\nThe " + str(len(poss_solutions)) + " non-duplicate solutions are:")
         for solution in poss_solutions:
             write_to_output(solution)
 
-        # if there are no solutions, either the signal started in the middle or the signal cannot be unwoven
+            # increment counter for each of the solutions we have to check
+            counter += 1
+
+        # if there are no solutions the signal cannot be unwoven
         if len(poss_solutions) == 0:
-            pop_front += unassigned
-
-            if len(pop_front) > (x.get_signal_length() + y.get_signal_length()):
-                write_to_output("There is no possible unweaving solution")
-                return False
-
-            else:
-                write_to_output("All good, probably just started in the middle of a signal")
-                unassigned = ""
-                x.set_index(0)
-                y.set_index(0)
+            write_to_output("There is no possible unweaving solution")
+            return False
 
         # if there is just one solution, add it to memory
         if len(poss_solutions) == 1:
@@ -196,8 +203,33 @@ def unweave(s, x, y):
             poss_solutions = []
 
         s_index += 1
+    # end while loop, s is processed
 
-    #TODO: Handle that front string pop_front and check if it is correct
+    # if there are multiple solutions at the end of s, just grab the first one
+    if poss_solutions:
+        unwoven = unwoven + poss_solutions[0].get_signal_breakdown()
+
+    # check if there were enough x's and y's in the solution to get a full match
+    xs = 0
+    ys = 0
+    for symbol in unwoven:
+        if symbol == 'x':
+            xs += 1
+        else:
+            ys += 1
+    if xs >= x.get_signal_length() and ys >= y.get_signal_length():
+        write_to_output("\nSuccess, see solution below: ")
+        write_to_output("The number of comparisons was: " + str(counter))
+        return unwoven
+    elif xs < x.get_signal_length():
+        write_to_output("\nNot enough x's in solution:")
+        write_to_output(unwoven)
+        write_to_output("To determine a full match of x")
+    elif ys < y.get_signal_length():
+        write_to_output("\nNot enough y's in solution:")
+        write_to_output(unwoven)
+        write_to_output("To determine a full match of y")
+
 
 if __name__ == '__main__':
     clear_output_file()
@@ -212,6 +244,14 @@ if __name__ == '__main__':
     write_to_output("x: " + x.get_signal())
     write_to_output("y: " + y.get_signal() + "\n")
 
-    true_or_false = unweave(s, x, y)
+    # unweave the signal s into x and y and save the solution to sol
+    sol = unweave(s, x, y)
+
+    if sol:
+        write_to_output("The signal s: " + s)
+        write_to_output("can be unwoven into x and y:")
+        write_to_output("x: " + x.get_signal())
+        write_to_output("y: " + y.get_signal())
+        write_to_output("Via the following pattern: " + str(sol))
 
     dump_output(output_file)

@@ -20,6 +20,7 @@ class KnownSignal:
     def set_index(self, new_index):
         self.index = new_index
 
+    # add an increment to the signal index and handle wrapping if we go past the end of the signal
     def add_val_and_index(self, val, ind):
         # get the values of the maximum possible index and the current index
         max_index = len(self.signal) - 1
@@ -39,12 +40,9 @@ class KnownSignal:
 
         return current_index
 
+    # add a value to the current index, handle wrapping
     def add_val_to_index(self, val):
         new_index = self.add_val_and_index(val, self.index)
-        self.index = new_index
-
-    def inc_index_by_val(self, val):
-        new_index = self.add_val_to_index(val)
         self.index = new_index
 
     def get_val_at_current_index(self):

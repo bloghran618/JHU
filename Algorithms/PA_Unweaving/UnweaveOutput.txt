@@ -1,2463 +1,324 @@
-s: 000000000000000
-x: 0000
-y: 000
+s: 100010101
+x: 101
+y: 0
 
 
 Looking at index 0 in s:
+The unassigned values from s are: 1
+
+The 2 permuted solutions are:
+The candidate signal is: 1
+The candidate signal breakdown is: ['x']
+The x index after applying signal is: 1
+The y index after applying signal is: 0
+The candidate signal is: 0
+The candidate signal breakdown is: ['y']
+The x index after applying signal is: 0
+The y index after applying signal is: 0
+
+The 1 solutions that match s are:
+The candidate signal is: 1
+The candidate signal breakdown is: ['x']
+The x index after applying signal is: 1
+The y index after applying signal is: 0
+
+The 1 non-duplicate solutions are:
+The candidate signal is: 1
+The candidate signal breakdown is: ['x']
+The x index after applying signal is: 1
+The y index after applying signal is: 0
+
+There is just one solution, it must be correct
+The solution through index 0 is: ['x']
+
+Looking at index 1 in s:
 The unassigned values from s are: 0
 
 The 2 permuted solutions are:
 The candidate signal is: 0
 The candidate signal breakdown is: ['x']
-The x index after applying signal is: 1
+The x index after applying signal is: 2
 The y index after applying signal is: 0
 The candidate signal is: 0
 The candidate signal breakdown is: ['y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
+The x index after applying signal is: 1
+The y index after applying signal is: 0
 
-The 2 correct solutions are:
+The 2 solutions that match s are:
 The candidate signal is: 0
 The candidate signal breakdown is: ['x']
-The x index after applying signal is: 1
+The x index after applying signal is: 2
 The y index after applying signal is: 0
 The candidate signal is: 0
 The candidate signal breakdown is: ['y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
+The x index after applying signal is: 1
+The y index after applying signal is: 0
 
-The 2 correct, non-duplicate solutions are:
+The 2 non-duplicate solutions are:
 The candidate signal is: 0
 The candidate signal breakdown is: ['x']
-The x index after applying signal is: 1
+The x index after applying signal is: 2
 The y index after applying signal is: 0
 The candidate signal is: 0
 The candidate signal breakdown is: ['y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
+The x index after applying signal is: 1
+The y index after applying signal is: 0
 
-Looking at index 1 in s:
+Looking at index 2 in s:
 The unassigned values from s are: 00
 
 The 4 permuted solutions are:
-The candidate signal is: 00
+The candidate signal is: 01
 The candidate signal breakdown is: ['x', 'x']
-The x index after applying signal is: 2
+The x index after applying signal is: 0
 The y index after applying signal is: 0
 The candidate signal is: 00
 The candidate signal breakdown is: ['x', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
+The x index after applying signal is: 2
+The y index after applying signal is: 0
 The candidate signal is: 00
 The candidate signal breakdown is: ['y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00
-The candidate signal breakdown is: ['y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-
-The 4 correct solutions are:
-The candidate signal is: 00
-The candidate signal breakdown is: ['x', 'x']
 The x index after applying signal is: 2
 The y index after applying signal is: 0
 The candidate signal is: 00
-The candidate signal breakdown is: ['x', 'y']
+The candidate signal breakdown is: ['y', 'y']
 The x index after applying signal is: 1
-The y index after applying signal is: 1
+The y index after applying signal is: 0
+
+The 3 solutions that match s are:
+The candidate signal is: 00
+The candidate signal breakdown is: ['x', 'y']
+The x index after applying signal is: 2
+The y index after applying signal is: 0
 The candidate signal is: 00
 The candidate signal breakdown is: ['y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00
-The candidate signal breakdown is: ['y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-
-The 3 correct, non-duplicate solutions are:
-The candidate signal is: 00
-The candidate signal breakdown is: ['x', 'x']
 The x index after applying signal is: 2
 The y index after applying signal is: 0
+The candidate signal is: 00
+The candidate signal breakdown is: ['y', 'y']
+The x index after applying signal is: 1
+The y index after applying signal is: 0
+
+The 2 non-duplicate solutions are:
 The candidate signal is: 00
 The candidate signal breakdown is: ['x', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
+The x index after applying signal is: 2
+The y index after applying signal is: 0
 The candidate signal is: 00
 The candidate signal breakdown is: ['y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-
-Looking at index 2 in s:
-The unassigned values from s are: 000
-
-The 6 permuted solutions are:
-The candidate signal is: 000
-The candidate signal breakdown is: ['x', 'x', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000
-The candidate signal breakdown is: ['x', 'x', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000
-The candidate signal breakdown is: ['x', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000
-The candidate signal breakdown is: ['x', 'y', 'y']
 The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000
-The candidate signal breakdown is: ['y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000
-The candidate signal breakdown is: ['y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-
-The 6 correct solutions are:
-The candidate signal is: 000
-The candidate signal breakdown is: ['x', 'x', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000
-The candidate signal breakdown is: ['x', 'x', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000
-The candidate signal breakdown is: ['x', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000
-The candidate signal breakdown is: ['x', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000
-The candidate signal breakdown is: ['y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000
-The candidate signal breakdown is: ['y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-
-The 4 correct, non-duplicate solutions are:
-The candidate signal is: 000
-The candidate signal breakdown is: ['x', 'x', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000
-The candidate signal breakdown is: ['x', 'x', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000
-The candidate signal breakdown is: ['x', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000
-The candidate signal breakdown is: ['y', 'y', 'y']
-The x index after applying signal is: 0
 The y index after applying signal is: 0
 
 Looking at index 3 in s:
-The unassigned values from s are: 0000
+The unassigned values from s are: 000
 
-The 8 permuted solutions are:
-The candidate signal is: 0000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x']
+The 4 permuted solutions are:
+The candidate signal is: 001
+The candidate signal breakdown is: ['x', 'y', 'x']
 The x index after applying signal is: 0
 The y index after applying signal is: 0
-The candidate signal is: 0000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000
-The candidate signal breakdown is: ['x', 'x', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y']
+The candidate signal is: 000
+The candidate signal breakdown is: ['x', 'y', 'y']
 The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 0000
-The candidate signal breakdown is: ['x', 'y', 'y', 'x']
+The y index after applying signal is: 0
+The candidate signal is: 000
+The candidate signal breakdown is: ['y', 'y', 'x']
 The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 0000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y']
+The y index after applying signal is: 0
+The candidate signal is: 000
+The candidate signal breakdown is: ['y', 'y', 'y']
 The x index after applying signal is: 1
 The y index after applying signal is: 0
-The candidate signal is: 0000
-The candidate signal breakdown is: ['y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 0000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
 
-The 8 correct solutions are:
-The candidate signal is: 0000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x']
-The x index after applying signal is: 0
+The 3 solutions that match s are:
+The candidate signal is: 000
+The candidate signal breakdown is: ['x', 'y', 'y']
+The x index after applying signal is: 2
 The y index after applying signal is: 0
-The candidate signal is: 0000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000
-The candidate signal breakdown is: ['x', 'x', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y']
+The candidate signal is: 000
+The candidate signal breakdown is: ['y', 'y', 'x']
 The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 0000
-The candidate signal breakdown is: ['x', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 0000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y']
+The y index after applying signal is: 0
+The candidate signal is: 000
+The candidate signal breakdown is: ['y', 'y', 'y']
 The x index after applying signal is: 1
 The y index after applying signal is: 0
-The candidate signal is: 0000
-The candidate signal breakdown is: ['y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 0000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
 
-The 5 correct, non-duplicate solutions are:
-The candidate signal is: 0000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 0000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y']
+The 2 non-duplicate solutions are:
+The candidate signal is: 000
+The candidate signal breakdown is: ['x', 'y', 'y']
 The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 0000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y']
+The y index after applying signal is: 0
+The candidate signal is: 000
+The candidate signal breakdown is: ['y', 'y', 'y']
 The x index after applying signal is: 1
 The y index after applying signal is: 0
-The candidate signal is: 0000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
 
 Looking at index 4 in s:
-The unassigned values from s are: 00000
+The unassigned values from s are: 0001
 
-The 10 permuted solutions are:
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 1
+The 4 permuted solutions are:
+The candidate signal is: 0001
+The candidate signal breakdown is: ['x', 'y', 'y', 'x']
+The x index after applying signal is: 0
 The y index after applying signal is: 0
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y']
+The candidate signal is: 0000
+The candidate signal breakdown is: ['x', 'y', 'y', 'y']
 The x index after applying signal is: 2
 The y index after applying signal is: 0
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'x']
+The candidate signal is: 0000
+The candidate signal breakdown is: ['y', 'y', 'y', 'x']
 The x index after applying signal is: 2
 The y index after applying signal is: 0
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y']
+The candidate signal is: 0000
+The candidate signal breakdown is: ['y', 'y', 'y', 'y']
 The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
+The y index after applying signal is: 0
 
-The 10 correct solutions are:
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y']
+The 1 solutions that match s are:
+The candidate signal is: 0001
+The candidate signal breakdown is: ['x', 'y', 'y', 'x']
 The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 2
 The y index after applying signal is: 0
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
 
-The 6 correct, non-duplicate solutions are:
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y']
+The 1 non-duplicate solutions are:
+The candidate signal is: 0001
+The candidate signal breakdown is: ['x', 'y', 'y', 'x']
 The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 2
 The y index after applying signal is: 0
-The candidate signal is: 00000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
+
+There is just one solution, it must be correct
+The solution through index 4 is: ['x', 'x', 'y', 'y', 'x']
 
 Looking at index 5 in s:
-The unassigned values from s are: 000000
+The unassigned values from s are: 0
 
-The 12 permuted solutions are:
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 2
+The 2 permuted solutions are:
+The candidate signal is: 1
+The candidate signal breakdown is: ['x']
+The x index after applying signal is: 1
 The y index after applying signal is: 0
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y']
+The candidate signal is: 0
+The candidate signal breakdown is: ['y']
 The x index after applying signal is: 0
 The y index after applying signal is: 0
 
-The 12 correct solutions are:
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y']
+The 1 solutions that match s are:
+The candidate signal is: 0
+The candidate signal breakdown is: ['y']
 The x index after applying signal is: 0
 The y index after applying signal is: 0
 
-The 7 correct, non-duplicate solutions are:
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y']
+The 1 non-duplicate solutions are:
+The candidate signal is: 0
+The candidate signal breakdown is: ['y']
 The x index after applying signal is: 0
 The y index after applying signal is: 0
+
+There is just one solution, it must be correct
+The solution through index 5 is: ['x', 'x', 'y', 'y', 'x', 'y']
 
 Looking at index 6 in s:
-The unassigned values from s are: 0000000
+The unassigned values from s are: 1
 
-The 14 permuted solutions are:
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 3
+The 2 permuted solutions are:
+The candidate signal is: 1
+The candidate signal breakdown is: ['x']
+The x index after applying signal is: 1
 The y index after applying signal is: 0
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y']
+The candidate signal is: 0
+The candidate signal breakdown is: ['y']
 The x index after applying signal is: 0
 The y index after applying signal is: 0
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
 
-The 14 correct solutions are:
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y']
+The 1 solutions that match s are:
+The candidate signal is: 1
+The candidate signal breakdown is: ['x']
 The x index after applying signal is: 1
 The y index after applying signal is: 0
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
 
-The 8 correct, non-duplicate solutions are:
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y']
+The 1 non-duplicate solutions are:
+The candidate signal is: 1
+The candidate signal breakdown is: ['x']
 The x index after applying signal is: 1
 The y index after applying signal is: 0
-The candidate signal is: 0000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
+
+There is just one solution, it must be correct
+The solution through index 6 is: ['x', 'x', 'y', 'y', 'x', 'y', 'x']
 
 Looking at index 7 in s:
-The unassigned values from s are: 00000000
+The unassigned values from s are: 0
 
-The 16 permuted solutions are:
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
+The 2 permuted solutions are:
+The candidate signal is: 0
+The candidate signal breakdown is: ['x']
 The x index after applying signal is: 2
 The y index after applying signal is: 0
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
+The candidate signal is: 0
+The candidate signal breakdown is: ['y']
 The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-
-The 16 correct solutions are:
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-
-The 9 correct, non-duplicate solutions are:
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-
-Looking at index 8 in s:
-The unassigned values from s are: 000000000
-
-The 18 permuted solutions are:
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
 The y index after applying signal is: 0
 
-The 18 correct solutions are:
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
+The 2 solutions that match s are:
+The candidate signal is: 0
+The candidate signal breakdown is: ['x']
 The x index after applying signal is: 2
 The y index after applying signal is: 0
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
+The candidate signal is: 0
+The candidate signal breakdown is: ['y']
 The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
 The y index after applying signal is: 0
 
-The 10 correct, non-duplicate solutions are:
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
+The 2 non-duplicate solutions are:
+The candidate signal is: 0
+The candidate signal breakdown is: ['x']
 The x index after applying signal is: 2
 The y index after applying signal is: 0
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-
-Looking at index 9 in s:
-The unassigned values from s are: 0000000000
-
-The 20 permuted solutions are:
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-
-The 20 correct solutions are:
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-
-The 11 correct, non-duplicate solutions are:
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 0000000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-
-Looking at index 10 in s:
-The unassigned values from s are: 00000000000
-
-The 22 permuted solutions are:
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-
-The 22 correct solutions are:
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-
-The 12 correct, non-duplicate solutions are:
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-
-Looking at index 11 in s:
-The unassigned values from s are: 000000000000
-
-The 24 permuted solutions are:
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-
-The 24 correct solutions are:
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-
-The 12 correct, non-duplicate solutions are:
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-
-Looking at index 12 in s:
-The unassigned values from s are: 0000000000000
-
-The 24 permuted solutions are:
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
+The candidate signal is: 0
+The candidate signal breakdown is: ['y']
 The x index after applying signal is: 1
 The y index after applying signal is: 0
 
-The 24 correct solutions are:
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
+Looking at index 8 in s:
+The unassigned values from s are: 01
+
+The 4 permuted solutions are:
+The candidate signal is: 01
+The candidate signal breakdown is: ['x', 'x']
 The x index after applying signal is: 0
 The y index after applying signal is: 0
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
+The candidate signal is: 00
+The candidate signal breakdown is: ['x', 'y']
+The x index after applying signal is: 2
 The y index after applying signal is: 0
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
+The candidate signal is: 00
+The candidate signal breakdown is: ['y', 'x']
 The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
+The y index after applying signal is: 0
+The candidate signal is: 00
+The candidate signal breakdown is: ['y', 'y']
 The x index after applying signal is: 1
 The y index after applying signal is: 0
 
-The 12 correct, non-duplicate solutions are:
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
+The 1 solutions that match s are:
+The candidate signal is: 01
+The candidate signal breakdown is: ['x', 'x']
 The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 0000000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-
-Looking at index 13 in s:
-The unassigned values from s are: 00000000000000
-
-The 24 permuted solutions are:
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
 The y index after applying signal is: 0
 
-The 24 correct solutions are:
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
+The 1 non-duplicate solutions are:
+The candidate signal is: 01
+The candidate signal breakdown is: ['x', 'x']
 The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
 The y index after applying signal is: 0
 
-The 12 correct, non-duplicate solutions are:
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 00000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
+There is just one solution, it must be correct
+The solution through index 8 is: ['x', 'x', 'y', 'y', 'x', 'y', 'x', 'x', 'x']
 
-Looking at index 14 in s:
-The unassigned values from s are: 000000000000000
-
-The 24 permuted solutions are:
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-
-The 24 correct solutions are:
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'x']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-
-The 12 correct, non-duplicate solutions are:
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
-The x index after applying signal is: 3
-The y index after applying signal is: 0
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 2
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 0
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 2
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 0
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 3
-The y index after applying signal is: 2
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 2
-The y index after applying signal is: 0
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 1
-The y index after applying signal is: 1
-The candidate signal is: 000000000000000
-The candidate signal breakdown is: ['x', 'x', 'x', 'x', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y']
-The x index after applying signal is: 0
-The y index after applying signal is: 2
+Success, see solution below: 
+The number of comparisons was: 54
+The signal s: 100010101
+can be unwoven into x and y:
+x: 101
+y: 0
+Via the following pattern: ['x', 'x', 'y', 'y', 'x', 'y', 'x', 'x', 'x']

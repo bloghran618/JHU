@@ -1,0 +1,760 @@
+
+CREATE TABLE team (
+    team_name     VARCHAR(30)      NOT NULL,
+    wins          INT              NOT NULL,
+	losses        INT              NOT NULL,
+    game_ties     INT              NOT NULL,
+	points        INT              NOT NULL,
+	CONSTRAINT team_name_pk
+		PRIMARY KEY (team_name)
+);
+
+insert into team(team_name, wins, losses, game_ties, points) values
+('ThunderBirds', 0, 0, 0, 0);
+
+insert into team(team_name, wins, losses, game_ties, points) values
+('Heroes', 0, 0, 0, 0);
+
+insert into team(team_name, wins, losses, game_ties, points) values
+('Maulers', 0, 0, 0, 0);
+
+insert into team(team_name, wins, losses, game_ties, points) values
+('MudSlingers', 0, 0, 0, 0);
+
+CREATE TABLE player (
+	player_number	INT   		     NOT NULL,
+    team_name     	VARCHAR(30)      NOT NULL,
+    player_name    	VARCHAR(50)      NOT NULL,
+	goals        	INT              NOT NULL,
+    assists      	INT              NOT NULL,
+	pim           	INT              NOT NULL,
+	emergency_contact_phone			 VARCHAR(20),
+	CONSTRAINT player_pk
+		PRIMARY KEY (player_number, team_name),
+	CONSTRAINT team_fk
+		FOREIGN KEY (team_name) REFERENCES team(team_name)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT player_number_vals
+		CHECK (0 < player_number),
+		CHECK (player_number < 100)
+);
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(8, 'ThunderBirds', 'Alex Ovechkin', 0, 0, 0, '(123) 456-7890');
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(87, 'ThunderBirds', 'Sidney Crosby', 0, 0, 0, '(789) 856-7890');
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(13, 'ThunderBirds', 'Nico Hischier', 0, 0, 0, '(139) 821-9731');
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(9, 'ThunderBirds', 'Seth Jones', 0, 0, 0, '(679) 158-7890');
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(6, 'ThunderBirds', 'Erik Carlson', 0, 0, 0, '(465) 456-2584');
+
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(88, 'Heroes', 'David Pastrnak', 0, 0, 0, '(123) 456-7890');
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(87, 'Heroes', 'Nikita Kucherov', 0, 0, 0, '(789) 856-7890');
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(6, 'Heroes', 'Alexsander Barkov', 0, 0, 0, '(139) 821-9731');
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(8, 'Heroes', 'Victor Hedman', 0, 0, 0, '(679) 158-7890');
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(12, 'Heroes', 'Morgan Reilly', 0, 0, 0, '(465) 456-2584');
+
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(64, 'Maulers', 'Mark Stone', 0, 0, 0, '(123) 456-7890');
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(13, 'Maulers', 'Johnny Gaudreau', 0, 0, 0, '(789) 856-7890');
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(97, 'Maulers', 'Connor McDavid', 0, 0, 0, '(139) 821-9731');
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(8, 'Maulers', 'Drew Doughty', 0, 0, 0, '(679) 158-7890');
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(12, 'Maulers', 'Erik Karlsson', 0, 0, 0, '(465) 456-2584');
+
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(1, 'MudSlingers', 'Nathan MacKinnon', 0, 0, 0, '(123) 456-7890');
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(97, 'MudSlingers', 'Vladimir Tarasenko', 0, 0, 0, '(789) 856-7890');
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(20, 'MudSlingers', 'Mark Scheifele', 0, 0, 0, '(139) 821-9731');
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(6, 'MudSlingers', 'Roman Josi', 0, 0, 0, '(679) 158-7890');
+
+INSERT into player(player_number, team_name, player_name, goals, assists, pim, emergency_contact_phone) values
+(4, 'MudSlingers', 'Miro Heiskenen', 0, 0, 0, '(465) 456-2584');
+
+
+CREATE TABLE goalie (
+	goalie_number	INT   		     NOT NULL,
+    team_name     	VARCHAR(30)      NOT NULL,
+    goalie_name    	VARCHAR(50)      NOT NULL,
+	goals_against  	INT              NOT NULL,
+    saves	      	INT              NOT NULL,
+	emergency_contact_phone			 VARCHAR(20),
+	CONSTRAINT goalie_pk
+		PRIMARY KEY (goalie_number, team_name),
+	CONSTRAINT team_fk
+		FOREIGN KEY (team_name) REFERENCES team(team_name)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT goalie_number_vals
+		CHECK (0 < goalie_number),
+		CHECK (goalie_number < 100)
+);
+
+INSERT into goalie(goalie_number, team_name, goalie_name, goals_against, saves, emergency_contact_phone) values
+(30, 'ThunderBirds', 'Brendan Holtby', 0, 0, '(465) 456-2584');
+
+INSERT into goalie(goalie_number, team_name, goalie_name, goals_against, saves, emergency_contact_phone) values
+(35, 'ThunderBirds', 'Cory Schneider', 0, 0, '(624) 856-1236');
+
+INSERT into goalie(goalie_number, team_name, goalie_name, goals_against, saves, emergency_contact_phone) values
+(35, 'Heroes', 'Andrej Vasilevski', 0, 0, '(123) 753-8965');
+
+INSERT into goalie(goalie_number, team_name, goalie_name, goals_against, saves, emergency_contact_phone) values
+(90, 'Maulers', 'Andre Fleury', 0, 0, '(456) 789-7412');
+
+INSERT into goalie(goalie_number, team_name, goalie_name, goals_against, saves, emergency_contact_phone) values
+(30, 'MudSlingers', 'Ben Bishop', 0, 0, '(569) 745-8930');
+
+
+CREATE TABLE coach (
+	coach_id		INT   		     NOT NULL,
+    team_name     	VARCHAR(30)      NOT NULL,
+    coach_name    	VARCHAR(50)      NOT NULL,
+	CONSTRAINT coach_pk
+		PRIMARY KEY (coach_id, team_name),
+	CONSTRAINT team_fk
+		FOREIGN KEY (team_name) REFERENCES team(team_name)
+                 ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+INSERT into coach(coach_id, team_name, coach_name) values
+(0, 'ThunderBirds', 'John Torterella');
+
+INSERT into coach(coach_id, team_name, coach_name) values
+(1, 'Heroes', 'Bruce Cassidy');
+
+INSERT into coach(coach_id, team_name, coach_name) values
+(2, 'Heroes', 'John Cooper');
+
+INSERT into coach(coach_id, team_name, coach_name) values
+(3, 'Maulers', 'Mike Babcock');
+
+INSERT into coach(coach_id, team_name, coach_name) values
+(4, 'MudSlingers', 'John Hynes');
+
+
+CREATE TABLE player_injury_report (
+	injury_id		INT				 NOT NULL,
+	player_number	INT   		     NOT NULL,
+    team_name     	VARCHAR(30)      NOT NULL,
+    injury       	VARCHAR(50)      NOT NULL,
+	injury_date    	VARCHAR(50),
+	injury_description      VARCHAR(300),
+	CONSTRAINT injury_pk
+		PRIMARY KEY (injury_id, player_number, team_name),
+	CONSTRAINT player_team_fk
+		FOREIGN KEY (team_name, player_number) REFERENCES player(team_name, player_number)
+                 ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+INSERT into player_injury_report(injury_id, player_number, team_name, injury, injury_date, injury_description) values
+(0, 87, 'ThunderBirds', 'Concussion', '07-12-2012', 'Mild concussion');
+
+INSERT into player_injury_report(injury_id, player_number, team_name, injury, injury_date, injury_description) values
+(1, 6, 'Heroes', 'Pulled Hamstring', '09-14-2014', 'Severe hamstring tear with minor ligament damage');
+
+INSERT into player_injury_report(injury_id, player_number, team_name, injury, injury_date, injury_description) values
+(2, 87, 'ThunderBirds', 'Concussion', '12-19-2015', 'Severe concussion');
+
+INSERT into player_injury_report(injury_id, player_number, team_name, injury, injury_date, injury_description) values
+(3, 20, 'MudSlingers', 'Broken Ankle', '02-14-2016', 'Broken ankle from blocking a shot. No surgery needed');
+
+INSERT into player_injury_report(injury_id, player_number, team_name, injury, injury_date, injury_description) values
+(4, 13, 'Maulers', 'Broken Wrist', '02-20-2016', 'Broken wrist from slash. Minor surgery needed to repair ligaments');
+
+INSERT into player_injury_report(injury_id, player_number, team_name, injury, injury_date, injury_description) values
+(5, 87, 'ThunderBirds', 'Concussion', '12-19-2019', 'Moderate concussion');
+
+
+CREATE TABLE goalie_injury_report (
+	injury_id		INT				 NOT NULL,
+	goalie_number	INT   		     NOT NULL,
+    team_name     	VARCHAR(30)      NOT NULL,
+    injury       	VARCHAR(50)      NOT NULL,
+	injury_date    	VARCHAR(50),
+	injury_description      VARCHAR(300),
+	CONSTRAINT goalie_injury_pk
+		PRIMARY KEY (injury_id, goalie_number, team_name),
+	CONSTRAINT goalie_team_fk
+		FOREIGN KEY (team_name, goalie_number) REFERENCES goalie(team_name, goalie_number)
+                 ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+
+INSERT into goalie_injury_report(injury_id, goalie_number, team_name, injury, injury_date, injury_description) values
+(0, 30, 'ThunderBirds', 'Hipflexer Strain', '12-15-2014', 'Mildly strained hipflexer');
+
+INSERT into goalie_injury_report(injury_id, goalie_number, team_name, injury, injury_date, injury_description) values
+(1, 90, 'Maulers', 'Concussion', '12-04-2017', 'Mild Concussion');
+
+INSERT into goalie_injury_report(injury_id, goalie_number, team_name, injury, injury_date, injury_description) values
+(2, 35, 'Heroes', 'Broken Pinkie', '02-02-2018', 'Impact broken pinkie. No surgery needed. Ice reguarly');
+
+INSERT into goalie_injury_report(injury_id, goalie_number, team_name, injury, injury_date, injury_description) values
+(3, 30, 'MudSlingers', 'Broken Clavicle', '12-15-2019', 'Clavicle broken on shot. Surgery needed');
+
+
+CREATE TABLE captain (
+	player_number		INT				 NOT NULL,
+	team_name			VARCHAR(30)	     NOT NULL,
+	captain_role		VARCHAR(9)		 NOT NULL,
+	CONSTRAINT captain_pk
+		PRIMARY KEY (player_number, team_name),
+	CONSTRAINT captain_fk
+		FOREIGN KEY (player_number, team_name) REFERENCES player(player_number, team_name)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT captain_role_values
+		CHECK (captain_role IN ('Captain', 'Assistant'))
+);
+
+
+INSERT into captain(player_number, team_name, captain_role) values
+(87, 'ThunderBirds', 'Captain');
+
+INSERT into captain(player_number, team_name, captain_role) values
+(13, 'ThunderBirds', 'Assistant');
+
+INSERT into captain(player_number, team_name, captain_role) values
+(8, 'ThunderBirds', 'Assistant');
+
+INSERT into captain(player_number, team_name, captain_role) values
+(6, 'Heroes', 'Captain');
+
+INSERT into captain(player_number, team_name, captain_role) values
+(8, 'Heroes', 'Assistant');
+
+INSERT into captain(player_number, team_name, captain_role) values
+(87, 'Heroes', 'Assistant');
+
+INSERT into captain(player_number, team_name, captain_role) values
+(97, 'Maulers', 'Captain');
+
+INSERT into captain(player_number, team_name, captain_role) values
+(8, 'Maulers', 'Assistant');
+
+INSERT into captain(player_number, team_name, captain_role) values
+(64, 'Maulers', 'Assistant');
+
+INSERT into captain(player_number, team_name, captain_role) values
+(1, 'MudSlingers', 'Captain');
+
+INSERT into captain(player_number, team_name, captain_role) values
+(6, 'MudSlingers', 'Assistant');
+
+INSERT into captain(player_number, team_name, captain_role) values
+(4, 'MudSlingers', 'Assistant');
+
+
+CREATE TABLE rink (
+	rink_name			VARCHAR(50)		 NOT NULL,
+	rink_location		VARCHAR(30)	     NOT NULL,
+	rink_size			VARCHAR(9)		 NOT NULL,
+	CONSTRAINT rink_pk
+		PRIMARY KEY (rink_name),
+	CONSTRAINT rink_size_values
+		CHECK (rink_size IN ('Olympic', 'Standard'))
+);
+
+INSERT into rink(rink_name, rink_location, rink_size) values
+('Bell Centre', 'Montreal', 'Standard');
+
+INSERT into rink(rink_name, rink_location, rink_size) values
+('Madison Square Garden', 'New York', 'Standard');
+
+INSERT into rink(rink_name, rink_location, rink_size) values
+('Maple Leaf Gardens', 'Toronto', 'Standard');
+
+INSERT into rink(rink_name, rink_location, rink_size) values
+('The Olympia', 'Detroit', 'Olympic');
+
+INSERT into rink(rink_name, rink_location, rink_size) values
+('Boston Garden', 'Boston', 'Standard');
+
+
+CREATE TABLE referee (
+	ref_id				INT				 NOT NULL,
+	ref_name			VARCHAR(30)	     NOT NULL,
+	hometown			VARCHAR(50),
+	certification_level		VARCHAR(30)	     NOT NULL,
+	CONSTRAINT ref_pk
+		PRIMARY KEY (ref_id)
+);
+
+INSERT into referee(ref_id, ref_name, hometown, certification_level) values
+(0, 'Wes McCauley', 'Montreal', 'NHL');
+
+INSERT into referee(ref_id, ref_name, hometown, certification_level) values
+(1, 'Reid Anderson', 'New York', 'NHL');
+
+INSERT into referee(ref_id, ref_name, hometown, certification_level) values
+(2, 'Jacob Brenk', 'Chicago', 'AHL');
+
+INSERT into referee(ref_id, ref_name, hometown, certification_level) values
+(3, 'Mitch Dunning', 'Toronto', 'AHL');
+
+INSERT into referee(ref_id, ref_name, hometown, certification_level) values
+(4, 'Jean Herbert', 'Ottawa', 'NHL');
+
+INSERT into referee(ref_id, ref_name, hometown, certification_level) values
+(5, 'Dan Kelly', 'New York', 'AHL');
+
+INSERT into referee(ref_id, ref_name, hometown, certification_level) values
+(6, 'Pierre Lambert', 'Montreal', 'NHL');
+
+INSERT into referee(ref_id, ref_name, hometown, certification_level) values
+(7, 'Brad Meier', 'Saskatoon', 'CHL');
+
+
+CREATE TABLE game_refs (
+	ref_crew_id			INT				 NOT NULL,
+	head_ref_id			INT	 		     NOT NULL,
+	ref2_id				INT,
+	linesman1_id		INT,
+	linesman2_id		INT,
+	CONSTRAINT game_refs_pk
+		PRIMARY KEY (ref_crew_id),
+	CONSTRAINT head_ref_fk
+		FOREIGN KEY (head_ref_id) REFERENCES referee(ref_id)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT ref2_FK
+		FOREIGN KEY (ref2_id) REFERENCES referee(ref_id)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT linesman1_fk
+		FOREIGN KEY (linesman1_id) REFERENCES referee(ref_id)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT linesman2_fk
+		FOREIGN KEY (linesman2_id) REFERENCES referee(ref_id)
+                 ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+INSERT into game_refs(ref_crew_id, head_ref_id, ref2_id, linesman1_id, linesman2_id) values
+(0, 0, 1, 2, 3);
+
+INSERT into game_refs(ref_crew_id, head_ref_id, ref2_id, linesman1_id, linesman2_id) values
+(1, 4, 5, 6, 7);
+
+INSERT into game_refs(ref_crew_id, head_ref_id, ref2_id, linesman1_id, linesman2_id) values
+(2, 1, 4, 3, 7);
+
+INSERT into game_refs(ref_crew_id, head_ref_id, ref2_id, linesman1_id, linesman2_id) values
+(3, 4, 3, 2, 1);
+
+INSERT into game_refs(ref_crew_id, head_ref_id, ref2_id, linesman1_id, linesman2_id) values
+(4, 0, 1, 6, 5);
+
+CREATE TABLE game (
+	game_id			INT   		     NOT NULL,
+    rink_name     	VARCHAR(50)      NOT NULL,
+    ref_crew_id    	INT    		     NOT NULL,
+	home_team_score		INT,
+    away_team_score		INT,
+	CONSTRAINT game_pk
+		PRIMARY KEY (game_id),
+	CONSTRAINT rink_name_fk
+		FOREIGN KEY (rink_name) REFERENCES rink(rink_name)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT ref_crew_id_fk
+		FOREIGN KEY (ref_crew_id) REFERENCES game_refs(ref_crew_id)
+                 ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+INSERT into game(game_id, rink_name, ref_crew_id) values
+(0, 'Bell Centre', 0);
+
+INSERT into game(game_id, rink_name, ref_crew_id) values
+(1, 'Madison Square Garden', 1);
+
+INSERT into game(game_id, rink_name, ref_crew_id) values
+(2, 'Bell Centre', 2);
+
+INSERT into game(game_id, rink_name, ref_crew_id) values
+(3, 'Maple Leaf Gardens', 3);
+
+INSERT into game(game_id, rink_name, ref_crew_id) values
+(4, 'Bell Centre', 4);
+
+INSERT into game(game_id, rink_name, ref_crew_id) values
+(5, 'Madison Square Garden', 0);
+
+INSERT into game(game_id, rink_name, ref_crew_id) values
+(6, 'Maple Leaf Gardens', 1);
+
+INSERT into game(game_id, rink_name, ref_crew_id) values
+(7, 'The Olympia', 2);
+
+INSERT into game(game_id, rink_name, ref_crew_id) values
+(8, 'Madison Square Garden', 3);
+
+INSERT into game(game_id, rink_name, ref_crew_id) values
+(9, 'Boston Garden', 4);
+
+INSERT into game(game_id, rink_name, ref_crew_id) values
+(10, 'Boston Garden', 0);
+
+INSERT into game(game_id, rink_name, ref_crew_id) values
+(11, 'Maple Leaf Gardens', 1);
+
+
+CREATE TABLE schedule (
+	home_team_name			VARCHAR(30)   	 NOT NULL,
+    away_team_name     		VARCHAR(30)      NOT NULL,
+    game_id			    	INT    		     NOT NULL,
+	date					VARCHAR(30)		 NOT NULL,
+	CONSTRAINT games_pk
+		PRIMARY KEY (home_team_name, away_team_name, game_id),
+	CONSTRAINT home_team_name_fk
+		FOREIGN KEY (home_team_name) REFERENCES team(team_name)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT away_team_name_fk
+		FOREIGN KEY (away_team_name) REFERENCES team(team_name)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT game_id_fk
+		FOREIGN KEY (game_id) REFERENCES game(game_id)
+                 ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+INSERT into schedule(home_team_name, away_team_name, game_id, date) values
+('ThunderBirds', 'Heroes', 0, '07-10-2020');
+
+INSERT into schedule(home_team_name, away_team_name, game_id, date) values
+('Maulers', 'MudSlingers', 1, '07-11-2020');
+
+INSERT into schedule(home_team_name, away_team_name, game_id, date) values
+('ThunderBirds', 'Maulers', 2, '07-17-2020');
+
+INSERT into schedule(home_team_name, away_team_name, game_id, date) values
+('Heroes', 'MudSlingers', 3, '07-18-2020');
+
+INSERT into schedule(home_team_name, away_team_name, game_id, date) values
+('ThunderBirds', 'MudSlingers', 4, '07-24-2020');
+
+INSERT into schedule(home_team_name, away_team_name, game_id, date) values
+('Maulers', 'Heroes', 5, '07-25-2020');
+
+INSERT into schedule(home_team_name, away_team_name, game_id, date) values
+('Heroes', 'ThunderBirds', 6, '07-31-2020');
+
+INSERT into schedule(home_team_name, away_team_name, game_id, date) values
+('MudSlingers', 'Maulers', 7, '08-01-2020');
+
+INSERT into schedule(home_team_name, away_team_name, game_id, date) values
+('Maulers', 'ThunderBirds', 8, '08-07-2020');
+
+INSERT into schedule(home_team_name, away_team_name, game_id, date) values
+('MudSlingers', 'Heroes', 9, '08-08-2020');
+
+INSERT into schedule(home_team_name, away_team_name, game_id, date) values
+('MudSlingers', 'ThunderBirds', 10, '08-14-2020');
+
+INSERT into schedule(home_team_name, away_tfeam_name, game_id, date) values
+('Heroes', 'Maulers', 11, '08-15-2020');
+
+
+CREATE TABLE penalty (
+	penalty_number		INT   		      NOT NULL,
+    game_id			    INT    			  NOT NULL,
+    penalized_team    	VARCHAR(30)       NOT NULL,
+	penalized_player	INT				  NOT NULL,
+    pim					INT				  NOT NULL,
+	CONSTRAINT penalty_pk
+		PRIMARY KEY (penalty_number, game_id),
+	CONSTRAINT game_id_fk
+		FOREIGN KEY (game_id) REFERENCES game(game_id)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT player_id_fk
+		FOREIGN KEY (penalized_player, penalized_team) REFERENCES player(player_number, team_name)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT pim_valid_values
+		CHECK (pim IN (2, 5, 10))
+);
+
+
+CREATE OR REPLACE FUNCTION update_player_pim() RETURNS TRIGGER AS
+$BODY$
+BEGIN
+    UPDATE player
+		SET pim = pim + NEW.pim
+		WHERE player_number = NEW.penalized_player and
+			team_name = NEW.penalized_team;
+    RETURN NEW;
+END;
+$BODY$
+language plpgsql;
+
+CREATE TRIGGER add_penalty_trigger
+	AFTER INSERT ON penalty
+	FOR EACH ROW
+	EXECUTE PROCEDURE update_player_pim();
+	
+INSERT into penalty(penalty_number, game_id, penalized_team, penalized_player, pim) values
+(0, 0, 'Heroes', 88, 2);
+
+INSERT into penalty(penalty_number, game_id, penalized_team, penalized_player, pim) values
+(1, 0, 'ThunderBirds', 8, 10);
+
+INSERT into penalty(penalty_number, game_id, penalized_team, penalized_player, pim) values
+(2, 0, 'Heroes', 88, 2);
+
+INSERT into penalty(penalty_number, game_id, penalized_team, penalized_player, pim) values
+(0, 1, 'Maulers', 64, 2);
+
+INSERT into penalty(penalty_number, game_id, penalized_team, penalized_player, pim) values
+(0, 2, 'Maulers', 8, 2);
+
+INSERT into penalty(penalty_number, game_id, penalized_team, penalized_player, pim) values
+(1, 2, 'ThunderBirds', 87, 5);
+
+INSERT into penalty(penalty_number, game_id, penalized_team, penalized_player, pim) values
+(2, 2, 'ThunderBirds', 9, 2);
+
+INSERT into penalty(penalty_number, game_id, penalized_team, penalized_player, pim) values
+(0, 3, 'MudSlingers', 1, 2);
+
+INSERT into penalty(penalty_number, game_id, penalized_team, penalized_player, pim) values
+(1, 3, 'Heroes', 12, 2);
+			
+			
+CREATE TABLE goal (
+	goal_number			INT   		      NOT NULL,
+    game_id			    INT    			  NOT NULL,
+    scoring_team    	VARCHAR(30)       NOT NULL,
+	scoring_player		INT				  NOT NULL,
+	primary_assisting_player	INT,
+    secondary_assisting_player	INT,
+	CONSTRAINT goal_pk
+		PRIMARY KEY (goal_number, game_id),
+	CONSTRAINT game_id_fk
+		FOREIGN KEY (game_id) REFERENCES game(game_id)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT scoring_player_fk
+		FOREIGN KEY (scoring_player, scoring_team) REFERENCES player(player_number, team_name)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT p_assisting_player_fk
+		FOREIGN KEY (primary_assisting_player, scoring_team) REFERENCES player(player_number, team_name)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT s_assisting_player_fk
+		FOREIGN KEY (secondary_assisting_player, scoring_team) REFERENCES player(player_number, team_name)
+                 ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+
+CREATE OR REPLACE FUNCTION update_player_on_goal() RETURNS TRIGGER AS
+$BODY$
+BEGIN
+    UPDATE player
+		SET goals = goals + 1
+		WHERE player_number = NEW.scoring_player and
+			team_name = NEW.scoring_team;
+	UPDATE player
+		SET assists = assists + 1
+		WHERE 
+			player_number = NEW.primary_assisting_player and
+			team_name = NEW.scoring_team and
+			NEW.primary_assisting_player IS NOT NULL;
+	UPDATE player
+		SET assists = assists + 1
+		WHERE 
+			player_number = NEW.secondary_assisting_player and
+			team_name = NEW.scoring_team and
+			NEW.secondary_assisting_player IS NOT NULL;
+    RETURN NEW;
+END;
+$BODY$
+language plpgsql;
+
+CREATE TRIGGER update_goal_trigger
+	AFTER INSERT ON goal
+	FOR EACH ROW
+	EXECUTE PROCEDURE update_player_on_goal();
+	
+	
+INSERT into goal(goal_number, game_id, scoring_team, scoring_player, primary_assisting_player, secondary_assisting_player) values
+(0, 0, 'ThunderBirds', 13, 6, 8);
+
+INSERT into goal(goal_number, game_id, scoring_team, scoring_player, primary_assisting_player, secondary_assisting_player) values
+(1, 0, 'ThunderBirds', 8, 6, NULL);
+
+INSERT into goal(goal_number, game_id, scoring_team, scoring_player, primary_assisting_player, secondary_assisting_player) values
+(2, 0, 'Heroes', 87, 6, 8);
+
+INSERT into goal(goal_number, game_id, scoring_team, scoring_player, primary_assisting_player, secondary_assisting_player) values
+(3, 0, 'ThunderBirds', 8, 87, 13);
+
+INSERT into goal(goal_number, game_id, scoring_team, scoring_player, primary_assisting_player, secondary_assisting_player) values
+(0, 1, 'MudSlingers', 97, 20, 6);
+
+INSERT into goal(goal_number, game_id, scoring_team, scoring_player, primary_assisting_player, secondary_assisting_player) values
+(1, 1, 'MudSlingers', 4, 20, 6);
+
+INSERT into goal(goal_number, game_id, scoring_team, scoring_player, primary_assisting_player, secondary_assisting_player) values
+(0, 2, 'ThunderBirds', 8, 13, NULL);
+
+INSERT into goal(goal_number, game_id, scoring_team, scoring_player, primary_assisting_player, secondary_assisting_player) values
+(1, 2, 'Maulers', 97, 13, 12);
+
+INSERT into goal(goal_number, game_id, scoring_team, scoring_player, primary_assisting_player, secondary_assisting_player) values
+(2, 2, 'ThunderBirds', 87, 8, 13);
+
+INSERT into goal(goal_number, game_id, scoring_team, scoring_player, primary_assisting_player, secondary_assisting_player) values
+(3, 2, 'ThunderBirds', 13, NULL, NULL);
+
+INSERT into goal(goal_number, game_id, scoring_team, scoring_player, primary_assisting_player, secondary_assisting_player) values
+(4, 2, 'ThunderBirds', 9, 87, 6);
+
+INSERT into goal(goal_number, game_id, scoring_team, scoring_player, primary_assisting_player, secondary_assisting_player) values
+(0, 3, 'Heroes', 88, 8, 6);
+
+
+CREATE TABLE goalie_stats (
+	home_away_goalie	VARCHAR(4)	      NOT NULL,
+    game_id			    INT    			  NOT NULL,
+    goalie_team_name	VARCHAR(30)		  NOT NULL,
+	goalie_number		INT				  NOT NULL,
+	saves				INT				  NOT NULL,
+	goals_against		INT				  NOT NULL
+	CONSTRAINT goalie_stats_pk
+		PRIMARY KEY (home_away_goalie, game_id),
+	CONSTRAINT goalie_game_id_fk
+		FOREIGN KEY (game_id) REFERENCES game(game_id)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT goalie_fk
+		FOREIGN KEY (goalie_number, goalie_team_name) REFERENCES goalie(goalie_number, team_name)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT home_away_goalie_values
+		CHECK (home_away_goalie IN ('Home', 'Away'))
+);
+
+
+CREATE OR REPLACE FUNCTION update_goalie_on_stats() RETURNS TRIGGER AS
+$BODY$
+BEGIN
+    UPDATE goalie
+		SET goals_against = goals_against + NEW.goals_against
+		WHERE goalie_number = NEW.goalie_number and
+			team_name = NEW.goalie_team_name;
+	UPDATE goalie
+		SET saves = saves + NEW.saves
+		WHERE goalie_number = NEW.goalie_number and
+			team_name = NEW.goalie_team_name;
+    RETURN NEW;
+END;
+$BODY$
+language plpgsql;
+
+CREATE TRIGGER update_goalie_stats_trigger
+	AFTER INSERT ON goalie_stats
+	FOR EACH ROW
+	EXECUTE PROCEDURE update_goalie_on_stats();
+	
+	
+INSERT into goalie_stats(home_away_goalie, game_id, goalie_team_name, goalie_number, saves, goals_against) values
+('Home', 0, 'ThunderBirds', 30, 32, 1);
+
+INSERT into goalie_stats(home_away_goalie, game_id, goalie_team_name, goalie_number, saves, goals_against) values
+('Away', 0, 'Heroes', 35, 27, 3);
+
+INSERT into goalie_stats(home_away_goalie, game_id, goalie_team_name, goalie_number, saves, goals_against) values
+('Home', 1, 'Maulers', 90, 29, 2);
+
+INSERT into goalie_stats(home_away_goalie, game_id, goalie_team_name, goalie_number, saves, goals_against) values
+('Away', 1, 'MudSlingers', 30, 22, 0);
+
+INSERT into goalie_stats(home_away_goalie, game_id, goalie_team_name, goalie_number, saves, goals_against) values
+('Home', 2, 'ThunderBirds', 30, 24, 1);
+
+INSERT into goalie_stats(home_away_goalie, game_id, goalie_team_name, goalie_number, saves, goals_against) values
+('Away', 2, 'Maulers', 90, 43, 4);
+
+INSERT into goalie_stats(home_away_goalie, game_id, goalie_team_name, goalie_number, saves, goals_against) values
+('Home', 3, 'Heroes', 35, 25, 0);
+
+INSERT into goalie_stats(home_away_goalie, game_id, goalie_team_name, goalie_number, saves, goals_against) values
+('Away', 3, 'MudSlingers', 30, 21, 1);
+
+
+UPDATE game
+SET home_team_score = 3,
+	away_team_score = 1
+WHERE game_id = 0;
+
+UPDATE game
+SET home_team_score = 0,
+	away_team_score = 2
+WHERE game_id = 1;
+
+UPDATE game
+SET home_team_score = 4,
+	away_team_score = 1
+WHERE game_id = 2;
+
+UPDATE game
+SET home_team_score = 1,
+	away_team_score = 0
+WHERE game_id = 3;
+
+UPDATE team
+SET wins = wins + 1,
+	points = points + 2
+WHERE team_name = 'ThunderBirds';
+
+UPDATE team
+SET losses = losses + 1
+WHERE team_name = 'Heroes';
+
+UPDATE team
+SET wins = wins + 1,
+	points = points + 2
+WHERE team_name = 'MudSlingers';
+
+UPDATE team
+SET losses = losses + 1
+WHERE team_name = 'Maulers';
+
+UPDATE team
+SET wins = wins + 1,
+	points = points + 2
+WHERE team_name = 'ThunderBirds';
+
+UPDATE team
+SET losses = losses + 1
+WHERE team_name = 'Maulers';
+
+UPDATE team
+SET wins = wins + 1,
+	points = points + 2
+WHERE team_name = 'Heroes';
+
+UPDATE team
+SET losses = losses + 1
+WHERE team_name = 'MudSlingers';
+

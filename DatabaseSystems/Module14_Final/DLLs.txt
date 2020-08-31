@@ -1,0 +1,281 @@
+
+CREATE TABLE airport (
+    airport_code  VARCHAR(3)       NOT NULL,
+    name          VARCHAR(50)      NOT NULL,
+	city          VARCHAR(30)      NOT NULL,
+    state         VARCHAR(15)      NOT NULL,
+	CONSTRAINT airport_code_pk
+		PRIMARY KEY (airport_code)
+);
+
+insert into airport(airport_code, name, city, state) values
+('IAD', 'Washington Dulles International Airport', 'Dulles', 'Virginia');
+
+insert into airport(airport_code, name, city, state) values
+('BWI', 'Baltimore Washington International Airport', 'Baltimore', 'Maryland');
+
+insert into airport(airport_code, name, city, state) values
+('SFO', 'San Francisco International Airport', 'San Francisco', 'California');
+
+
+CREATE TABLE flight (
+    flight_number  	INT      		 NOT NULL,
+    airline         VARCHAR(30)      NOT NULL,
+	weekdays        VARCHAR(7)       NOT NULL,
+	CONSTRAINT flight_pk
+		PRIMARY KEY (flight_number)
+);
+
+insert into flight(flight_number, airline, weekdays) values
+(0, 'American Airlines', 'MWF');
+
+insert into flight(flight_number, airline, weekdays) values
+(1, 'Delta', 'MTWRFSU');
+
+insert into flight(flight_number, airline, weekdays) values
+(2, 'Spirit', 'T');
+
+insert into flight(flight_number, airline, weekdays) values
+(3, 'United', 'MTWRFSU');
+
+insert into flight(flight_number, airline, weekdays) values
+(189, 'United', 'R');
+
+
+CREATE TABLE flight_leg (
+    flight_number  	INT      		 NOT NULL,
+	leg_number		INT				 NOT NULL,
+    departure_airport_code         VARCHAR(3)      NOT NULL,
+	arrival_airport_code           VARCHAR(3)      NOT NULL,
+	scheduled_departure_time       TIME     	   NOT NULL,
+	scheduled_arrival_time         TIME            NOT NULL,
+	CONSTRAINT flight_leg_pk
+		PRIMARY KEY (flight_number, leg_number),
+	CONSTRAINT flight_num_fk
+		FOREIGN KEY (flight_number) REFERENCES flight(flight_number)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT four_legs
+		CHECK (0 < leg_number),
+		CHECK (leg_number <= 4),
+	CONSTRAINT arrival_airport_fk
+		FOREIGN KEY (arrival_airport_code) REFERENCES airport(airport_code)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT departure_airport_fk
+		FOREIGN KEY (departure_airport_code) REFERENCES airport(airport_code)
+                 ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+insert into flight_leg(flight_number, leg_number, departure_airport_code, arrival_airport_code, scheduled_departure_time, scheduled_arrival_time) values
+(0, 1, 'BWI', 'IAD', '01:00', '05:00');
+
+insert into flight_leg(flight_number, leg_number, departure_airport_code, arrival_airport_code, scheduled_departure_time, scheduled_arrival_time) values
+(0, 2, 'IAD', 'SFO', '07:00', '14:30');
+
+insert into flight_leg(flight_number, leg_number, departure_airport_code, arrival_airport_code, scheduled_departure_time, scheduled_arrival_time) values
+(1, 1, 'BWI', 'SFO', '07:00', '12:00');
+
+insert into flight_leg(flight_number, leg_number, departure_airport_code, arrival_airport_code, scheduled_departure_time, scheduled_arrival_time) values
+(2, 1, 'SFO', 'BWI', '14:00', '18:00');
+
+
+CREATE TABLE airplane_type (
+    airplane_type_name  	VARCHAR(30)		 NOT NULL,
+	max_seats				INT				 NOT NULL,
+    company					VARCHAR(30)		 NOT NULL,
+	CONSTRAINT airplane_type_pk
+		PRIMARY KEY (airplane_type_name),
+	CONSTRAINT max_600_seats
+		CHECK (600 >= max_seats)
+);
+
+insert into airplane_type(airplane_type_name, max_seats, company) values
+('737 NG', 400, 'Boeing');
+
+insert into airplane_type(airplane_type_name, max_seats, company) values
+('A330neo', 450, 'Airbus');
+
+
+CREATE TABLE airplane (
+    airplane_id  	INT      		 NOT NULL,
+	total_number_seats		INT		 NOT NULL,
+    airplane_type	VARCHAR(30)		 NOT NULL,
+	CONSTRAINT airplane_pk
+		PRIMARY KEY (airplane_id),
+	CONSTRAINT airplane_type_fk
+		FOREIGN KEY (airplane_type) REFERENCES airplane_type(airplane_type_name)
+                 ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+insert into airplane(airplane_id, total_number_seats, airplane_type) values
+(0, 300, '737 NG');
+
+insert into airplane(airplane_id, total_number_seats, airplane_type) values
+(1, 450, 'A330neo');
+
+
+CREATE TABLE leg_instance (
+    flight_number  	INT      		 NOT NULL,
+	leg_number		INT				 NOT NULL,
+	date			DATE			 NOT NULL,
+    number_available_seats	INT		 NOT NULL,
+	airplane_id		INT				 NOT NULL,
+	departure_airport_code	VARCHAR (3)	NOT NULL,
+	departure_time	TIME			NOT NULL,
+	arrival_airport_code	VARCHAR(3)	NOT NULL,
+	arrival_time	TIME			NOT NULL,
+	CONSTRAINT leg_instance_pk
+		PRIMARY KEY (flight_number, leg_number, date),
+	CONSTRAINT flight_leg_fk
+		FOREIGN KEY (flight_number, leg_number) REFERENCES flight_leg(flight_number, leg_number)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT airplane_id_fk
+		FOREIGN KEY (airplane_id) REFERENCES airplane(airplane_id)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT arrival_airport_fk
+		FOREIGN KEY (arrival_airport_code) REFERENCES airport(airport_code)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT departure_airport_fk
+		FOREIGN KEY (departure_airport_code) REFERENCES airport(airport_code)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT check_date
+		CHECK (DATE >= NOW())
+);
+
+insert into leg_instance(flight_number, leg_number, date, number_available_seats, airplane_id, departure_airport_code, departure_time, arrival_airport_code, arrival_time) values
+(0, 1, '8/17/2020', 450, 1, 'BWI', '01:00', 'IAD', '05:00');
+
+insert into leg_instance(flight_number, leg_number, date, number_available_seats, airplane_id, departure_airport_code, departure_time, arrival_airport_code, arrival_time) values
+(0, 2, '8/17/2020', 450, 1, 'BWI', '07:00', 'IAD', '14:30');
+
+insert into leg_instance(flight_number, leg_number, date, number_available_seats, airplane_id, departure_airport_code, departure_time, arrival_airport_code, arrival_time) values
+(1, 1, '8/15/2020', 50, 1, 'BWI', '07:00', 'SFO', '12:00');
+
+insert into leg_instance(flight_number, leg_number, date, number_available_seats, airplane_id, departure_airport_code, departure_time, arrival_airport_code, arrival_time) values
+(1, 1, '8/17/2020', 3, 1, 'BWI', '07:00', 'SFO', '12:00');
+
+insert into leg_instance(flight_number, leg_number, date, number_available_seats, airplane_id, departure_airport_code, departure_time, arrival_airport_code, arrival_time) values
+(1, 1, '8/19/2020', 0, 1, 'BWI', '07:00', 'SFO', '12:00');
+
+insert into leg_instance(flight_number, leg_number, date, number_available_seats, airplane_id, departure_airport_code, departure_time, arrival_airport_code, arrival_time) values
+(2, 1, '8/22/2020', 450, 0, 'SFO', '14:00', 'BWI', '18:00');
+
+insert into leg_instance(flight_number, leg_number, date, number_available_seats, airplane_id, departure_airport_code, departure_time, arrival_airport_code, arrival_time) values
+(2, 1, '8/24/2020', 450, 0, 'SFO', '14:00', 'BWI', '18:00');
+
+
+CREATE TABLE fare (
+    flight_number  			INT      NOT NULL,
+	fare_code				INT		 NOT NULL,
+    amount					INT		 NOT NULL,
+	restrictions			VARCHAR(300),
+	CONSTRAINT fare_pk
+		PRIMARY KEY (flight_number, fare_code),
+	CONSTRAINT flight_number_fk
+		FOREIGN KEY (flight_number) REFERENCES flight(flight_number)
+                 ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT max_fare
+		CHECK (amount <= 10000),
+		CHECK (amount >= 0)
+);
+
+insert into fare(flight_number, fare_code, amount, restrictions) values
+(0, 0, 350, null);
+
+insert into fare(flight_number, fare_code, amount, restrictions) values
+(1, 0, 100, 'Must purchase one week before flight');
+
+insert into fare(flight_number, fare_code, amount, restrictions) values
+(1, 1, 300, null);
+
+insert into fare(flight_number, fare_code, amount, restrictions) values
+(2, 0, 500, null);
+
+insert into fare(flight_number, fare_code, amount, restrictions) values
+(3, 0, 2000, null);
+
+insert into fare(flight_number, fare_code, amount, restrictions) values
+(189, 0, 500, 'First Class');
+
+insert into fare(flight_number, fare_code, amount, restrictions) values
+(189, 1, 300, 'Business Class');
+
+insert into fare(flight_number, fare_code, amount, restrictions) values
+(189, 2, 150, 'Economy');
+
+
+CREATE TABLE can_land (
+    airplane_type_name  	VARCHAR(30)      NOT NULL,
+	airport_code			VARCHAR(3)		 NOT NULL,
+	CONSTRAINT can_land_pk
+		PRIMARY KEY (airplane_type_name, airport_code),
+	CONSTRAINT airplane_type_name_fk
+		FOREIGN KEY (airplane_type_name) REFERENCES airplane_type(airplane_type_name)
+            ON DELETE SET NULL ON UPDATE CASCADE,
+	CONSTRAINT airport_code_fk
+		FOREIGN KEY (airport_code) REFERENCES airport(airport_code)
+            ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+insert into can_land(airplane_type_name, airport_code) values
+('737 NG', 'IAD');
+	
+insert into can_land(airplane_type_name, airport_code) values
+('737 NG', 'BWI');
+
+insert into can_land(airplane_type_name, airport_code) values
+('737 NG', 'SFO');
+
+insert into can_land(airplane_type_name, airport_code) values
+('A330neo', 'IAD');
+
+insert into can_land(airplane_type_name, airport_code) values
+('A330neo', 'BWI');
+
+insert into can_land(airplane_type_name, airport_code) values
+('A330neo', 'SFO');
+
+
+CREATE TABLE seat_reservation (
+    flight_number  			INT     		 NOT NULL,
+	leg_number				INT				 NOT NULL,
+	date					DATE			 NOT NULL,
+	seat_number				VARCHAR(3)		 NOT NULL,
+	customer_name			VARCHAR(50)		 NOT NULL,
+	customer_phone			VARCHAR(20),
+	CONSTRAINT res_pk
+		PRIMARY KEY (flight_number, leg_number, date, seat_number),
+	CONSTRAINT leg_instance_fk
+		FOREIGN KEY (flight_number, leg_number, date) REFERENCES leg_instance(flight_number, leg_number, date)
+            ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+insert into seat_reservation(flight_number, leg_number, date, seat_number, customer_name, customer_phone) values
+(0, 1, '8/17/2020', '34A', 'Steven Stamkos', null);
+
+insert into seat_reservation(flight_number, leg_number, date, seat_number, customer_name, customer_phone) values
+(0, 2, '8/17/2020', '26F', 'Steven Stamkos', null);
+
+
+select * from can_land
+where airport_code = 'IAD'
+
+
+select fare.flight_number, fare_code, amount, restrictions from fare
+join flight on (flight.flight_number = fare.flight_number)
+where flight.flight_number = 189 and flight.airline = 'United'
+
+
+select date, number_available_seats, leg_instance.departure_airport_code, leg_instance.arrival_airport_code,
+departure_time, scheduled_departure_time, arrival_time, scheduled_arrival_time
+from leg_instance
+join flight_leg
+on leg_instance.flight_number = flight_leg.flight_number and
+leg_instance.leg_number = flight_leg.leg_number
+where 
+(leg_instance.departure_airport_code = 'BWI' and
+ leg_instance.arrival_airport_code = 'SFO' and
+ leg_instance.number_available_seats >= 2 and
+ leg_instance.date = '8/15/2020') or
+ (leg_instance.departure_airport_code = 'SFO' and
+ leg_instance.arrival_airport_code = 'BWI' and
+ leg_instance.date = '8/22/2020')

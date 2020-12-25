@@ -1,0 +1,19 @@
+one_hot_encode:
+    2: handicapped-infants
+    3: water-project-cost-sharing
+    4: adoption-of-the-budget-resolution
+    5: physician-fee-freeze
+    6: el-salvador-aid
+    7: religious-groups-in-schools
+    8: anti-satellite-test-ban
+    9: aid-to-nicaraguan-contras
+    10: mx-missile
+    11: immigration
+    12: synfuels-corporation-cutback
+    13: education-spending
+    14: superfund-right-to-sue
+    15: crime
+    16: duty-free-exports
+    17: export-administration-act-south-africa
+result_col: 1
+order_results: true

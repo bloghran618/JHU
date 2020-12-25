@@ -1,0 +1,16 @@
+rename_cols:
+    2: model
+    9: PRP
+one_hot_encode:
+    1: vendor
+normalize_cols:
+    3: MYCT
+    4: MMIN
+    5: MMAX
+    6: CACH
+    7: CHMIN
+    8: CHMAX
+result_col: 10
+drop_columns:
+    - model
+    - PRP

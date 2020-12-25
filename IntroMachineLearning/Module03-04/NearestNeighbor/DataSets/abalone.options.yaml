@@ -1,0 +1,12 @@
+order_results: true
+rename_cols:
+    2: length
+    3: diameter
+    4: height
+    5: whole_weight
+    6: shucked_weight
+    7: viscera_weight
+    8: shell_weight
+one_hot_encode:
+    1: sex
+result_col: 9

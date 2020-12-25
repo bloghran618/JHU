@@ -1,0 +1,18 @@
+the model for cross 0 is: k=2, sigma=5, epsilon=250
+the number wrong for cross 0 is 2 of 93
+
+the model for cross 1 is: k=5, sigma=1, epsilon=250
+the number wrong for cross 1 is 1 of 93
+
+the model for cross 2 is: k=1, sigma=1, epsilon=250
+the number wrong for cross 2 is 1 of 93
+
+the model for cross 3 is: k=2, sigma=5, epsilon=250
+the number wrong for cross 3 is 1 of 93
+
+the model for cross 4 is: k=25, sigma=5, epsilon=250
+the number wrong for cross 4 is 3 of 93
+
+the loss for all 5 cross validations is: 8
+
+model accuracy is: 98.28%

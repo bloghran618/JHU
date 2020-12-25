@@ -1,0 +1,18 @@
+the model for cross 0 is: k=3
+the loss for cross 0 is 11 of 38
+
+the model for cross 1 is: k=2
+the loss for cross 1 is 8 of 38
+
+the model for cross 2 is: k=2
+the loss for cross 2 is 6 of 38
+
+the model for cross 3 is: k=5
+the loss for cross 3 is 9 of 38
+
+the model for cross 4 is: k=2
+the loss for cross 4 is 7 of 37
+
+the loss for all 5 cross validations is: 41
+
+model accuracy is: 78.31%

@@ -1,0 +1,4 @@
+reduce training set for cross 0 from 372 points to 197 points
+the model for cross 0 is: k=2, sigma=1, epsilon=250
+the number wrong for cross 0 is 2 of 93
+

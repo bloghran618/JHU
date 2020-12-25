@@ -1,0 +1,8 @@
+left_index: false
+normalize_cols:
+    1: sepal_length
+    2: sepal_width
+    3: petal_length
+    4: petal_width
+result_col: 5
+order_results: true

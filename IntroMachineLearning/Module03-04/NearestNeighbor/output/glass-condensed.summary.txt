@@ -1,0 +1,23 @@
+reduce training set for cross 0 from 153 points to 73 points
+the model for cross 0 is: k=5
+the loss for cross 0 is 17 of 39
+
+reduce training set for cross 1 from 153 points to 81 points
+the model for cross 1 is: k=2
+the loss for cross 1 is 12 of 39
+
+reduce training set for cross 2 from 154 points to 88 points
+the model for cross 2 is: k=8
+the loss for cross 2 is 10 of 38
+
+reduce training set for cross 3 from 154 points to 87 points
+the model for cross 3 is: k=2
+the loss for cross 3 is 9 of 38
+
+reduce training set for cross 4 from 154 points to 79 points
+the model for cross 4 is: k=15
+the loss for cross 4 is 16 of 38
+
+the loss for all 5 cross validations is: 64
+
+model accuracy is: 66.67%

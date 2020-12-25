@@ -1,0 +1,1826 @@
+starting at (x=1, y=10)
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#@SSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+the acceleration attempt failed
+this maneuver will pass through: [(1, 10)]
+the board at (x=1, y=10) is S
+we did not crash, execute maneuver
+location: (x=1, y=10)
+speed: x=0; y=0
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#@SSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+the acceleration attempt failed
+this maneuver will pass through: [(1, 10)]
+the board at (x=1, y=10) is S
+we did not crash, execute maneuver
+location: (x=1, y=10)
+speed: x=0; y=0
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#@SSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(1, 10), (1, 9)]
+the board at (x=1, y=10) is S
+the board at (x=1, y=9) is .
+we did not crash, execute maneuver
+location: (x=1, y=9)
+speed: x=0; y=-1
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#@...###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(1, 9), (2, 8), (2, 7)]
+the board at (x=1, y=9) is .
+the board at (x=2, y=8) is .
+the board at (x=2, y=7) is .
+we did not crash, execute maneuver
+location: (x=2, y=7)
+speed: x=1; y=-2
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#.@..###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+the acceleration attempt failed
+this maneuver will pass through: [(2, 7), (3, 6), (3, 5)]
+the board at (x=2, y=7) is .
+the board at (x=3, y=6) is .
+the board at (x=3, y=5) is .
+we did not crash, execute maneuver
+location: (x=3, y=5)
+speed: x=1; y=-2
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#..@.###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(3, 5), (4, 4)]
+the board at (x=3, y=5) is .
+the board at (x=4, y=4) is .
+we did not crash, execute maneuver
+location: (x=4, y=4)
+speed: x=1; y=-1
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##..@.#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(4, 4), (5, 3)]
+the board at (x=4, y=4) is .
+the board at (x=5, y=3) is .
+we did not crash, execute maneuver
+location: (x=5, y=3)
+speed: x=1; y=-1
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###..@.###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(5, 3), (6, 2)]
+the board at (x=5, y=3) is .
+the board at (x=6, y=2) is .
+we did not crash, execute maneuver
+location: (x=6, y=2)
+speed: x=1; y=-1
+the reward at this location is -1
+#########################
+####.................####
+###...@...............###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(6, 2), (7, 2), (8, 2)]
+the board at (x=6, y=2) is .
+the board at (x=7, y=2) is .
+the board at (x=8, y=2) is .
+we did not crash, execute maneuver
+location: (x=8, y=2)
+speed: x=2; y=0
+the reward at this location is -1
+#########################
+####.................####
+###.....@.............###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(8, 2), (9, 2), (10, 2), (11, 2)]
+the board at (x=8, y=2) is .
+the board at (x=9, y=2) is .
+the board at (x=10, y=2) is .
+the board at (x=11, y=2) is .
+we did not crash, execute maneuver
+location: (x=11, y=2)
+speed: x=3; y=0
+the reward at this location is -1
+#########################
+####.................####
+###........@..........###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(11, 2), (12, 2), (13, 2)]
+the board at (x=11, y=2) is .
+the board at (x=12, y=2) is .
+the board at (x=13, y=2) is .
+we did not crash, execute maneuver
+location: (x=13, y=2)
+speed: x=2; y=0
+the reward at this location is -1
+#########################
+####.................####
+###..........@........###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(13, 2), (14, 2), (15, 2)]
+the board at (x=13, y=2) is .
+the board at (x=14, y=2) is .
+the board at (x=15, y=2) is .
+we did not crash, execute maneuver
+location: (x=15, y=2)
+speed: x=2; y=0
+the reward at this location is -1
+#########################
+####.................####
+###............@......###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(15, 2), (16, 2)]
+the board at (x=15, y=2) is .
+the board at (x=16, y=2) is .
+we did not crash, execute maneuver
+location: (x=16, y=2)
+speed: x=1; y=0
+the reward at this location is -1
+#########################
+####.................####
+###.............@.....###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(16, 2), (17, 2)]
+the board at (x=16, y=2) is .
+the board at (x=17, y=2) is .
+we did not crash, execute maneuver
+location: (x=17, y=2)
+speed: x=1; y=0
+the reward at this location is -1
+#########################
+####.................####
+###..............@....###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+the acceleration attempt failed
+this maneuver will pass through: [(17, 2), (18, 2)]
+the board at (x=17, y=2) is .
+the board at (x=18, y=2) is .
+we did not crash, execute maneuver
+location: (x=18, y=2)
+speed: x=1; y=0
+the reward at this location is -1
+#########################
+####.................####
+###...............@...###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+the acceleration attempt failed
+this maneuver will pass through: [(18, 2), (19, 2)]
+the board at (x=18, y=2) is .
+the board at (x=19, y=2) is .
+we did not crash, execute maneuver
+location: (x=19, y=2)
+speed: x=1; y=0
+the reward at this location is -1
+#########################
+####.................####
+###................@..###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(19, 2), (19, 3)]
+the board at (x=19, y=2) is .
+the board at (x=19, y=3) is .
+we did not crash, execute maneuver
+location: (x=19, y=3)
+speed: x=0; y=1
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########.@..###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+the acceleration attempt failed
+this maneuver will pass through: [(19, 3), (19, 4)]
+the board at (x=19, y=3) is .
+the board at (x=19, y=4) is .
+we did not crash, execute maneuver
+location: (x=19, y=4)
+speed: x=0; y=1
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############@...##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(19, 4), (20, 4)]
+the board at (x=19, y=4) is .
+the board at (x=20, y=4) is .
+we did not crash, execute maneuver
+location: (x=20, y=4)
+speed: x=1; y=0
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############.@..##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(20, 4), (20, 5)]
+the board at (x=20, y=4) is .
+the board at (x=20, y=5) is .
+we did not crash, execute maneuver
+location: (x=20, y=5)
+speed: x=0; y=1
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############@...#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+the acceleration attempt failed
+this maneuver will pass through: [(20, 5), (20, 6)]
+the board at (x=20, y=5) is .
+the board at (x=20, y=6) is .
+we did not crash, execute maneuver
+location: (x=20, y=6)
+speed: x=0; y=1
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############@...#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(20, 6), (20, 7), (20, 8)]
+the board at (x=20, y=6) is .
+the board at (x=20, y=7) is .
+the board at (x=20, y=8) is .
+we did not crash, execute maneuver
+location: (x=20, y=8)
+speed: x=0; y=2
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############@...#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(20, 8), (20, 9), (20, 10), (20, 11)]
+the board at (x=20, y=8) is .
+the board at (x=20, y=9) is .
+the board at (x=20, y=10) is .
+the board at (x=20, y=11) is .
+we did not crash, execute maneuver
+location: (x=20, y=11)
+speed: x=0; y=3
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################@...#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(20, 11), (20, 12), (20, 13)]
+the board at (x=20, y=11) is .
+the board at (x=20, y=12) is .
+the board at (x=20, y=13) is .
+we did not crash, execute maneuver
+location: (x=20, y=13)
+speed: x=0; y=2
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############@...#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+the acceleration attempt failed
+this maneuver will pass through: [(20, 13), (20, 14), (20, 15)]
+the board at (x=20, y=13) is .
+the board at (x=20, y=14) is .
+the board at (x=20, y=15) is .
+we did not crash, execute maneuver
+location: (x=20, y=15)
+speed: x=0; y=2
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############@...#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+the acceleration attempt failed
+this maneuver will pass through: [(20, 15), (20, 16), (20, 17)]
+the board at (x=20, y=15) is .
+the board at (x=20, y=16) is .
+the board at (x=20, y=17) is .
+we did not crash, execute maneuver
+location: (x=20, y=17)
+speed: x=0; y=2
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############@...#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(20, 17), (20, 18)]
+the board at (x=20, y=17) is .
+the board at (x=20, y=18) is .
+we did not crash, execute maneuver
+location: (x=20, y=18)
+speed: x=0; y=1
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############@...#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(20, 18), (20, 19)]
+the board at (x=20, y=18) is .
+the board at (x=20, y=19) is .
+we did not crash, execute maneuver
+location: (x=20, y=19)
+speed: x=0; y=1
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############@...#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(20, 19), (20, 20)]
+the board at (x=20, y=19) is .
+the board at (x=20, y=20) is .
+we did not crash, execute maneuver
+location: (x=20, y=20)
+speed: x=0; y=1
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############.@..##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(20, 20), (19, 21)]
+the board at (x=20, y=20) is .
+the board at (x=19, y=21) is .
+we did not crash, execute maneuver
+location: (x=19, y=21)
+speed: x=-1; y=1
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########.@..###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(19, 21), (18, 22)]
+the board at (x=19, y=21) is .
+the board at (x=18, y=22) is .
+we did not crash, execute maneuver
+location: (x=18, y=22)
+speed: x=-1; y=1
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...............@...###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(18, 22), (17, 22), (16, 22)]
+the board at (x=18, y=22) is .
+the board at (x=17, y=22) is .
+the board at (x=16, y=22) is .
+we did not crash, execute maneuver
+location: (x=16, y=22)
+speed: x=-2; y=0
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###.............@.....###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(16, 22), (15, 22), (14, 22), (13, 22)]
+the board at (x=16, y=22) is .
+the board at (x=15, y=22) is .
+the board at (x=14, y=22) is .
+the board at (x=13, y=22) is .
+we did not crash, execute maneuver
+location: (x=13, y=22)
+speed: x=-3; y=0
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###..........@........###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(13, 22), (12, 22), (11, 22)]
+the board at (x=13, y=22) is .
+the board at (x=12, y=22) is .
+the board at (x=11, y=22) is .
+we did not crash, execute maneuver
+location: (x=11, y=22)
+speed: x=-2; y=0
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###........@..........###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+the acceleration attempt failed
+this maneuver will pass through: [(11, 22), (10, 22), (9, 22)]
+the board at (x=11, y=22) is .
+the board at (x=10, y=22) is .
+the board at (x=9, y=22) is .
+we did not crash, execute maneuver
+location: (x=9, y=22)
+speed: x=-2; y=0
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###......@............###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(9, 22), (8, 22), (7, 22)]
+the board at (x=9, y=22) is .
+the board at (x=8, y=22) is .
+the board at (x=7, y=22) is .
+we did not crash, execute maneuver
+location: (x=7, y=22)
+speed: x=-2; y=0
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###....@..............###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+the acceleration attempt failed
+this maneuver will pass through: [(7, 22), (6, 22), (5, 22)]
+the board at (x=7, y=22) is .
+the board at (x=6, y=22) is .
+the board at (x=5, y=22) is .
+we did not crash, execute maneuver
+location: (x=5, y=22)
+speed: x=-2; y=0
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###..@................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(5, 22), (4, 21)]
+the board at (x=5, y=22) is .
+the board at (x=4, y=21) is .
+we did not crash, execute maneuver
+location: (x=4, y=21)
+speed: x=-1; y=-1
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###.@..###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+the acceleration attempt failed
+this maneuver will pass through: [(4, 21), (3, 20)]
+the board at (x=4, y=21) is .
+the board at (x=3, y=20) is .
+we did not crash, execute maneuver
+location: (x=3, y=20)
+speed: x=-1; y=-1
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##.@..#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(3, 20), (3, 19), (3, 18)]
+the board at (x=3, y=20) is .
+the board at (x=3, y=19) is .
+the board at (x=3, y=18) is .
+we did not crash, execute maneuver
+location: (x=3, y=18)
+speed: x=0; y=-2
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#..@.###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(3, 18), (3, 17), (3, 16), (3, 15)]
+the board at (x=3, y=18) is .
+the board at (x=3, y=17) is .
+the board at (x=3, y=16) is .
+the board at (x=3, y=15) is .
+we did not crash, execute maneuver
+location: (x=3, y=15)
+speed: x=0; y=-3
+the reward at this location is -1
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FFFF###############....#
+#....###############....#
+#....###############....#
+#..@.###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+choice: 1 accelerates x -1 and y 1
+choice: 2 accelerates x 0 and y 1
+choice: 3 accelerates x 1 and y 1
+choice: 4 accelerates x -1 and y 0
+choice: 5 accelerates x 0 and y 0
+choice: 6 accelerates x 1 and y 0
+choice: 7 accelerates x -1 and y -1
+choice: 8 accelerates x 0 and y -1
+choice: 9 accelerates x 1 and y -1
+this maneuver will pass through: [(3, 15), (3, 14), (3, 13), (3, 12), (3, 11)]
+the board at (x=3, y=15) is .
+the board at (x=3, y=14) is .
+the board at (x=3, y=13) is .
+the board at (x=3, y=12) is F
+hey! we finished!
+location: (x=3, y=12)
+speed: x=0; y=0
+the reward at this location is 100
+#########################
+####.................####
+###...................###
+###....###########....###
+##....#############....##
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#SSSS###############....#
+####################....#
+#FF@F###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+#....###############....#
+##....#############....##
+###....###########....###
+###...................###
+####.................####
+#########################
+
+you took 42 moves

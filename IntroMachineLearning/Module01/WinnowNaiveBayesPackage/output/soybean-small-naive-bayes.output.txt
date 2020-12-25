@@ -1,0 +1,1099 @@
+options: {'one_hot_encode': {1: 'date', 2: 'plant-stand', 3: 'precip', 4: 'temp', 5: 'hail', 6: 'crop-hist', 7: 'area-damaged', 8: 'severity', 9: 'seed-tmt', 10: 'germination', 11: 'plant-growth', 12: 'leaves', 13: 'leafspots-halo', 14: 'leafspots-marg', 15: 'leafspot-size', 16: 'leaf-shread', 17: 'leaf-malf', 18: 'leaf-mild', 19: 'stem', 20: 'lodging', 21: 'stem-cankers', 22: 'canker-lesion', 23: 'fruiting-bodies', 24: 'external decay', 25: 'mycelium', 26: 'int-discolor', 27: 'sclerotia', 28: 'fruit-pods', 29: 'fruit spots', 30: 'seed', 31: 'mold-growth', 32: 'seed-discolor', 33: 'seed-size', 34: 'shriveling', 35: 'roots'}, 'result_col': 36, 'randomize_rows': True}
+1: date
+unique date values: [0 1 2 3 4 5 6]
+column names for [0 1 2 3 4 5 6]: ['date=0', 'date=1', 'date=2', 'date=3', 'date=4', 'date=5', 'date=6']
+2: plant-stand
+unique plant-stand values: [0 1]
+column names for [0 1]: ['plant-stand=0', 'plant-stand=1']
+3: precip
+unique precip values: [0 1 2]
+column names for [0 1 2]: ['precip=0', 'precip=1', 'precip=2']
+4: temp
+unique temp values: [0 1 2]
+column names for [0 1 2]: ['temp=0', 'temp=1', 'temp=2']
+5: hail
+unique hail values: [0 1]
+column names for [0 1]: ['hail=0', 'hail=1']
+6: crop-hist
+unique crop-hist values: [0 1 2 3]
+column names for [0 1 2 3]: ['crop-hist=0', 'crop-hist=1', 'crop-hist=2', 'crop-hist=3']
+7: area-damaged
+unique area-damaged values: [0 1 2 3]
+column names for [0 1 2 3]: ['area-damaged=0', 'area-damaged=1', 'area-damaged=2', 'area-damaged=3']
+8: severity
+unique severity values: [1 2]
+column names for [1 2]: ['severity=1', 'severity=2']
+9: seed-tmt
+unique seed-tmt values: [0 1]
+column names for [0 1]: ['seed-tmt=0', 'seed-tmt=1']
+10: germination
+unique germination values: [0 1 2]
+column names for [0 1 2]: ['germination=0', 'germination=1', 'germination=2']
+11: plant-growth
+unique plant-growth values: [1]
+column names for [1]: ['plant-growth=1']
+12: leaves
+unique leaves values: [0 1]
+column names for [0 1]: ['leaves=0', 'leaves=1']
+13: leafspots-halo
+unique leafspots-halo values: [0]
+column names for [0]: ['leafspots-halo=0']
+14: leafspots-marg
+unique leafspots-marg values: [2]
+column names for [2]: ['leafspots-marg=2']
+15: leafspot-size
+unique leafspot-size values: [2]
+column names for [2]: ['leafspot-size=2']
+16: leaf-shread
+unique leaf-shread values: [0]
+column names for [0]: ['leaf-shread=0']
+17: leaf-malf
+unique leaf-malf values: [0]
+column names for [0]: ['leaf-malf=0']
+18: leaf-mild
+unique leaf-mild values: [0]
+column names for [0]: ['leaf-mild=0']
+19: stem
+unique stem values: [1]
+column names for [1]: ['stem=1']
+20: lodging
+unique lodging values: [0 1]
+column names for [0 1]: ['lodging=0', 'lodging=1']
+21: stem-cankers
+unique stem-cankers values: [0 1 2 3]
+column names for [0 1 2 3]: ['stem-cankers=0', 'stem-cankers=1', 'stem-cankers=2', 'stem-cankers=3']
+22: canker-lesion
+unique canker-lesion values: [0 1 2 3]
+column names for [0 1 2 3]: ['canker-lesion=0', 'canker-lesion=1', 'canker-lesion=2', 'canker-lesion=3']
+23: fruiting-bodies
+unique fruiting-bodies values: [0 1]
+column names for [0 1]: ['fruiting-bodies=0', 'fruiting-bodies=1']
+24: external decay
+unique external decay values: [0 1]
+column names for [0 1]: ['external decay=0', 'external decay=1']
+25: mycelium
+unique mycelium values: [0 1]
+column names for [0 1]: ['mycelium=0', 'mycelium=1']
+26: int-discolor
+unique int-discolor values: [0 2]
+column names for [0 2]: ['int-discolor=0', 'int-discolor=2']
+27: sclerotia
+unique sclerotia values: [0 1]
+column names for [0 1]: ['sclerotia=0', 'sclerotia=1']
+28: fruit-pods
+unique fruit-pods values: [0 3]
+column names for [0 3]: ['fruit-pods=0', 'fruit-pods=3']
+29: fruit spots
+unique fruit spots values: [4]
+column names for [4]: ['fruit spots=4']
+30: seed
+unique seed values: [0]
+column names for [0]: ['seed=0']
+31: mold-growth
+unique mold-growth values: [0]
+column names for [0]: ['mold-growth=0']
+32: seed-discolor
+unique seed-discolor values: [0]
+column names for [0]: ['seed-discolor=0']
+33: seed-size
+unique seed-size values: [0]
+column names for [0]: ['seed-size=0']
+34: shriveling
+unique shriveling values: [0]
+column names for [0]: ['shriveling=0']
+35: roots
+unique roots values: [0 1]
+column names for [0 1]: ['roots=0', 'roots=1']
+    date=0  date=1  date=2  date=3  date=4  date=5  date=6  plant-stand=0  plant-stand=1  precip=0  precip=1  precip=2  temp=0  temp=1  temp=2  hail=0  hail=1  crop-hist=0  crop-hist=1  crop-hist=2  crop-hist=3  area-damaged=0  area-damaged=1  area-damaged=2  area-damaged=3  severity=1  severity=2  seed-tmt=0  seed-tmt=1  germination=0  germination=1  germination=2  plant-growth=1  leaves=0  leaves=1  leafspots-halo=0  leafspots-marg=2  leafspot-size=2  leaf-shread=0  leaf-malf=0  leaf-mild=0  stem=1  lodging=0  lodging=1  stem-cankers=0  stem-cankers=1  stem-cankers=2  stem-cankers=3  canker-lesion=0  canker-lesion=1  canker-lesion=2  canker-lesion=3  fruiting-bodies=0  fruiting-bodies=1  external decay=0  external decay=1  mycelium=0  mycelium=1  int-discolor=0  int-discolor=2  sclerotia=0  sclerotia=1  fruit-pods=0  fruit-pods=3  fruit spots=4  seed=0  mold-growth=0  seed-discolor=0  seed-size=0  shriveling=0  roots=0  roots=1 result
+0        0       1       0       0       0       0       0              0              1         0         0         1       0       1       0       1       0            1            0            0            0               0               1               0               0           0           1           0           1              0              1              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               1               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+1        1       0       0       0       0       0       0              0              1         0         0         1       0       1       0       1       0            0            0            0            1               0               1               0               0           1           0           1           0              1              0              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+2        0       0       0       0       0       0       1              1              0         0         0         1       0       1       0       1       0            0            1            0            0               0               1               0               0           1           0           1           0              1              0              0               1         0         1                 1                 1                1              1            1            1       1          0          1               0               0               0               1                0                1                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+3        0       0       0       1       0       0       0              0              1         0         0         1       1       0       0       1       0            0            1            0            0               0               1               0               0           0           1           0           1              1              0              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               1               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+4        0       0       0       0       0       0       1              1              0         1         0         0       0       0       1       1       0            0            1            0            0               0               0               0               1           1           0           0           1              1              0              0               1         0         1                 1                 1                1              1            1            1       1          1          0               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+5        0       1       0       0       0       0       0              0              1         0         0         1       1       0       0       1       0            1            0            0            0               0               1               0               0           0           1           0           1              1              0              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               1               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+6        1       0       0       0       0       0       0              0              1         0         0         1       1       0       0       1       0            0            1            0            0               0               1               0               0           1           0           0           1              0              1              0               1         1         0                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                1                0                0                  1                  0                 0                 1           0           1               1               0            1            0             0             1              1       1              1                1            1             1        1        0     D3
+7        0       0       0       0       0       1       0              1              0         1         0         0       0       0       1       1       0            0            0            0            1               0               0               1               0           1           0           1           0              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+8        1       0       0       0       0       0       0              0              1         0         0         1       1       0       0       1       0            1            0            0            0               0               1               0               0           1           0           0           1              0              0              1               1         1         0                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                1                0                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        1        0     D3
+9        0       0       1       0       0       0       0              0              1         0         0         1       1       0       0       1       0            0            0            0            1               0               1               0               0           0           1           1           0              0              0              1               1         1         0                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                1                0                0                  1                  0                 0                 1           0           1               1               0            1            0             0             1              1       1              1                1            1             1        1        0     D3
+10       0       0       1       0       0       0       0              0              1         0         0         1       1       0       0       1       0            0            0            1            0               0               1               0               0           1           0           1           0              0              0              1               1         1         0                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                1                0                0                  1                  0                 0                 1           0           1               1               0            1            0             0             1              1       1              1                1            1             1        1        0     D3
+11       0       0       1       0       0       0       0              0              1         0         0         1       1       0       0       1       0            0            1            0            0               0               1               0               0           0           1           1           0              1              0              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+12       0       0       0       1       0       0       0              1              0         0         0         1       0       1       0       1       0            0            0            1            0               1               0               0               0           0           1           0           1              0              1              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               0               1                1                0                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+13       0       1       0       0       0       0       0              0              1         0         0         1       0       1       0       0       1            0            0            0            1               0               1               0               0           0           1           1           0              0              1              0               1         0         1                 1                 1                1              1            1            1       1          0          1               0               1               0               0                0                0                1                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+14       1       0       0       0       0       0       0              0              1         0         0         1       1       0       0       1       0            1            0            0            0               0               1               0               0           1           0           1           0              0              1              0               1         1         0                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                1                0                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D3
+15       0       0       0       0       0       0       1              1              0         0         0         1       0       1       0       1       0            0            0            0            1               1               0               0               0           1           0           0           1              0              1              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               0               1                0                1                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+16       0       1       0       0       0       0       0              0              1         0         0         1       0       1       0       0       1            0            0            1            0               0               0               0               1           1           0           0           1              0              1              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               1               0                0                0                1                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+17       0       0       0       0       1       0       0              1              0         1         0         0       0       1       0       0       1            0            1            0            0               0               0               0               1           1           0           0           1              0              1              0               1         0         1                 1                 1                1              1            1            1       1          0          1               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+18       0       0       0       0       0       1       0              1              0         0         0         1       0       1       0       1       0            0            0            0            1               0               1               0               0           1           0           0           1              0              0              1               1         0         1                 1                 1                1              1            1            1       1          0          1               0               0               0               1                1                0                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+19       0       0       1       0       0       0       0              0              1         0         0         1       1       0       0       1       0            0            0            0            1               0               1               0               0           0           1           1           0              0              1              0               1         1         0                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                1                0                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        1        0     D3
+20       0       0       0       0       1       0       0              1              0         0         0         1       0       1       0       1       0            0            0            0            1               1               0               0               0           0           1           1           0              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               0               1                0                1                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+21       1       0       0       0       0       0       0              0              1         0         1         0       0       1       0       0       1            0            0            1            0               0               1               0               0           0           1           0           1              1              0              0               1         0         1                 1                 1                1              1            1            1       1          0          1               0               0               1               0                0                0                1                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+22       0       0       0       1       0       0       0              1              0         0         0         1       1       0       0       0       1            0            0            0            1               0               1               0               0           0           1           1           0              0              1              0               1         1         0                 1                 1                1              1            1            1       1          0          1               0               1               0               0                0                1                0                0                  1                  0                 0                 1           0           1               1               0            1            0             0             1              1       1              1                1            1             1        1        0     D3
+23       0       0       0       0       0       1       0              1              0         0         0         1       0       1       0       1       0            0            0            1            0               1               0               0               0           1           0           0           1              1              0              0               1         0         1                 1                 1                1              1            1            1       1          0          1               0               0               0               1                0                1                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+24       0       0       1       0       0       0       0              0              1         0         1         0       1       0       0       1       0            0            0            0            1               0               1               0               0           0           1           1           0              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+25       0       0       1       0       0       0       0              0              1         0         0         1       0       1       0       0       1            0            0            0            1               0               1               0               0           0           1           0           1              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               1               0                0                0                1                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+26       1       0       0       0       0       0       0              0              1         0         0         1       1       0       0       1       0            0            1            0            0               0               1               0               0           0           1           0           1              0              0              1               1         1         0                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                1                0                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        1        0     D3
+27       0       0       0       0       0       1       0              1              0         1         0         0       0       0       1       0       1            0            0            1            0               0               0               1               0           1           0           1           0              0              0              1               1         0         1                 1                 1                1              1            1            1       1          0          1               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+28       1       0       0       0       0       0       0              0              1         0         0         1       0       1       0       0       1            0            1            0            0               0               1               0               0           1           0           1           0              1              0              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                0                1                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+29       0       0       0       0       1       0       0              1              0         0         0         1       0       1       0       0       1            0            1            0            0               1               0               0               0           1           0           1           0              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               0               1                0                1                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+30       0       0       0       1       0       0       0              1              0         1         0         0       0       0       1       0       1            1            0            0            0               0               0               1               0           1           0           1           0              0              1              0               1         0         1                 1                 1                1              1            1            1       1          1          0               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+31       0       0       0       0       0       1       0              1              0         1         0         0       0       0       1       0       1            0            0            0            1               0               0               0               1           1           0           0           1              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+32       0       0       1       0       0       0       0              0              1         0         0         1       0       1       0       0       1            0            1            0            0               0               1               0               0           0           1           1           0              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                0                1                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+33       0       0       0       1       0       0       0              1              0         1         0         0       0       1       0       1       0            0            1            0            0               0               0               1               0           1           0           1           0              1              0              0               1         0         1                 1                 1                1              1            1            1       1          1          0               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+34       1       0       0       0       0       0       0              0              1         0         1         0       0       1       0       1       0            0            1            0            0               0               1               0               0           1           0           1           0              1              0              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+35       1       0       0       0       0       0       0              0              1         0         0         1       0       1       0       1       0            0            0            0            1               0               1               0               0           1           0           1           0              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+36       0       0       0       0       1       0       0              1              0         1         0         0       0       1       0       1       0            0            0            1            0               0               0               0               1           1           0           0           1              0              1              0               1         0         1                 1                 1                1              1            1            1       1          1          0               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+37       0       0       0       1       0       0       0              0              1         0         0         1       1       0       0       1       0            0            0            1            0               0               1               0               0           0           1           0           1              0              1              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               1               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+38       0       0       0       0       0       0       1              1              0         1         0         0       0       1       0       0       1            0            0            0            1               0               0               0               1           1           0           0           1              1              0              0               1         0         1                 1                 1                1              1            1            1       1          1          0               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+39       0       0       0       0       0       0       1              1              0         0         0         1       0       1       0       1       0            0            1            0            0               1               0               0               0           1           0           1           0              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               0               1                0                1                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+40       0       0       0       0       0       0       1              1              0         1         0         0       0       0       1       0       1            1            0            0            0               0               0               1               0           1           0           1           0              1              0              0               1         0         1                 1                 1                1              1            1            1       1          0          1               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+41       0       0       0       0       1       0       0              1              0         0         0         1       1       0       0       0       1            1            0            0            0               0               1               0               0           0           1           1           0              0              0              1               1         0         1                 1                 1                1              1            1            1       1          0          1               0               1               0               0                0                1                0                0                  1                  0                 0                 1           0           1               1               0            1            0             0             1              1       1              1                1            1             1        1        0     D3
+42       1       0       0       0       0       0       0              0              1         0         0         1       1       0       0       1       0            0            0            1            0               0               1               0               0           1           0           0           1              0              1              0               1         1         0                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                1                0                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        1        0     D3
+43       0       1       0       0       0       0       0              0              1         0         0         1       1       0       0       1       0            0            0            0            1               0               1               0               0           1           0           0           1              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               1               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+44       0       0       0       1       0       0       0              0              1         0         1         0       1       0       0       1       0            0            0            1            0               0               1               0               0           0           1           0           1              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               1               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+45       0       0       0       1       0       0       0              1              0         0         0         1       0       1       0       1       0            0            1            0            0               1               0               0               0           0           1           0           1              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               0               1                1                0                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+46       0       0       0       1       0       0       0              1              0         0         0         1       0       1       0       1       0            0            0            1            0               0               1               0               0           1           0           1           0              0              1              0               1         0         1                 1                 1                1              1            1            1       1          0          1               0               0               0               1                1                0                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+the class instances: {'D4': 11, 'D1': 7, 'D2': 6, 'D3': 8}
+the class probabilities: {'D4': 0.34375, 'D1': 0.21875, 'D2': 0.1875, 'D3': 0.25}
+conditional probabilities:
+D4: [{0: 0.7272727272727273, 1: 0.2727272727272727}, {1: 0.36363636363636365, 0: 0.6363636363636364}, {0: 0.7272727272727273, 1: 0.2727272727272727}, {0: 0.9090909090909091, 1: 0.09090909090909091}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 0.8181818181818182, 1: 0.18181818181818182}, {1: 0.8181818181818182, 0: 0.18181818181818182}, {0: 0.6363636363636364, 1: 0.36363636363636365}, {1: 0.6363636363636364, 0: 0.36363636363636365}, {0: 1.0}, {1: 0.5454545454545454, 0: 0.45454545454545453}, {0: 0.5454545454545454, 1: 0.45454545454545453}, {1: 0.18181818181818182, 0: 0.8181818181818182}, {0: 0.7272727272727273, 1: 0.2727272727272727}, {0: 0.8181818181818182, 1: 0.18181818181818182}, {0: 0.6363636363636364, 1: 0.36363636363636365}, {0: 1.0}, {1: 0.9090909090909091, 0: 0.09090909090909091}, {0: 1.0}, {0: 0.9090909090909091, 1: 0.09090909090909091}, {0: 0.7272727272727273, 1: 0.2727272727272727}, {1: 0.7272727272727273, 0: 0.2727272727272727}, {0: 0.5454545454545454, 1: 0.45454545454545453}, {1: 0.5454545454545454, 0: 0.45454545454545453}, {0: 0.45454545454545453, 1: 0.5454545454545454}, {1: 0.2727272727272727, 0: 0.7272727272727273}, {0: 0.8181818181818182, 1: 0.18181818181818182}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 0.8181818181818182, 0: 0.18181818181818182}, {0: 0.8181818181818182, 1: 0.18181818181818182}, {0: 1.0}, {0: 0.5454545454545454, 1: 0.45454545454545453}, {1: 0.5454545454545454, 0: 0.45454545454545453}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 0.5454545454545454, 0: 0.45454545454545453}, {0: 0.5454545454545454, 1: 0.45454545454545453}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}]
+D1: [{0: 1.0}, {0: 1.0}, {0: 1.0}, {0: 0.8571428571428571, 1: 0.14285714285714285}, {0: 0.7142857142857143, 1: 0.2857142857142857}, {0: 0.7142857142857143, 1: 0.2857142857142857}, {1: 0.2857142857142857, 0: 0.7142857142857143}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 0.8571428571428571, 0: 0.14285714285714285}, {0: 0.8571428571428571, 1: 0.14285714285714285}, {0: 1.0}, {1: 0.2857142857142857, 0: 0.7142857142857143}, {0: 0.7142857142857143, 1: 0.2857142857142857}, {0: 0.5714285714285714, 1: 0.42857142857142855}, {0: 0.2857142857142857, 1: 0.7142857142857143}, {1: 0.2857142857142857, 0: 0.7142857142857143}, {0: 1.0}, {0: 1.0}, {1: 0.7142857142857143, 0: 0.2857142857142857}, {0: 0.7142857142857143, 1: 0.2857142857142857}, {1: 0.42857142857142855, 0: 0.5714285714285714}, {0: 0.42857142857142855, 1: 0.5714285714285714}, {1: 0.2857142857142857, 0: 0.7142857142857143}, {0: 0.7142857142857143, 1: 0.2857142857142857}, {0: 0.5714285714285714, 1: 0.42857142857142855}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {0: 0.42857142857142855, 1: 0.5714285714285714}, {1: 0.42857142857142855, 0: 0.5714285714285714}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 0.7142857142857143, 1: 0.2857142857142857}, {1: 0.7142857142857143, 0: 0.2857142857142857}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {0: 1.0}]
+D2: [{0: 1.0}, {0: 1.0}, {0: 1.0}, {0: 0.8333333333333334, 1: 0.16666666666666666}, {0: 0.8333333333333334, 1: 0.16666666666666666}, {0: 0.5, 1: 0.5}, {1: 0.16666666666666666, 0: 0.8333333333333334}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {0: 0.8333333333333334, 1: 0.16666666666666666}, {1: 0.8333333333333334, 0: 0.16666666666666666}, {1: 0.3333333333333333, 0: 0.6666666666666666}, {0: 0.3333333333333333, 1: 0.6666666666666666}, {0: 0.8333333333333334, 1: 0.16666666666666666}, {1: 0.3333333333333333, 0: 0.6666666666666666}, {0: 0.8333333333333334, 1: 0.16666666666666666}, {0: 0.6666666666666666, 1: 0.3333333333333333}, {0: 1.0}, {0: 1.0}, {0: 0.5, 1: 0.5}, {1: 0.5, 0: 0.5}, {1: 1.0}, {0: 1.0}, {0: 0.5, 1: 0.5}, {1: 0.5, 0: 0.5}, {1: 0.16666666666666666, 0: 0.8333333333333334}, {0: 0.6666666666666666, 1: 0.3333333333333333}, {0: 0.5, 1: 0.5}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 0.6666666666666666, 0: 0.3333333333333333}, {0: 0.6666666666666666, 1: 0.3333333333333333}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {0: 1.0}]
+D3: [{1: 0.5, 0: 0.5}, {0: 1.0}, {0: 0.625, 1: 0.375}, {0: 0.875, 1: 0.125}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {0: 0.875, 1: 0.125}, {1: 0.875, 0: 0.125}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {1: 0.875, 0: 0.125}, {0: 0.875, 1: 0.125}, {0: 0.75, 1: 0.25}, {1: 0.25, 0: 0.75}, {0: 0.875, 1: 0.125}, {0: 0.625, 1: 0.375}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {1: 0.5, 0: 0.5}, {0: 0.5, 1: 0.5}, {0: 0.375, 1: 0.625}, {1: 0.375, 0: 0.625}, {0: 1.0}, {1: 0.5, 0: 0.5}, {0: 0.5, 1: 0.5}, {1: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 0.875, 0: 0.125}, {0: 0.875, 1: 0.125}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 0.5, 1: 0.5}, {1: 0.5, 0: 0.5}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 0.875, 0: 0.125}, {0: 0.875, 1: 0.125}]
+row: Pandas(Index=32, _1=0, _2=0, _3=1, _4=0, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, _13=0, _14=1, _15=0, _16=0, _17=1, _18=0, _19=1, _20=0, _21=0, _22=0, _23=1, _24=0, _25=0, _26=0, _27=1, _28=1, _29=0, _30=0, _31=0, _32=1, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=0, _46=1, _47=0, _48=0, _49=0, _50=0, _51=1, _52=0, _53=1, _54=0, _55=0, _56=1, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=0, _64=1, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=0, _72=1, result='D4')
+result prediction raw: {'D4': 2.608826504192069e-07, 'D1': 5.652050050582297e-25, 'D2': 1.1992433949676198e-31, 'D3': 1.2486320602507422e-20}
+result prediction normalized: {'D4': 99.99999999999521, 'D1': 2.166510514018416e-16, 'D2': 4.596869102029296e-23, 'D3': 4.786182822982983e-12}
+the predicted class is: D4
+the actual class is: D4
+
+row: Pandas(Index=33, _1=0, _2=0, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=1, _11=0, _12=0, _13=0, _14=1, _15=0, _16=1, _17=0, _18=0, _19=1, _20=0, _21=0, _22=0, _23=0, _24=1, _25=0, _26=1, _27=0, _28=1, _29=0, _30=1, _31=0, _32=0, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=1, _46=0, _47=0, _48=0, _49=0, _50=0, _51=0, _52=1, _53=1, _54=0, _55=1, _56=0, _57=1, _58=0, _59=0, _60=1, _61=0, _62=1, _63=1, _64=0, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=1, _72=0, result='D2')
+result prediction raw: {'D4': 9.553807998750258e-08, 'D1': 2.2354299516463212e-23, 'D2': 2.6982976386771446e-29, 'D3': 1.4047110677820855e-17}
+result prediction normalized: {'D4': 99.99999998529681, 'D1': 2.339831354795973e-14, 'D2': 2.824316375871669e-20, 'D3': 1.4703153630042595e-08}
+the predicted class is: D4
+the actual class is: D4
+
+row: Pandas(Index=34, _1=1, _2=0, _3=0, _4=0, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=1, _12=0, _13=0, _14=1, _15=0, _16=1, _17=0, _18=0, _19=1, _20=0, _21=0, _22=0, _23=1, _24=0, _25=0, _26=1, _27=0, _28=1, _29=0, _30=1, _31=0, _32=0, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=0, _46=1, _47=0, _48=0, _49=0, _50=0, _51=1, _52=0, _53=1, _54=0, _55=1, _56=0, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=0, _64=1, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=0, _72=1, result='D4')
+result prediction raw: {'D4': 5.302896801751897e-23, 'D1': 1.957762236400607e-07, 'D2': 4.55337726526768e-27, 'D3': 4.718942026646798e-23}
+result prediction normalized: {'D4': 2.708652104507541e-14, 'D1': 99.99999999999994, 'D2': 2.325807077390139e-18, 'D3': 2.4103754474918693e-14}
+the predicted class is: D1
+the actual class is: D1
+
+row: Pandas(Index=35, _1=1, _2=0, _3=0, _4=0, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, _13=0, _14=1, _15=0, _16=1, _17=0, _18=0, _19=0, _20=0, _21=1, _22=0, _23=1, _24=0, _25=0, _26=1, _27=0, _28=1, _29=0, _30=0, _31=0, _32=1, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=0, _46=1, _47=0, _48=0, _49=0, _50=0, _51=1, _52=0, _53=1, _54=0, _55=1, _56=0, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=0, _64=1, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=0, _72=1, result='D4')
+result prediction raw: {'D4': 8.05009321293553e-08, 'D1': 3.768033367054866e-26, 'D2': 1.1992433949676194e-31, 'D3': 4.0134601936631014e-19}
+result prediction normalized: {'D4': 99.99999999950143, 'D1': 4.680732591991983e-17, 'D2': 1.4897260978725073e-22, 'D3': 4.985607107249323e-10}
+the predicted class is: D4
+the actual class is: D4
+
+row: Pandas(Index=36, _1=0, _2=0, _3=0, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=1, _11=0, _12=0, _13=0, _14=1, _15=0, _16=1, _17=0, _18=0, _19=0, _20=1, _21=0, _22=0, _23=0, _24=0, _25=1, _26=1, _27=0, _28=0, _29=1, _30=0, _31=1, _32=0, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=1, _46=0, _47=0, _48=0, _49=0, _50=0, _51=0, _52=1, _53=1, _54=0, _55=1, _56=0, _57=1, _58=0, _59=0, _60=1, _61=0, _62=1, _63=1, _64=0, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=1, _72=0, result='D2')
+result prediction raw: {'D4': 5.585313934279481e-29, 'D1': 9.420083417637169e-26, 'D2': 1.9938960850598235e-07, 'D3': 1.4435460151137305e-33}
+result prediction normalized: {'D4': 2.801206129110737e-20, 'D1': 4.724460561521457e-17, 'D2': 100.0, 'D3': 7.239825715743955e-25}
+the predicted class is: D2
+the actual class is: D2
+
+row: Pandas(Index=37, _1=0, _2=0, _3=0, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, _13=1, _14=0, _15=0, _16=1, _17=0, _18=0, _19=0, _20=1, _21=0, _22=0, _23=1, _24=0, _25=0, _26=0, _27=1, _28=0, _29=1, _30=0, _31=1, _32=0, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=0, _46=0, _47=1, _48=0, _49=0, _50=0, _51=1, _52=0, _53=1, _54=0, _55=1, _56=0, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=0, _64=1, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=0, _72=1, result='D4')
+result prediction raw: {'D4': 2.725957490094571e-07, 'D1': 2.512022244703244e-27, 'D2': 1.5989911932901598e-32, 'D3': 1.8729480903761138e-19}
+result prediction normalized: {'D4': 99.99999999993129, 'D1': 9.215192290523829e-19, 'D2': 5.8657965103982155e-24, 'D3': 6.870789794707507e-11}
+the predicted class is: D4
+the actual class is: D4
+
+row: Pandas(Index=38, _1=0, _2=0, _3=0, _4=0, _5=0, _6=0, _7=1, _8=1, _9=0, _10=1, _11=0, _12=0, _13=0, _14=1, _15=0, _16=0, _17=1, _18=0, _19=0, _20=0, _21=1, _22=0, _23=0, _24=0, _25=1, _26=1, _27=0, _28=0, _29=1, _30=1, _31=0, _32=0, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=1, _46=0, _47=0, _48=0, _49=0, _50=0, _51=0, _52=1, _53=1, _54=0, _55=1, _56=0, _57=1, _58=0, _59=0, _60=1, _61=0, _62=1, _63=1, _64=0, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=1, _72=0, result='D2')
+result prediction raw: {'D4': 2.4962591936116673e-18, 'D1': 3.5325312816139386e-24, 'D2': 4.441642203583778e-34, 'D3': 5.292177614885096e-06}
+result prediction normalized: {'D4': 4.7168847594785205e-11, 'D1': 6.6750051466082e-17, 'D2': 8.392844168889671e-27, 'D3': 99.99999999995282}
+the predicted class is: D3
+the actual class is: D3
+
+row: Pandas(Index=39, _1=0, _2=0, _3=0, _4=0, _5=0, _6=0, _7=1, _8=1, _9=0, _10=0, _11=0, _12=1, _13=0, _14=1, _15=0, _16=1, _17=0, _18=0, _19=1, _20=0, _21=0, _22=1, _23=0, _24=0, _25=0, _26=1, _27=0, _28=1, _29=0, _30=0, _31=0, _32=1, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=0, _46=0, _47=0, _48=1, _49=0, _50=1, _51=0, _52=0, _53=0, _54=1, _55=0, _56=1, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=1, _64=0, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=1, _72=0, result='D1')
+result prediction raw: {'D4': 7.296771747703289e-30, 'D1': 1.862858293038601e-25, 'D2': 4.98474021264956e-06, 'D3': 1.0826595113352986e-31}
+result prediction normalized: {'D4': 1.4638218716366773e-22, 'D1': 3.737122123859746e-18, 'D2': 100.0, 'D3': 2.171947714723187e-24}
+the predicted class is: D2
+the actual class is: D2
+
+row: Pandas(Index=40, _1=0, _2=0, _3=0, _4=0, _5=0, _6=0, _7=1, _8=1, _9=0, _10=1, _11=0, _12=0, _13=0, _14=0, _15=1, _16=0, _17=1, _18=1, _19=0, _20=0, _21=0, _22=0, _23=0, _24=1, _25=0, _26=1, _27=0, _28=1, _29=0, _30=1, _31=0, _32=0, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=0, _44=1, _45=1, _46=0, _47=0, _48=0, _49=0, _50=0, _51=0, _52=1, _53=1, _54=0, _55=1, _56=0, _57=1, _58=0, _59=0, _60=1, _61=0, _62=1, _63=1, _64=0, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=1, _72=0, result='D2')
+result prediction raw: {'D4': 1.9723529431005773e-16, 'D1': 2.4838110573847993e-22, 'D2': 7.994955966450799e-32, 'D3': 5.292177614885096e-06}
+result prediction normalized: {'D4': 3.726921291302678e-09, 'D1': 4.693362993536183e-15, 'D2': 1.51071195034455e-24, 'D3': 99.99999999627308}
+the predicted class is: D3
+the actual class is: D3
+
+row: Pandas(Index=41, _1=0, _2=0, _3=0, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=0, _11=0, _12=1, _13=1, _14=0, _15=0, _16=0, _17=1, _18=1, _19=0, _20=0, _21=0, _22=0, _23=1, _24=0, _25=0, _26=0, _27=1, _28=1, _29=0, _30=0, _31=0, _32=1, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=0, _44=1, _45=0, _46=1, _47=0, _48=0, _49=0, _50=1, _51=0, _52=0, _53=1, _54=0, _55=0, _56=1, _57=0, _58=1, _59=1, _60=0, _61=1, _62=0, _63=0, _64=1, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=1, _72=0, result='D3')
+result prediction raw: {'D4': 1.1131445181520018e-17, 'D1': 1.11771497582316e-24, 'D2': 3.9481264031855813e-36, 'D3': 1.587653284465529e-05}
+result prediction normalized: {'D4': 7.011256985658256e-11, 'D1': 7.040044490561719e-18, 'D2': 2.486768642633407e-29, 'D3': 99.9999999999299}
+the predicted class is: D3
+the actual class is: D3
+
+row: Pandas(Index=42, _1=1, _2=0, _3=0, _4=0, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, _13=1, _14=0, _15=0, _16=1, _17=0, _18=0, _19=0, _20=1, _21=0, _22=0, _23=1, _24=0, _25=0, _26=1, _27=0, _28=0, _29=1, _30=0, _31=1, _32=0, _33=1, _34=1, _35=0, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=0, _46=1, _47=0, _48=0, _49=0, _50=1, _51=0, _52=0, _53=1, _54=0, _55=0, _56=1, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=0, _64=1, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=1, _72=0, result='D3')
+result prediction raw: {'D4': 6.087509083643758e-19, 'D1': 3.7257165860772015e-24, 'D2': 3.5533137628670216e-34, 'D3': 3.780126867775069e-06}
+result prediction normalized: {'D4': 1.61039808889425e-11, 'D1': 9.856062286791734e-17, 'D2': 9.39998546915935e-27, 'D3': 99.9999999999839}
+the predicted class is: D3
+the actual class is: D3
+
+row: Pandas(Index=43, _1=0, _2=1, _3=0, _4=0, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, _13=1, _14=0, _15=0, _16=1, _17=0, _18=0, _19=0, _20=0, _21=1, _22=0, _23=1, _24=0, _25=0, _26=1, _27=0, _28=0, _29=1, _30=0, _31=0, _32=1, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=0, _46=0, _47=1, _48=0, _49=0, _50=0, _51=1, _52=0, _53=1, _54=0, _55=1, _56=0, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=0, _64=1, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=0, _72=1, result='D4')
+result prediction raw: {'D4': 1.4558183617143243e-07, 'D1': 8.478075075873445e-27, 'D2': 3.9974779832253993e-32, 'D3': 1.053533300836564e-15}
+result prediction normalized: {'D4': 99.99999927632915, 'D1': 5.8235802195382274e-18, 'D2': 2.745863123741287e-23, 'D3': 7.23670837598067e-07}
+the predicted class is: D4
+the actual class is: D4
+
+row: Pandas(Index=44, _1=0, _2=0, _3=0, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=1, _12=0, _13=1, _14=0, _15=0, _16=1, _17=0, _18=0, _19=0, _20=1, _21=0, _22=0, _23=1, _24=0, _25=0, _26=0, _27=1, _28=0, _29=1, _30=0, _31=0, _32=1, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=0, _46=0, _47=1, _48=0, _49=0, _50=0, _51=1, _52=0, _53=1, _54=0, _55=1, _56=0, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=0, _64=1, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=0, _72=1, result='D4')
+result prediction raw: {'D4': 2.0363123718727282e-23, 'D1': 4.1249969754613595e-08, 'D2': 8.094892916031431e-29, 'D3': 2.2650921727904623e-25}
+result prediction normalized: {'D4': 4.9365184604649954e-14, 'D1': 99.99999999999996, 'D2': 1.9623997215479305e-19, 'D3': 5.491136566317415e-16}
+the predicted class is: D1
+the actual class is: D1
+
+row: Pandas(Index=45, _1=0, _2=0, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=0, _12=1, _13=0, _14=1, _15=0, _16=1, _17=0, _18=0, _19=1, _20=0, _21=0, _22=1, _23=0, _24=0, _25=0, _26=0, _27=1, _28=0, _29=1, _30=0, _31=0, _32=1, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=0, _46=0, _47=0, _48=1, _49=1, _50=0, _51=0, _52=0, _53=0, _54=1, _55=0, _56=1, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=1, _64=0, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=1, _72=0, result='D1')
+result prediction raw: {'D4': 7.704503683986633e-09, 'D1': 1.2574293478010547e-23, 'D2': 1.3324926610751328e-33, 'D3': 1.3163681393209878e-18}
+result prediction normalized: {'D4': 99.99999998291412, 'D1': 1.6320705384302772e-13, 'D2': 1.7294983758875657e-23, 'D3': 1.7085696796174813e-08}
+the predicted class is: D4
+the actual class is: D4
+
+row: Pandas(Index=46, _1=0, _2=0, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=0, _12=1, _13=0, _14=1, _15=0, _16=1, _17=0, _18=0, _19=0, _20=1, _21=0, _22=0, _23=1, _24=0, _25=0, _26=1, _27=0, _28=1, _29=0, _30=0, _31=1, _32=0, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=0, _44=1, _45=0, _46=0, _47=0, _48=1, _49=1, _50=0, _51=0, _52=0, _53=0, _54=1, _55=0, _56=1, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=1, _64=0, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=1, _72=0, result='D1')
+result prediction raw: {'D4': 5.2005399866909755e-14, 'D1': 3.3117480765130663e-25, 'D2': 1.7766568814335108e-34, 'D3': 3.000100688710372e-07}
+result prediction normalized: {'D4': 1.7334548486225514e-05, 'D1': 1.103878784768415e-16, 'D2': 5.921989819020969e-26, 'D3': 99.99998266545151}
+the predicted class is: D3
+the actual class is: D3
+
+the class probabilities:
+D4: 0.34375
+D1: 0.21875
+D2: 0.1875
+D3: 0.25
+the attribute probabilities:
+date=0 probabilities: {0: 0.7272727272727273, 1: 0.2727272727272727}
+date=1 probabilities: {1: 0.36363636363636365, 0: 0.6363636363636364}
+date=2 probabilities: {0: 0.7272727272727273, 1: 0.2727272727272727}
+date=3 probabilities: {0: 0.9090909090909091, 1: 0.09090909090909091}
+date=4 probabilities: {0: 1.0}
+date=5 probabilities: {0: 1.0}
+date=6 probabilities: {0: 1.0}
+plant-stand=0 probabilities: {0: 1.0}
+plant-stand=1 probabilities: {1: 1.0}
+precip=0 probabilities: {0: 1.0}
+precip=1 probabilities: {0: 0.8181818181818182, 1: 0.18181818181818182}
+precip=2 probabilities: {1: 0.8181818181818182, 0: 0.18181818181818182}
+temp=0 probabilities: {0: 0.6363636363636364, 1: 0.36363636363636365}
+temp=1 probabilities: {1: 0.6363636363636364, 0: 0.36363636363636365}
+temp=2 probabilities: {0: 1.0}
+hail=0 probabilities: {1: 0.5454545454545454, 0: 0.45454545454545453}
+hail=1 probabilities: {0: 0.5454545454545454, 1: 0.45454545454545453}
+crop-hist=0 probabilities: {1: 0.18181818181818182, 0: 0.8181818181818182}
+crop-hist=1 probabilities: {0: 0.7272727272727273, 1: 0.2727272727272727}
+crop-hist=2 probabilities: {0: 0.8181818181818182, 1: 0.18181818181818182}
+crop-hist=3 probabilities: {0: 0.6363636363636364, 1: 0.36363636363636365}
+area-damaged=0 probabilities: {0: 1.0}
+area-damaged=1 probabilities: {1: 0.9090909090909091, 0: 0.09090909090909091}
+area-damaged=2 probabilities: {0: 1.0}
+area-damaged=3 probabilities: {0: 0.9090909090909091, 1: 0.09090909090909091}
+severity=1 probabilities: {0: 0.7272727272727273, 1: 0.2727272727272727}
+severity=2 probabilities: {1: 0.7272727272727273, 0: 0.2727272727272727}
+seed-tmt=0 probabilities: {0: 0.5454545454545454, 1: 0.45454545454545453}
+seed-tmt=1 probabilities: {1: 0.5454545454545454, 0: 0.45454545454545453}
+germination=0 probabilities: {0: 0.45454545454545453, 1: 0.5454545454545454}
+germination=1 probabilities: {1: 0.2727272727272727, 0: 0.7272727272727273}
+germination=2 probabilities: {0: 0.8181818181818182, 1: 0.18181818181818182}
+plant-growth=1 probabilities: {1: 1.0}
+leaves=0 probabilities: {0: 1.0}
+leaves=1 probabilities: {1: 1.0}
+leafspots-halo=0 probabilities: {1: 1.0}
+leafspots-marg=2 probabilities: {1: 1.0}
+leafspot-size=2 probabilities: {1: 1.0}
+leaf-shread=0 probabilities: {1: 1.0}
+leaf-malf=0 probabilities: {1: 1.0}
+leaf-mild=0 probabilities: {1: 1.0}
+stem=1 probabilities: {1: 1.0}
+lodging=0 probabilities: {1: 0.8181818181818182, 0: 0.18181818181818182}
+lodging=1 probabilities: {0: 0.8181818181818182, 1: 0.18181818181818182}
+stem-cankers=0 probabilities: {0: 1.0}
+stem-cankers=1 probabilities: {0: 0.5454545454545454, 1: 0.45454545454545453}
+stem-cankers=2 probabilities: {1: 0.5454545454545454, 0: 0.45454545454545453}
+stem-cankers=3 probabilities: {0: 1.0}
+canker-lesion=0 probabilities: {0: 1.0}
+canker-lesion=1 probabilities: {0: 1.0}
+canker-lesion=2 probabilities: {1: 1.0}
+canker-lesion=3 probabilities: {0: 1.0}
+fruiting-bodies=0 probabilities: {1: 1.0}
+fruiting-bodies=1 probabilities: {0: 1.0}
+external decay=0 probabilities: {1: 0.5454545454545454, 0: 0.45454545454545453}
+external decay=1 probabilities: {0: 0.5454545454545454, 1: 0.45454545454545453}
+mycelium=0 probabilities: {1: 1.0}
+mycelium=1 probabilities: {0: 1.0}
+int-discolor=0 probabilities: {1: 1.0}
+int-discolor=2 probabilities: {0: 1.0}
+sclerotia=0 probabilities: {1: 1.0}
+sclerotia=1 probabilities: {0: 1.0}
+fruit-pods=0 probabilities: {0: 1.0}
+fruit-pods=3 probabilities: {1: 1.0}
+fruit spots=4 probabilities: {1: 1.0}
+seed=0 probabilities: {1: 1.0}
+mold-growth=0 probabilities: {1: 1.0}
+seed-discolor=0 probabilities: {1: 1.0}
+seed-size=0 probabilities: {1: 1.0}
+shriveling=0 probabilities: {1: 1.0}
+roots=0 probabilities: {0: 1.0}
+roots=1 probabilities: {1: 1.0}
+date=0 probabilities: {0: 1.0}
+date=1 probabilities: {0: 1.0}
+date=2 probabilities: {0: 1.0}
+date=3 probabilities: {0: 0.8571428571428571, 1: 0.14285714285714285}
+date=4 probabilities: {0: 0.7142857142857143, 1: 0.2857142857142857}
+date=5 probabilities: {0: 0.7142857142857143, 1: 0.2857142857142857}
+date=6 probabilities: {1: 0.2857142857142857, 0: 0.7142857142857143}
+plant-stand=0 probabilities: {1: 1.0}
+plant-stand=1 probabilities: {0: 1.0}
+precip=0 probabilities: {0: 1.0}
+precip=1 probabilities: {0: 1.0}
+precip=2 probabilities: {1: 1.0}
+temp=0 probabilities: {0: 1.0}
+temp=1 probabilities: {1: 1.0}
+temp=2 probabilities: {0: 1.0}
+hail=0 probabilities: {1: 0.8571428571428571, 0: 0.14285714285714285}
+hail=1 probabilities: {0: 0.8571428571428571, 1: 0.14285714285714285}
+crop-hist=0 probabilities: {0: 1.0}
+crop-hist=1 probabilities: {1: 0.2857142857142857, 0: 0.7142857142857143}
+crop-hist=2 probabilities: {0: 0.7142857142857143, 1: 0.2857142857142857}
+crop-hist=3 probabilities: {0: 0.5714285714285714, 1: 0.42857142857142855}
+area-damaged=0 probabilities: {0: 0.2857142857142857, 1: 0.7142857142857143}
+area-damaged=1 probabilities: {1: 0.2857142857142857, 0: 0.7142857142857143}
+area-damaged=2 probabilities: {0: 1.0}
+area-damaged=3 probabilities: {0: 1.0}
+severity=1 probabilities: {1: 0.7142857142857143, 0: 0.2857142857142857}
+severity=2 probabilities: {0: 0.7142857142857143, 1: 0.2857142857142857}
+seed-tmt=0 probabilities: {1: 0.42857142857142855, 0: 0.5714285714285714}
+seed-tmt=1 probabilities: {0: 0.42857142857142855, 1: 0.5714285714285714}
+germination=0 probabilities: {1: 0.2857142857142857, 0: 0.7142857142857143}
+germination=1 probabilities: {0: 0.7142857142857143, 1: 0.2857142857142857}
+germination=2 probabilities: {0: 0.5714285714285714, 1: 0.42857142857142855}
+plant-growth=1 probabilities: {1: 1.0}
+leaves=0 probabilities: {0: 1.0}
+leaves=1 probabilities: {1: 1.0}
+leafspots-halo=0 probabilities: {1: 1.0}
+leafspots-marg=2 probabilities: {1: 1.0}
+leafspot-size=2 probabilities: {1: 1.0}
+leaf-shread=0 probabilities: {1: 1.0}
+leaf-malf=0 probabilities: {1: 1.0}
+leaf-mild=0 probabilities: {1: 1.0}
+stem=1 probabilities: {1: 1.0}
+lodging=0 probabilities: {0: 0.42857142857142855, 1: 0.5714285714285714}
+lodging=1 probabilities: {1: 0.42857142857142855, 0: 0.5714285714285714}
+stem-cankers=0 probabilities: {0: 1.0}
+stem-cankers=1 probabilities: {0: 1.0}
+stem-cankers=2 probabilities: {0: 1.0}
+stem-cankers=3 probabilities: {1: 1.0}
+canker-lesion=0 probabilities: {0: 0.7142857142857143, 1: 0.2857142857142857}
+canker-lesion=1 probabilities: {1: 0.7142857142857143, 0: 0.2857142857142857}
+canker-lesion=2 probabilities: {0: 1.0}
+canker-lesion=3 probabilities: {0: 1.0}
+fruiting-bodies=0 probabilities: {0: 1.0}
+fruiting-bodies=1 probabilities: {1: 1.0}
+external decay=0 probabilities: {0: 1.0}
+external decay=1 probabilities: {1: 1.0}
+mycelium=0 probabilities: {1: 1.0}
+mycelium=1 probabilities: {0: 1.0}
+int-discolor=0 probabilities: {1: 1.0}
+int-discolor=2 probabilities: {0: 1.0}
+sclerotia=0 probabilities: {1: 1.0}
+sclerotia=1 probabilities: {0: 1.0}
+fruit-pods=0 probabilities: {1: 1.0}
+fruit-pods=3 probabilities: {0: 1.0}
+fruit spots=4 probabilities: {1: 1.0}
+seed=0 probabilities: {1: 1.0}
+mold-growth=0 probabilities: {1: 1.0}
+seed-discolor=0 probabilities: {1: 1.0}
+seed-size=0 probabilities: {1: 1.0}
+shriveling=0 probabilities: {1: 1.0}
+roots=0 probabilities: {1: 1.0}
+roots=1 probabilities: {0: 1.0}
+date=0 probabilities: {0: 1.0}
+date=1 probabilities: {0: 1.0}
+date=2 probabilities: {0: 1.0}
+date=3 probabilities: {0: 0.8333333333333334, 1: 0.16666666666666666}
+date=4 probabilities: {0: 0.8333333333333334, 1: 0.16666666666666666}
+date=5 probabilities: {0: 0.5, 1: 0.5}
+date=6 probabilities: {1: 0.16666666666666666, 0: 0.8333333333333334}
+plant-stand=0 probabilities: {1: 1.0}
+plant-stand=1 probabilities: {0: 1.0}
+precip=0 probabilities: {1: 1.0}
+precip=1 probabilities: {0: 1.0}
+precip=2 probabilities: {0: 1.0}
+temp=0 probabilities: {0: 1.0}
+temp=1 probabilities: {0: 0.8333333333333334, 1: 0.16666666666666666}
+temp=2 probabilities: {1: 0.8333333333333334, 0: 0.16666666666666666}
+hail=0 probabilities: {1: 0.3333333333333333, 0: 0.6666666666666666}
+hail=1 probabilities: {0: 0.3333333333333333, 1: 0.6666666666666666}
+crop-hist=0 probabilities: {0: 0.8333333333333334, 1: 0.16666666666666666}
+crop-hist=1 probabilities: {1: 0.3333333333333333, 0: 0.6666666666666666}
+crop-hist=2 probabilities: {0: 0.8333333333333334, 1: 0.16666666666666666}
+crop-hist=3 probabilities: {0: 0.6666666666666666, 1: 0.3333333333333333}
+area-damaged=0 probabilities: {0: 1.0}
+area-damaged=1 probabilities: {0: 1.0}
+area-damaged=2 probabilities: {0: 0.5, 1: 0.5}
+area-damaged=3 probabilities: {1: 0.5, 0: 0.5}
+severity=1 probabilities: {1: 1.0}
+severity=2 probabilities: {0: 1.0}
+seed-tmt=0 probabilities: {0: 0.5, 1: 0.5}
+seed-tmt=1 probabilities: {1: 0.5, 0: 0.5}
+germination=0 probabilities: {1: 0.16666666666666666, 0: 0.8333333333333334}
+germination=1 probabilities: {0: 0.6666666666666666, 1: 0.3333333333333333}
+germination=2 probabilities: {0: 0.5, 1: 0.5}
+plant-growth=1 probabilities: {1: 1.0}
+leaves=0 probabilities: {0: 1.0}
+leaves=1 probabilities: {1: 1.0}
+leafspots-halo=0 probabilities: {1: 1.0}
+leafspots-marg=2 probabilities: {1: 1.0}
+leafspot-size=2 probabilities: {1: 1.0}
+leaf-shread=0 probabilities: {1: 1.0}
+leaf-malf=0 probabilities: {1: 1.0}
+leaf-mild=0 probabilities: {1: 1.0}
+stem=1 probabilities: {1: 1.0}
+lodging=0 probabilities: {1: 0.6666666666666666, 0: 0.3333333333333333}
+lodging=1 probabilities: {0: 0.6666666666666666, 1: 0.3333333333333333}
+stem-cankers=0 probabilities: {1: 1.0}
+stem-cankers=1 probabilities: {0: 1.0}
+stem-cankers=2 probabilities: {0: 1.0}
+stem-cankers=3 probabilities: {0: 1.0}
+canker-lesion=0 probabilities: {0: 1.0}
+canker-lesion=1 probabilities: {0: 1.0}
+canker-lesion=2 probabilities: {0: 1.0}
+canker-lesion=3 probabilities: {1: 1.0}
+fruiting-bodies=0 probabilities: {1: 1.0}
+fruiting-bodies=1 probabilities: {0: 1.0}
+external decay=0 probabilities: {1: 1.0}
+external decay=1 probabilities: {0: 1.0}
+mycelium=0 probabilities: {1: 1.0}
+mycelium=1 probabilities: {0: 1.0}
+int-discolor=0 probabilities: {0: 1.0}
+int-discolor=2 probabilities: {1: 1.0}
+sclerotia=0 probabilities: {0: 1.0}
+sclerotia=1 probabilities: {1: 1.0}
+fruit-pods=0 probabilities: {1: 1.0}
+fruit-pods=3 probabilities: {0: 1.0}
+fruit spots=4 probabilities: {1: 1.0}
+seed=0 probabilities: {1: 1.0}
+mold-growth=0 probabilities: {1: 1.0}
+seed-discolor=0 probabilities: {1: 1.0}
+seed-size=0 probabilities: {1: 1.0}
+shriveling=0 probabilities: {1: 1.0}
+roots=0 probabilities: {1: 1.0}
+roots=1 probabilities: {0: 1.0}
+date=0 probabilities: {1: 0.5, 0: 0.5}
+date=1 probabilities: {0: 1.0}
+date=2 probabilities: {0: 0.625, 1: 0.375}
+date=3 probabilities: {0: 0.875, 1: 0.125}
+date=4 probabilities: {0: 1.0}
+date=5 probabilities: {0: 1.0}
+date=6 probabilities: {0: 1.0}
+plant-stand=0 probabilities: {0: 0.875, 1: 0.125}
+plant-stand=1 probabilities: {1: 0.875, 0: 0.125}
+precip=0 probabilities: {0: 1.0}
+precip=1 probabilities: {0: 1.0}
+precip=2 probabilities: {1: 1.0}
+temp=0 probabilities: {1: 1.0}
+temp=1 probabilities: {0: 1.0}
+temp=2 probabilities: {0: 1.0}
+hail=0 probabilities: {1: 0.875, 0: 0.125}
+hail=1 probabilities: {0: 0.875, 1: 0.125}
+crop-hist=0 probabilities: {0: 0.75, 1: 0.25}
+crop-hist=1 probabilities: {1: 0.25, 0: 0.75}
+crop-hist=2 probabilities: {0: 0.875, 1: 0.125}
+crop-hist=3 probabilities: {0: 0.625, 1: 0.375}
+area-damaged=0 probabilities: {0: 1.0}
+area-damaged=1 probabilities: {1: 1.0}
+area-damaged=2 probabilities: {0: 1.0}
+area-damaged=3 probabilities: {0: 1.0}
+severity=1 probabilities: {1: 0.5, 0: 0.5}
+severity=2 probabilities: {0: 0.5, 1: 0.5}
+seed-tmt=0 probabilities: {0: 0.375, 1: 0.625}
+seed-tmt=1 probabilities: {1: 0.375, 0: 0.625}
+germination=0 probabilities: {0: 1.0}
+germination=1 probabilities: {1: 0.5, 0: 0.5}
+germination=2 probabilities: {0: 0.5, 1: 0.5}
+plant-growth=1 probabilities: {1: 1.0}
+leaves=0 probabilities: {1: 1.0}
+leaves=1 probabilities: {0: 1.0}
+leafspots-halo=0 probabilities: {1: 1.0}
+leafspots-marg=2 probabilities: {1: 1.0}
+leafspot-size=2 probabilities: {1: 1.0}
+leaf-shread=0 probabilities: {1: 1.0}
+leaf-malf=0 probabilities: {1: 1.0}
+leaf-mild=0 probabilities: {1: 1.0}
+stem=1 probabilities: {1: 1.0}
+lodging=0 probabilities: {1: 0.875, 0: 0.125}
+lodging=1 probabilities: {0: 0.875, 1: 0.125}
+stem-cankers=0 probabilities: {0: 1.0}
+stem-cankers=1 probabilities: {1: 1.0}
+stem-cankers=2 probabilities: {0: 1.0}
+stem-cankers=3 probabilities: {0: 1.0}
+canker-lesion=0 probabilities: {0: 1.0}
+canker-lesion=1 probabilities: {1: 1.0}
+canker-lesion=2 probabilities: {0: 1.0}
+canker-lesion=3 probabilities: {0: 1.0}
+fruiting-bodies=0 probabilities: {1: 1.0}
+fruiting-bodies=1 probabilities: {0: 1.0}
+external decay=0 probabilities: {0: 1.0}
+external decay=1 probabilities: {1: 1.0}
+mycelium=0 probabilities: {0: 0.5, 1: 0.5}
+mycelium=1 probabilities: {1: 0.5, 0: 0.5}
+int-discolor=0 probabilities: {1: 1.0}
+int-discolor=2 probabilities: {0: 1.0}
+sclerotia=0 probabilities: {1: 1.0}
+sclerotia=1 probabilities: {0: 1.0}
+fruit-pods=0 probabilities: {0: 1.0}
+fruit-pods=3 probabilities: {1: 1.0}
+fruit spots=4 probabilities: {1: 1.0}
+seed=0 probabilities: {1: 1.0}
+mold-growth=0 probabilities: {1: 1.0}
+seed-discolor=0 probabilities: {1: 1.0}
+seed-size=0 probabilities: {1: 1.0}
+shriveling=0 probabilities: {1: 1.0}
+roots=0 probabilities: {1: 0.875, 0: 0.125}
+roots=1 probabilities: {0: 0.875, 1: 0.125}
+percent correct: 100.0%
+options: {'one_hot_encode': {1: 'date', 2: 'plant-stand', 3: 'precip', 4: 'temp', 5: 'hail', 6: 'crop-hist', 7: 'area-damaged', 8: 'severity', 9: 'seed-tmt', 10: 'germination', 11: 'plant-growth', 12: 'leaves', 13: 'leafspots-halo', 14: 'leafspots-marg', 15: 'leafspot-size', 16: 'leaf-shread', 17: 'leaf-malf', 18: 'leaf-mild', 19: 'stem', 20: 'lodging', 21: 'stem-cankers', 22: 'canker-lesion', 23: 'fruiting-bodies', 24: 'external decay', 25: 'mycelium', 26: 'int-discolor', 27: 'sclerotia', 28: 'fruit-pods', 29: 'fruit spots', 30: 'seed', 31: 'mold-growth', 32: 'seed-discolor', 33: 'seed-size', 34: 'shriveling', 35: 'roots'}, 'result_col': 36, 'randomize_rows': True}
+1: date
+unique date values: [0 1 2 3 4 5 6]
+column names for [0 1 2 3 4 5 6]: ['date=0', 'date=1', 'date=2', 'date=3', 'date=4', 'date=5', 'date=6']
+2: plant-stand
+unique plant-stand values: [0 1]
+column names for [0 1]: ['plant-stand=0', 'plant-stand=1']
+3: precip
+unique precip values: [0 1 2]
+column names for [0 1 2]: ['precip=0', 'precip=1', 'precip=2']
+4: temp
+unique temp values: [0 1 2]
+column names for [0 1 2]: ['temp=0', 'temp=1', 'temp=2']
+5: hail
+unique hail values: [0 1]
+column names for [0 1]: ['hail=0', 'hail=1']
+6: crop-hist
+unique crop-hist values: [0 1 2 3]
+column names for [0 1 2 3]: ['crop-hist=0', 'crop-hist=1', 'crop-hist=2', 'crop-hist=3']
+7: area-damaged
+unique area-damaged values: [0 1 2 3]
+column names for [0 1 2 3]: ['area-damaged=0', 'area-damaged=1', 'area-damaged=2', 'area-damaged=3']
+8: severity
+unique severity values: [1 2]
+column names for [1 2]: ['severity=1', 'severity=2']
+9: seed-tmt
+unique seed-tmt values: [0 1]
+column names for [0 1]: ['seed-tmt=0', 'seed-tmt=1']
+10: germination
+unique germination values: [0 1 2]
+column names for [0 1 2]: ['germination=0', 'germination=1', 'germination=2']
+11: plant-growth
+unique plant-growth values: [1]
+column names for [1]: ['plant-growth=1']
+12: leaves
+unique leaves values: [0 1]
+column names for [0 1]: ['leaves=0', 'leaves=1']
+13: leafspots-halo
+unique leafspots-halo values: [0]
+column names for [0]: ['leafspots-halo=0']
+14: leafspots-marg
+unique leafspots-marg values: [2]
+column names for [2]: ['leafspots-marg=2']
+15: leafspot-size
+unique leafspot-size values: [2]
+column names for [2]: ['leafspot-size=2']
+16: leaf-shread
+unique leaf-shread values: [0]
+column names for [0]: ['leaf-shread=0']
+17: leaf-malf
+unique leaf-malf values: [0]
+column names for [0]: ['leaf-malf=0']
+18: leaf-mild
+unique leaf-mild values: [0]
+column names for [0]: ['leaf-mild=0']
+19: stem
+unique stem values: [1]
+column names for [1]: ['stem=1']
+20: lodging
+unique lodging values: [0 1]
+column names for [0 1]: ['lodging=0', 'lodging=1']
+21: stem-cankers
+unique stem-cankers values: [0 1 2 3]
+column names for [0 1 2 3]: ['stem-cankers=0', 'stem-cankers=1', 'stem-cankers=2', 'stem-cankers=3']
+22: canker-lesion
+unique canker-lesion values: [0 1 2 3]
+column names for [0 1 2 3]: ['canker-lesion=0', 'canker-lesion=1', 'canker-lesion=2', 'canker-lesion=3']
+23: fruiting-bodies
+unique fruiting-bodies values: [0 1]
+column names for [0 1]: ['fruiting-bodies=0', 'fruiting-bodies=1']
+24: external decay
+unique external decay values: [0 1]
+column names for [0 1]: ['external decay=0', 'external decay=1']
+25: mycelium
+unique mycelium values: [0 1]
+column names for [0 1]: ['mycelium=0', 'mycelium=1']
+26: int-discolor
+unique int-discolor values: [0 2]
+column names for [0 2]: ['int-discolor=0', 'int-discolor=2']
+27: sclerotia
+unique sclerotia values: [0 1]
+column names for [0 1]: ['sclerotia=0', 'sclerotia=1']
+28: fruit-pods
+unique fruit-pods values: [0 3]
+column names for [0 3]: ['fruit-pods=0', 'fruit-pods=3']
+29: fruit spots
+unique fruit spots values: [4]
+column names for [4]: ['fruit spots=4']
+30: seed
+unique seed values: [0]
+column names for [0]: ['seed=0']
+31: mold-growth
+unique mold-growth values: [0]
+column names for [0]: ['mold-growth=0']
+32: seed-discolor
+unique seed-discolor values: [0]
+column names for [0]: ['seed-discolor=0']
+33: seed-size
+unique seed-size values: [0]
+column names for [0]: ['seed-size=0']
+34: shriveling
+unique shriveling values: [0]
+column names for [0]: ['shriveling=0']
+35: roots
+unique roots values: [0 1]
+column names for [0 1]: ['roots=0', 'roots=1']
+    date=0  date=1  date=2  date=3  date=4  date=5  date=6  plant-stand=0  plant-stand=1  precip=0  precip=1  precip=2  temp=0  temp=1  temp=2  hail=0  hail=1  crop-hist=0  crop-hist=1  crop-hist=2  crop-hist=3  area-damaged=0  area-damaged=1  area-damaged=2  area-damaged=3  severity=1  severity=2  seed-tmt=0  seed-tmt=1  germination=0  germination=1  germination=2  plant-growth=1  leaves=0  leaves=1  leafspots-halo=0  leafspots-marg=2  leafspot-size=2  leaf-shread=0  leaf-malf=0  leaf-mild=0  stem=1  lodging=0  lodging=1  stem-cankers=0  stem-cankers=1  stem-cankers=2  stem-cankers=3  canker-lesion=0  canker-lesion=1  canker-lesion=2  canker-lesion=3  fruiting-bodies=0  fruiting-bodies=1  external decay=0  external decay=1  mycelium=0  mycelium=1  int-discolor=0  int-discolor=2  sclerotia=0  sclerotia=1  fruit-pods=0  fruit-pods=3  fruit spots=4  seed=0  mold-growth=0  seed-discolor=0  seed-size=0  shriveling=0  roots=0  roots=1 result
+0        0       0       0       1       0       0       0              1              0         0         0         1       0       1       0       1       0            0            1            0            0               1               0               0               0           0           1           0           1              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               0               1                1                0                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+1        1       0       0       0       0       0       0              0              1         0         0         1       0       1       0       0       1            0            1            0            0               0               1               0               0           1           0           1           0              1              0              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                0                1                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+2        0       0       0       0       0       1       0              1              0         1         0         0       0       0       1       0       1            0            0            1            0               0               0               1               0           1           0           1           0              0              0              1               1         0         1                 1                 1                1              1            1            1       1          0          1               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+3        0       0       0       1       0       0       0              1              0         1         0         0       0       1       0       1       0            0            1            0            0               0               0               1               0           1           0           1           0              1              0              0               1         0         1                 1                 1                1              1            1            1       1          1          0               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+4        0       0       0       0       0       1       0              1              0         0         0         1       0       1       0       1       0            0            0            1            0               1               0               0               0           1           0           0           1              1              0              0               1         0         1                 1                 1                1              1            1            1       1          0          1               0               0               0               1                0                1                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+5        0       0       0       0       1       0       0              1              0         0         0         1       0       1       0       0       1            0            1            0            0               1               0               0               0           1           0           1           0              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               0               1                0                1                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+6        0       0       0       0       0       0       1              1              0         1         0         0       0       1       0       0       1            0            0            0            1               0               0               0               1           1           0           0           1              1              0              0               1         0         1                 1                 1                1              1            1            1       1          1          0               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+7        0       0       0       0       0       1       0              1              0         1         0         0       0       0       1       0       1            0            0            0            1               0               0               0               1           1           0           0           1              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+8        0       0       0       0       0       0       1              1              0         0         0         1       0       1       0       1       0            0            1            0            0               0               1               0               0           1           0           1           0              1              0              0               1         0         1                 1                 1                1              1            1            1       1          0          1               0               0               0               1                0                1                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+9        0       0       0       1       0       0       0              1              0         0         0         1       0       1       0       1       0            0            0            1            0               1               0               0               0           0           1           0           1              0              1              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               0               1                1                0                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+10       0       0       0       0       0       0       1              1              0         1         0         0       0       0       1       0       1            1            0            0            0               0               0               1               0           1           0           1           0              1              0              0               1         0         1                 1                 1                1              1            1            1       1          0          1               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+11       1       0       0       0       0       0       0              0              1         0         0         1       1       0       0       1       0            0            1            0            0               0               1               0               0           0           1           0           1              0              0              1               1         1         0                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                1                0                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        1        0     D3
+12       0       1       0       0       0       0       0              0              1         0         0         1       0       1       0       0       1            0            0            0            1               0               1               0               0           0           1           1           0              0              1              0               1         0         1                 1                 1                1              1            1            1       1          0          1               0               1               0               0                0                0                1                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+13       0       0       0       1       0       0       0              0              1         0         0         1       1       0       0       1       0            0            1            0            0               0               1               0               0           0           1           0           1              1              0              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               1               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+14       0       0       0       0       0       1       0              1              0         0         0         1       0       1       0       1       0            0            0            0            1               0               1               0               0           1           0           0           1              0              0              1               1         0         1                 1                 1                1              1            1            1       1          0          1               0               0               0               1                1                0                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+15       0       1       0       0       0       0       0              0              1         0         0         1       0       1       0       1       0            1            0            0            0               0               1               0               0           0           1           0           1              0              1              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               1               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+16       0       0       1       0       0       0       0              0              1         0         0         1       1       0       0       1       0            0            0            1            0               0               1               0               0           1           0           1           0              0              0              1               1         1         0                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                1                0                0                  1                  0                 0                 1           0           1               1               0            1            0             0             1              1       1              1                1            1             1        1        0     D3
+17       0       0       1       0       0       0       0              0              1         0         0         1       0       1       0       0       1            0            1            0            0               0               1               0               0           0           1           1           0              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                0                1                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+18       0       0       0       0       0       0       1              1              0         1         0         0       0       0       1       1       0            0            1            0            0               0               0               0               1           1           0           0           1              1              0              0               1         0         1                 1                 1                1              1            1            1       1          1          0               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+19       0       0       0       0       1       0       0              1              0         1         0         0       0       1       0       1       0            0            0            1            0               0               0               0               1           1           0           0           1              0              1              0               1         0         1                 1                 1                1              1            1            1       1          1          0               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+20       1       0       0       0       0       0       0              0              1         0         0         1       1       0       0       1       0            0            0            1            0               0               1               0               0           1           0           0           1              0              1              0               1         1         0                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                1                0                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        1        0     D3
+21       1       0       0       0       0       0       0              0              1         0         0         1       0       1       0       1       0            0            0            0            1               0               1               0               0           1           0           1           0              1              0              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+22       0       0       1       0       0       0       0              0              1         0         0         1       1       0       0       1       0            0            0            0            1               0               1               0               0           0           1           1           0              0              1              0               1         1         0                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                1                0                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        1        0     D3
+23       1       0       0       0       0       0       0              0              1         0         1         0       0       1       0       0       1            0            0            1            0               0               1               0               0           0           1           0           1              1              0              0               1         0         1                 1                 1                1              1            1            1       1          0          1               0               0               1               0                0                0                1                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+24       1       0       0       0       0       0       0              0              1         0         0         1       1       0       0       1       0            1            0            0            0               0               1               0               0           1           0           0           1              0              0              1               1         1         0                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                1                0                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        1        0     D3
+25       0       1       0       0       0       0       0              0              1         0         0         1       0       1       0       0       1            0            0            1            0               0               0               0               1           1           0           0           1              0              1              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               1               0                0                0                1                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+26       0       0       0       1       0       0       0              1              0         1         0         0       0       0       1       0       1            1            0            0            0               0               0               1               0           1           0           1           0              0              1              0               1         0         1                 1                 1                1              1            1            1       1          1          0               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+27       1       0       0       0       0       0       0              0              1         0         0         1       1       0       0       1       0            0            1            0            0               0               1               0               0           1           0           0           1              0              1              0               1         1         0                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                1                0                0                  1                  0                 0                 1           0           1               1               0            1            0             0             1              1       1              1                1            1             1        1        0     D3
+28       1       0       0       0       0       0       0              0              1         0         0         1       1       0       0       1       0            1            0            0            0               0               1               0               0           1           0           1           0              0              1              0               1         1         0                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                1                0                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D3
+29       0       0       0       0       0       0       1              1              0         0         0         1       0       1       0       1       0            0            0            0            1               1               0               0               0           1           0           0           1              0              1              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               0               1                0                1                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+30       1       0       0       0       0       0       0              0              1         0         1         0       0       1       0       1       0            0            1            0            0               0               1               0               0           1           0           1           0              1              0              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+31       0       0       1       0       0       0       0              0              1         0         0         1       0       1       0       0       1            0            0            0            1               0               1               0               0           0           1           0           1              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               1               0                0                0                1                0                  1                  0                 0                 1           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+32       0       0       0       1       0       0       0              1              0         0         0         1       1       0       0       0       1            0            0            0            1               0               1               0               0           0           1           1           0              0              1              0               1         1         0                 1                 1                1              1            1            1       1          0          1               0               1               0               0                0                1                0                0                  1                  0                 0                 1           0           1               1               0            1            0             0             1              1       1              1                1            1             1        1        0     D3
+33       0       0       0       0       1       0       0              1              0         0         0         1       0       1       0       1       0            0            0            0            1               1               0               0               0           0           1           1           0              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               0               1                0                1                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+34       0       1       0       0       0       0       0              0              1         0         0         1       1       0       0       1       0            1            0            0            0               0               1               0               0           0           1           0           1              1              0              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               1               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+35       0       0       1       0       0       0       0              0              1         0         0         1       1       0       0       1       0            0            1            0            0               0               1               0               0           0           1           1           0              1              0              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+36       0       0       0       0       1       0       0              1              0         0         0         1       1       0       0       0       1            1            0            0            0               0               1               0               0           0           1           1           0              0              0              1               1         0         1                 1                 1                1              1            1            1       1          0          1               0               1               0               0                0                1                0                0                  1                  0                 0                 1           0           1               1               0            1            0             0             1              1       1              1                1            1             1        1        0     D3
+37       0       0       0       0       1       0       0              1              0         1         0         0       0       1       0       0       1            0            1            0            0               0               0               0               1           1           0           0           1              0              1              0               1         0         1                 1                 1                1              1            1            1       1          0          1               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+38       0       0       0       0       0       1       0              1              0         1         0         0       0       0       1       1       0            0            0            0            1               0               0               1               0           1           0           1           0              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               1               0               0               0                0                0                0                1                  1                  0                 1                 0           1           0               0               1            0            1             1             0              1       1              1                1            1             1        1        0     D2
+39       0       0       1       0       0       0       0              0              1         0         0         1       1       0       0       1       0            0            0            0            1               0               1               0               0           0           1           1           0              0              0              1               1         1         0                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                1                0                0                  1                  0                 0                 1           0           1               1               0            1            0             0             1              1       1              1                1            1             1        1        0     D3
+40       1       0       0       0       0       0       0              0              1         0         0         1       0       1       0       1       0            0            0            0            1               0               1               0               0           1           0           1           0              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+41       0       0       0       1       0       0       0              1              0         0         0         1       0       1       0       1       0            0            0            1            0               0               1               0               0           1           0           1           0              0              1              0               1         0         1                 1                 1                1              1            1            1       1          0          1               0               0               0               1                1                0                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+42       0       0       0       0       0       0       1              1              0         0         0         1       0       1       0       1       0            0            1            0            0               1               0               0               0           1           0           1           0              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               0               1                0                1                0                0                  0                  1                 0                 1           1           0               1               0            1            0             1             0              1       1              1                1            1             1        1        0     D1
+43       0       1       0       0       0       0       0              0              1         0         0         1       1       0       0       1       0            0            0            0            1               0               1               0               0           1           0           0           1              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               1               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+44       0       0       0       1       0       0       0              0              1         0         0         1       1       0       0       1       0            0            0            1            0               0               1               0               0           0           1           0           1              0              1              0               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               1               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+45       0       0       0       1       0       0       0              0              1         0         1         0       1       0       0       1       0            0            0            1            0               0               1               0               0           0           1           0           1              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               0               1               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+46       0       0       1       0       0       0       0              0              1         0         1         0       1       0       0       1       0            0            0            0            1               0               1               0               0           0           1           1           0              0              0              1               1         0         1                 1                 1                1              1            1            1       1          1          0               0               1               0               0                0                0                1                0                  1                  0                 1                 0           1           0               1               0            1            0             0             1              1       1              1                1            1             1        0        1     D4
+the class instances: {'D1': 7, 'D4': 10, 'D2': 8, 'D3': 7}
+the class probabilities: {'D1': 0.21875, 'D4': 0.3125, 'D2': 0.25, 'D3': 0.21875}
+conditional probabilities:
+D1: [{0: 1.0}, {0: 1.0}, {0: 1.0}, {1: 0.2857142857142857, 0: 0.7142857142857143}, {0: 0.8571428571428571, 1: 0.14285714285714285}, {0: 0.7142857142857143, 1: 0.2857142857142857}, {0: 0.7142857142857143, 1: 0.2857142857142857}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 0.8571428571428571, 0: 0.14285714285714285}, {0: 0.8571428571428571, 1: 0.14285714285714285}, {0: 1.0}, {1: 0.42857142857142855, 0: 0.5714285714285714}, {0: 0.7142857142857143, 1: 0.2857142857142857}, {0: 0.7142857142857143, 1: 0.2857142857142857}, {1: 0.7142857142857143, 0: 0.2857142857142857}, {0: 0.7142857142857143, 1: 0.2857142857142857}, {0: 1.0}, {0: 1.0}, {0: 0.2857142857142857, 1: 0.7142857142857143}, {1: 0.2857142857142857, 0: 0.7142857142857143}, {0: 0.7142857142857143, 1: 0.2857142857142857}, {1: 0.7142857142857143, 0: 0.2857142857142857}, {0: 0.7142857142857143, 1: 0.2857142857142857}, {0: 0.7142857142857143, 1: 0.2857142857142857}, {1: 0.42857142857142855, 0: 0.5714285714285714}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 0.5714285714285714, 0: 0.42857142857142855}, {0: 0.5714285714285714, 1: 0.42857142857142855}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {1: 0.42857142857142855, 0: 0.5714285714285714}, {0: 0.42857142857142855, 1: 0.5714285714285714}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {0: 1.0}]
+D4: [{1: 0.4, 0: 0.6}, {0: 0.7, 1: 0.3}, {0: 0.8, 1: 0.2}, {0: 0.9, 1: 0.1}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 0.8, 1: 0.2}, {1: 0.8, 0: 0.2}, {0: 0.9, 1: 0.1}, {1: 0.9, 0: 0.1}, {0: 1.0}, {0: 0.6, 1: 0.4}, {1: 0.6, 0: 0.4}, {0: 0.9, 1: 0.1}, {1: 0.4, 0: 0.6}, {0: 0.8, 1: 0.2}, {0: 0.7, 1: 0.3}, {0: 1.0}, {1: 0.9, 0: 0.1}, {0: 1.0}, {0: 0.9, 1: 0.1}, {1: 0.4, 0: 0.6}, {0: 0.4, 1: 0.6}, {1: 0.5, 0: 0.5}, {0: 0.5, 1: 0.5}, {1: 0.5, 0: 0.5}, {0: 0.7, 1: 0.3}, {0: 0.8, 1: 0.2}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 0.8, 0: 0.2}, {0: 0.8, 1: 0.2}, {0: 1.0}, {1: 0.5, 0: 0.5}, {0: 0.5, 1: 0.5}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 0.6, 1: 0.4}, {1: 0.6, 0: 0.4}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}]
+D2: [{0: 1.0}, {0: 1.0}, {0: 1.0}, {0: 0.75, 1: 0.25}, {0: 0.875, 1: 0.125}, {1: 0.25, 0: 0.75}, {0: 0.625, 1: 0.375}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {0: 0.625, 1: 0.375}, {1: 0.625, 0: 0.375}, {0: 0.625, 1: 0.375}, {1: 0.625, 0: 0.375}, {0: 0.75, 1: 0.25}, {0: 0.75, 1: 0.25}, {1: 0.25, 0: 0.75}, {0: 0.75, 1: 0.25}, {0: 1.0}, {0: 1.0}, {1: 0.5, 0: 0.5}, {0: 0.5, 1: 0.5}, {1: 1.0}, {0: 1.0}, {1: 0.5, 0: 0.5}, {0: 0.5, 1: 0.5}, {0: 0.5, 1: 0.5}, {0: 0.75, 1: 0.25}, {1: 0.25, 0: 0.75}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {0: 0.25, 1: 0.75}, {1: 0.25, 0: 0.75}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {0: 1.0}]
+D3: [{1: 0.7142857142857143, 0: 0.2857142857142857}, {0: 1.0}, {0: 0.7142857142857143, 1: 0.2857142857142857}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 0.7142857142857143, 1: 0.2857142857142857}, {1: 0.2857142857142857, 0: 0.7142857142857143}, {0: 0.7142857142857143, 1: 0.2857142857142857}, {0: 0.8571428571428571, 1: 0.14285714285714285}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {0: 0.2857142857142857, 1: 0.7142857142857143}, {1: 0.2857142857142857, 0: 0.7142857142857143}, {0: 0.5714285714285714, 1: 0.42857142857142855}, {1: 0.5714285714285714, 0: 0.42857142857142855}, {0: 1.0}, {0: 0.42857142857142855, 1: 0.5714285714285714}, {1: 0.42857142857142855, 0: 0.5714285714285714}, {1: 1.0}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {1: 0.7142857142857143, 0: 0.2857142857142857}, {0: 0.7142857142857143, 1: 0.2857142857142857}, {1: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 1.0}, {1: 0.8571428571428571, 0: 0.14285714285714285}, {0: 0.8571428571428571, 1: 0.14285714285714285}]
+row: Pandas(Index=32, _1=0, _2=0, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=0, _12=1, _13=1, _14=0, _15=0, _16=0, _17=1, _18=0, _19=0, _20=0, _21=1, _22=0, _23=1, _24=0, _25=0, _26=0, _27=1, _28=1, _29=0, _30=0, _31=1, _32=0, _33=1, _34=1, _35=0, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=0, _44=1, _45=0, _46=1, _47=0, _48=0, _49=0, _50=1, _51=0, _52=0, _53=1, _54=0, _55=0, _56=1, _57=0, _58=1, _59=1, _60=0, _61=1, _62=0, _63=0, _64=1, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=1, _72=0, result='D3')
+result prediction raw: {'D1': 1.2236013977503796e-06, 'D4': 4.419521347584e-23, 'D2': 1.7885481542684087e-27, 'D3': 1.0389969318764957e-25}
+result prediction normalized: {'D1': 100.0, 'D4': 3.6118962888644916e-15, 'D2': 1.4617081653851468e-19, 'D3': 8.49130226384766e-18}
+the predicted class is: D1
+the actual class is: D1
+
+row: Pandas(Index=33, _1=0, _2=0, _3=0, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=0, _11=0, _12=1, _13=0, _14=1, _15=0, _16=1, _17=0, _18=0, _19=0, _20=0, _21=1, _22=1, _23=0, _24=0, _25=0, _26=0, _27=1, _28=1, _29=0, _30=0, _31=0, _32=1, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=0, _46=0, _47=0, _48=1, _49=0, _50=1, _51=0, _52=0, _53=0, _54=1, _55=0, _56=1, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=1, _64=0, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=1, _72=0, result='D1')
+result prediction raw: {'D1': 7.4514331721544e-23, 'D4': 1.2385800937694824e-06, 'D2': 1.3248504846432653e-29, 'D3': 8.668084297233187e-17}
+result prediction normalized: {'D1': 6.016109260205612e-15, 'D4': 99.99999999300158, 'D2': 1.069652654047192e-21, 'D3': 6.9984043343101025e-09}
+the predicted class is: D4
+the actual class is: D4
+
+row: Pandas(Index=34, _1=0, _2=1, _3=0, _4=0, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, _13=1, _14=0, _15=0, _16=1, _17=0, _18=1, _19=0, _20=0, _21=0, _22=0, _23=1, _24=0, _25=0, _26=0, _27=1, _28=0, _29=1, _30=1, _31=0, _32=0, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=0, _46=0, _47=1, _48=0, _49=0, _50=0, _51=1, _52=0, _53=1, _54=0, _55=1, _56=0, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=0, _64=1, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=0, _72=1, result='D4')
+result prediction raw: {'D1': 8.279370191282668e-28, 'D4': 1.515610887374487e-31, 'D2': 1.510791491909913e-07, 'D3': 6.3343815386465186e-37}
+result prediction normalized: {'D1': 5.480154101752353e-19, 'D4': 1.0031899805435635e-22, 'D2': 100.0, 'D3': 4.192756957241477e-28}
+the predicted class is: D2
+the actual class is: D2
+
+row: Pandas(Index=35, _1=0, _2=0, _3=1, _4=0, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, _13=1, _14=0, _15=0, _16=1, _17=0, _18=0, _19=1, _20=0, _21=0, _22=0, _23=1, _24=0, _25=0, _26=0, _27=1, _28=1, _29=0, _30=1, _31=0, _32=0, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=0, _46=1, _47=0, _48=0, _49=0, _50=0, _51=1, _52=0, _53=1, _54=0, _55=1, _56=0, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=0, _64=1, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=0, _72=1, result='D4')
+result prediction raw: {'D1': 1.1922293075447035e-23, 'D4': 2.5866425811191243e-27, 'D2': 5.286561588491168e-07, 'D3': 2.8504716923909348e-33}
+result prediction normalized: {'D1': 2.255207449280803e-15, 'D4': 4.892863797804302e-19, 'D2': 100.0, 'D3': 5.391919955300256e-25}
+the predicted class is: D2
+the actual class is: D2
+
+row: Pandas(Index=36, _1=0, _2=0, _3=0, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=0, _11=0, _12=1, _13=1, _14=0, _15=0, _16=0, _17=1, _18=1, _19=0, _20=0, _21=0, _22=0, _23=1, _24=0, _25=0, _26=0, _27=1, _28=1, _29=0, _30=0, _31=0, _32=1, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=0, _44=1, _45=0, _46=1, _47=0, _48=0, _49=0, _50=1, _51=0, _52=0, _53=1, _54=0, _55=0, _56=1, _57=0, _58=1, _59=1, _60=0, _61=1, _62=0, _63=0, _64=1, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=1, _72=0, result='D3')
+result prediction raw: {'D1': 2.1752913737784526e-06, 'D4': 1.1048803368960007e-24, 'D2': 1.3414111157013063e-25, 'D3': 5.77220517709164e-26}
+result prediction normalized: {'D1': 100.0, 'D4': 5.079229156215694e-17, 'D2': 6.1665813227185875e-18, 'D3': 2.6535319574523914e-18}
+the predicted class is: D1
+the actual class is: D1
+
+row: Pandas(Index=37, _1=0, _2=0, _3=0, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=1, _11=0, _12=0, _13=0, _14=1, _15=0, _16=0, _17=1, _18=0, _19=1, _20=0, _21=0, _22=0, _23=0, _24=0, _25=1, _26=1, _27=0, _28=0, _29=1, _30=0, _31=1, _32=0, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=0, _44=1, _45=1, _46=0, _47=0, _48=0, _49=0, _50=0, _51=0, _52=1, _53=1, _54=0, _55=1, _56=0, _57=1, _58=0, _59=0, _60=1, _61=0, _62=1, _63=1, _64=0, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=1, _72=0, result='D2')
+result prediction raw: {'D1': 2.517698349280616e-08, 'D4': 2.6517128085504016e-23, 'D2': 4.790753984647524e-25, 'D3': 3.6527235886283067e-25}
+result prediction normalized: {'D1': 99.9999999999999, 'D4': 1.0532289578328852e-13, 'D2': 1.902830808153163e-15, 'D3': 1.4508185977370953e-15}
+the predicted class is: D1
+the actual class is: D1
+
+row: Pandas(Index=38, _1=0, _2=0, _3=0, _4=0, _5=0, _6=1, _7=0, _8=1, _9=0, _10=1, _11=0, _12=0, _13=0, _14=0, _15=1, _16=1, _17=0, _18=0, _19=0, _20=0, _21=1, _22=0, _23=0, _24=1, _25=0, _26=1, _27=0, _28=1, _29=0, _30=0, _31=0, _32=1, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=1, _46=0, _47=0, _48=0, _49=0, _50=0, _51=0, _52=1, _53=1, _54=0, _55=1, _56=0, _57=1, _58=0, _59=0, _60=1, _61=0, _62=1, _63=1, _64=0, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=1, _72=0, result='D2')
+result prediction raw: {'D1': 1.1039160255043558e-24, 'D4': 3.741393733404447e-27, 'D2': 2.643280794245584e-06, 'D3': 9.384268946142994e-36}
+result prediction normalized: {'D1': 4.1763100912607484e-17, 'D4': 1.4154355986505302e-19, 'D2': 100.0, 'D3': 3.550235361514572e-28}
+the predicted class is: D2
+the actual class is: D2
+
+row: Pandas(Index=39, _1=0, _2=0, _3=1, _4=0, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, _13=1, _14=0, _15=0, _16=1, _17=0, _18=0, _19=0, _20=0, _21=1, _22=0, _23=1, _24=0, _25=0, _26=0, _27=1, _28=1, _29=0, _30=0, _31=0, _32=1, _33=1, _34=1, _35=0, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=0, _46=1, _47=0, _48=0, _49=0, _50=1, _51=0, _52=0, _53=1, _54=0, _55=0, _56=1, _57=0, _58=1, _59=1, _60=0, _61=1, _62=0, _63=0, _64=1, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=1, _72=0, result='D3')
+result prediction raw: {'D1': 9.199300212536297e-27, 'D4': 6.928506913711936e-30, 'D2': 1.3597123427189217e-06, 'D3': 1.0557302564410873e-34}
+result prediction normalized: {'D1': 6.765622347842412e-19, 'D4': 5.095568155141906e-22, 'D2': 100.0, 'D3': 7.764364735632372e-27}
+the predicted class is: D2
+the actual class is: D2
+
+row: Pandas(Index=40, _1=1, _2=0, _3=0, _4=0, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, _13=0, _14=1, _15=0, _16=1, _17=0, _18=0, _19=0, _20=0, _21=1, _22=0, _23=1, _24=0, _25=0, _26=1, _27=0, _28=1, _29=0, _30=0, _31=0, _32=1, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=0, _46=1, _47=0, _48=0, _49=0, _50=0, _51=1, _52=0, _53=1, _54=0, _55=1, _56=0, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=0, _64=1, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=0, _72=1, result='D4')
+result prediction raw: {'D1': 1.0441398594136568e-07, 'D4': 3.977569212825603e-22, 'D2': 2.414540008262351e-25, 'D3': 7.30544717725661e-24}
+result prediction normalized: {'D1': 99.99999999999962, 'D4': 3.8094218671617573e-13, 'D2': 2.312467996019462e-16, 'D3': 6.996617465938903e-15}
+the predicted class is: D1
+the actual class is: D1
+
+row: Pandas(Index=41, _1=0, _2=0, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=0, _12=1, _13=0, _14=1, _15=0, _16=1, _17=0, _18=0, _19=0, _20=1, _21=0, _22=0, _23=1, _24=0, _25=0, _26=1, _27=0, _28=1, _29=0, _30=0, _31=1, _32=0, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=0, _44=1, _45=0, _46=0, _47=0, _48=1, _49=1, _50=0, _51=0, _52=0, _53=0, _54=1, _55=0, _56=1, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=1, _64=0, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=1, _72=0, result='D1')
+result prediction raw: {'D1': 3.4804661980455235e-07, 'D4': 2.841120866304e-23, 'D2': 1.7885481542684087e-27, 'D3': 1.8471056566693255e-25}
+result prediction normalized: {'D1': 99.99999999999999, 'D4': 8.163046858203788e-15, 'D2': 5.138817768932157e-19, 'D3': 5.307063914904786e-17}
+the predicted class is: D1
+the actual class is: D1
+
+row: Pandas(Index=42, _1=0, _2=0, _3=0, _4=0, _5=0, _6=0, _7=1, _8=1, _9=0, _10=0, _11=0, _12=1, _13=0, _14=1, _15=0, _16=1, _17=0, _18=0, _19=1, _20=0, _21=0, _22=1, _23=0, _24=0, _25=0, _26=1, _27=0, _28=1, _29=0, _30=0, _31=0, _32=1, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=0, _46=0, _47=0, _48=1, _49=0, _50=1, _51=0, _52=0, _53=0, _54=1, _55=0, _56=1, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=1, _64=0, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=1, _72=0, result='D1')
+result prediction raw: {'D1': 7.359440170029033e-29, 'D4': 2.694419355332421e-31, 'D2': 8.15827405631353e-07, 'D3': 5.630561367685797e-38}
+result prediction normalized: {'D1': 9.020829797123209e-21, 'D4': 3.302683063517904e-23, 'D2': 100.0, 'D3': 6.901657542784327e-30}
+the predicted class is: D2
+the actual class is: D2
+
+row: Pandas(Index=43, _1=0, _2=1, _3=0, _4=0, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, _13=1, _14=0, _15=0, _16=1, _17=0, _18=0, _19=0, _20=0, _21=1, _22=0, _23=1, _24=0, _25=0, _26=1, _27=0, _28=0, _29=1, _30=0, _31=0, _32=1, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=0, _46=0, _47=1, _48=0, _49=0, _50=0, _51=1, _52=0, _53=1, _54=0, _55=1, _56=0, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=0, _64=1, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=0, _72=1, result='D4')
+result prediction raw: {'D1': 4.47085990329264e-22, 'D4': 3.356074023321602e-16, 'D2': 7.850965834923054e-34, 'D3': 2.5592085483366115e-05}
+result prediction normalized: {'D1': 1.7469697442750024e-15, 'D4': 1.3113718401178802e-09, 'D2': 3.0677319517094178e-27, 'D3': 99.99999999868862}
+the predicted class is: D3
+the actual class is: D3
+
+row: Pandas(Index=44, _1=0, _2=0, _3=0, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, _13=1, _14=0, _15=0, _16=1, _17=0, _18=0, _19=0, _20=1, _21=0, _22=0, _23=1, _24=0, _25=0, _26=0, _27=1, _28=0, _29=1, _30=0, _31=1, _32=0, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=0, _46=0, _47=1, _48=0, _49=0, _50=0, _51=1, _52=0, _53=1, _54=0, _55=1, _56=0, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=0, _64=1, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=0, _72=1, result='D4')
+result prediction raw: {'D1': 3.57668792263411e-24, 'D4': 3.0848836838031364e-08, 'D2': 2.180823843034182e-33, 'D3': 1.369771345735614e-20}
+result prediction normalized: {'D1': 1.1594239165034171e-14, 'D4': 99.99999999995558, 'D2': 7.069387589825197e-24, 'D3': 4.4402690218981306e-11}
+the predicted class is: D4
+the actual class is: D4
+
+row: Pandas(Index=45, _1=0, _2=0, _3=0, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=1, _12=0, _13=1, _14=0, _15=0, _16=1, _17=0, _18=0, _19=0, _20=1, _21=0, _22=0, _23=1, _24=0, _25=0, _26=0, _27=1, _28=0, _29=1, _30=0, _31=0, _32=1, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=0, _46=0, _47=1, _48=0, _49=0, _50=0, _51=1, _52=0, _53=1, _54=0, _55=1, _56=0, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=0, _64=1, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=0, _72=1, result='D4')
+result prediction raw: {'D1': 3.1792781534525447e-25, 'D4': 1.1326749828710412e-09, 'D2': 2.6497009692865315e-30, 'D3': 6.57490245953095e-19}
+result prediction normalized: {'D1': 2.806875935008641e-14, 'D4': 99.99999994195238, 'D2': 2.339330353206998e-19, 'D3': 5.804756488086885e-08}
+the predicted class is: D4
+the actual class is: D4
+
+row: Pandas(Index=46, _1=0, _2=0, _3=1, _4=0, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=1, _12=0, _13=1, _14=0, _15=0, _16=1, _17=0, _18=0, _19=0, _20=0, _21=1, _22=0, _23=1, _24=0, _25=0, _26=0, _27=1, _28=1, _29=0, _30=0, _31=0, _32=1, _33=1, _34=0, _35=1, _36=1, _37=1, _38=1, _39=1, _40=1, _41=1, _42=1, _43=1, _44=0, _45=0, _46=1, _47=0, _48=0, _49=0, _50=0, _51=1, _52=0, _53=1, _54=0, _55=1, _56=0, _57=1, _58=0, _59=1, _60=0, _61=1, _62=0, _63=0, _64=1, _65=1, _66=1, _67=1, _68=1, _69=1, _70=1, _71=0, _72=1, result='D4')
+result prediction raw: {'D1': 3.670804193251138e-07, 'D4': 6.392521949184003e-23, 'D2': 4.47137038567102e-26, 'D3': 2.7057211767617076e-25}
+result prediction normalized: {'D1': 99.99999999999999, 'D4': 1.741449996416809e-14, 'D2': 1.2180901378209553e-17, 'D3': 7.370922104034425e-17}
+the predicted class is: D1
+the actual class is: D1
+
+the class probabilities:
+D1: 0.21875
+D4: 0.3125
+D2: 0.25
+D3: 0.21875
+
+the attribute probabilities for D1:
+date=0 probabilities: {0: 1.0}
+date=1 probabilities: {0: 1.0}
+date=2 probabilities: {0: 1.0}
+date=3 probabilities: {1: 0.2857142857142857, 0: 0.7142857142857143}
+date=4 probabilities: {0: 0.8571428571428571, 1: 0.14285714285714285}
+date=5 probabilities: {0: 0.7142857142857143, 1: 0.2857142857142857}
+date=6 probabilities: {0: 0.7142857142857143, 1: 0.2857142857142857}
+plant-stand=0 probabilities: {1: 1.0}
+plant-stand=1 probabilities: {0: 1.0}
+precip=0 probabilities: {0: 1.0}
+precip=1 probabilities: {0: 1.0}
+precip=2 probabilities: {1: 1.0}
+temp=0 probabilities: {0: 1.0}
+temp=1 probabilities: {1: 1.0}
+temp=2 probabilities: {0: 1.0}
+hail=0 probabilities: {1: 0.8571428571428571, 0: 0.14285714285714285}
+hail=1 probabilities: {0: 0.8571428571428571, 1: 0.14285714285714285}
+crop-hist=0 probabilities: {0: 1.0}
+crop-hist=1 probabilities: {1: 0.42857142857142855, 0: 0.5714285714285714}
+crop-hist=2 probabilities: {0: 0.7142857142857143, 1: 0.2857142857142857}
+crop-hist=3 probabilities: {0: 0.7142857142857143, 1: 0.2857142857142857}
+area-damaged=0 probabilities: {1: 0.7142857142857143, 0: 0.2857142857142857}
+area-damaged=1 probabilities: {0: 0.7142857142857143, 1: 0.2857142857142857}
+area-damaged=2 probabilities: {0: 1.0}
+area-damaged=3 probabilities: {0: 1.0}
+severity=1 probabilities: {0: 0.2857142857142857, 1: 0.7142857142857143}
+severity=2 probabilities: {1: 0.2857142857142857, 0: 0.7142857142857143}
+seed-tmt=0 probabilities: {0: 0.7142857142857143, 1: 0.2857142857142857}
+seed-tmt=1 probabilities: {1: 0.7142857142857143, 0: 0.2857142857142857}
+germination=0 probabilities: {0: 0.7142857142857143, 1: 0.2857142857142857}
+germination=1 probabilities: {0: 0.7142857142857143, 1: 0.2857142857142857}
+germination=2 probabilities: {1: 0.42857142857142855, 0: 0.5714285714285714}
+plant-growth=1 probabilities: {1: 1.0}
+leaves=0 probabilities: {0: 1.0}
+leaves=1 probabilities: {1: 1.0}
+leafspots-halo=0 probabilities: {1: 1.0}
+leafspots-marg=2 probabilities: {1: 1.0}
+leafspot-size=2 probabilities: {1: 1.0}
+leaf-shread=0 probabilities: {1: 1.0}
+leaf-malf=0 probabilities: {1: 1.0}
+leaf-mild=0 probabilities: {1: 1.0}
+stem=1 probabilities: {1: 1.0}
+lodging=0 probabilities: {1: 0.5714285714285714, 0: 0.42857142857142855}
+lodging=1 probabilities: {0: 0.5714285714285714, 1: 0.42857142857142855}
+stem-cankers=0 probabilities: {0: 1.0}
+stem-cankers=1 probabilities: {0: 1.0}
+stem-cankers=2 probabilities: {0: 1.0}
+stem-cankers=3 probabilities: {1: 1.0}
+canker-lesion=0 probabilities: {1: 0.42857142857142855, 0: 0.5714285714285714}
+canker-lesion=1 probabilities: {0: 0.42857142857142855, 1: 0.5714285714285714}
+canker-lesion=2 probabilities: {0: 1.0}
+canker-lesion=3 probabilities: {0: 1.0}
+fruiting-bodies=0 probabilities: {0: 1.0}
+fruiting-bodies=1 probabilities: {1: 1.0}
+external decay=0 probabilities: {0: 1.0}
+external decay=1 probabilities: {1: 1.0}
+mycelium=0 probabilities: {1: 1.0}
+mycelium=1 probabilities: {0: 1.0}
+int-discolor=0 probabilities: {1: 1.0}
+int-discolor=2 probabilities: {0: 1.0}
+sclerotia=0 probabilities: {1: 1.0}
+sclerotia=1 probabilities: {0: 1.0}
+fruit-pods=0 probabilities: {1: 1.0}
+fruit-pods=3 probabilities: {0: 1.0}
+fruit spots=4 probabilities: {1: 1.0}
+seed=0 probabilities: {1: 1.0}
+mold-growth=0 probabilities: {1: 1.0}
+seed-discolor=0 probabilities: {1: 1.0}
+seed-size=0 probabilities: {1: 1.0}
+shriveling=0 probabilities: {1: 1.0}
+roots=0 probabilities: {1: 1.0}
+roots=1 probabilities: {0: 1.0}
+
+the attribute probabilities for D4:
+date=0 probabilities: {1: 0.4, 0: 0.6}
+date=1 probabilities: {0: 0.7, 1: 0.3}
+date=2 probabilities: {0: 0.8, 1: 0.2}
+date=3 probabilities: {0: 0.9, 1: 0.1}
+date=4 probabilities: {0: 1.0}
+date=5 probabilities: {0: 1.0}
+date=6 probabilities: {0: 1.0}
+plant-stand=0 probabilities: {0: 1.0}
+plant-stand=1 probabilities: {1: 1.0}
+precip=0 probabilities: {0: 1.0}
+precip=1 probabilities: {0: 0.8, 1: 0.2}
+precip=2 probabilities: {1: 0.8, 0: 0.2}
+temp=0 probabilities: {0: 0.9, 1: 0.1}
+temp=1 probabilities: {1: 0.9, 0: 0.1}
+temp=2 probabilities: {0: 1.0}
+hail=0 probabilities: {0: 0.6, 1: 0.4}
+hail=1 probabilities: {1: 0.6, 0: 0.4}
+crop-hist=0 probabilities: {0: 0.9, 1: 0.1}
+crop-hist=1 probabilities: {1: 0.4, 0: 0.6}
+crop-hist=2 probabilities: {0: 0.8, 1: 0.2}
+crop-hist=3 probabilities: {0: 0.7, 1: 0.3}
+area-damaged=0 probabilities: {0: 1.0}
+area-damaged=1 probabilities: {1: 0.9, 0: 0.1}
+area-damaged=2 probabilities: {0: 1.0}
+area-damaged=3 probabilities: {0: 0.9, 1: 0.1}
+severity=1 probabilities: {1: 0.4, 0: 0.6}
+severity=2 probabilities: {0: 0.4, 1: 0.6}
+seed-tmt=0 probabilities: {1: 0.5, 0: 0.5}
+seed-tmt=1 probabilities: {0: 0.5, 1: 0.5}
+germination=0 probabilities: {1: 0.5, 0: 0.5}
+germination=1 probabilities: {0: 0.7, 1: 0.3}
+germination=2 probabilities: {0: 0.8, 1: 0.2}
+plant-growth=1 probabilities: {1: 1.0}
+leaves=0 probabilities: {0: 1.0}
+leaves=1 probabilities: {1: 1.0}
+leafspots-halo=0 probabilities: {1: 1.0}
+leafspots-marg=2 probabilities: {1: 1.0}
+leafspot-size=2 probabilities: {1: 1.0}
+leaf-shread=0 probabilities: {1: 1.0}
+leaf-malf=0 probabilities: {1: 1.0}
+leaf-mild=0 probabilities: {1: 1.0}
+stem=1 probabilities: {1: 1.0}
+lodging=0 probabilities: {1: 0.8, 0: 0.2}
+lodging=1 probabilities: {0: 0.8, 1: 0.2}
+stem-cankers=0 probabilities: {0: 1.0}
+stem-cankers=1 probabilities: {1: 0.5, 0: 0.5}
+stem-cankers=2 probabilities: {0: 0.5, 1: 0.5}
+stem-cankers=3 probabilities: {0: 1.0}
+canker-lesion=0 probabilities: {0: 1.0}
+canker-lesion=1 probabilities: {0: 1.0}
+canker-lesion=2 probabilities: {1: 1.0}
+canker-lesion=3 probabilities: {0: 1.0}
+fruiting-bodies=0 probabilities: {1: 1.0}
+fruiting-bodies=1 probabilities: {0: 1.0}
+external decay=0 probabilities: {0: 0.6, 1: 0.4}
+external decay=1 probabilities: {1: 0.6, 0: 0.4}
+mycelium=0 probabilities: {1: 1.0}
+mycelium=1 probabilities: {0: 1.0}
+int-discolor=0 probabilities: {1: 1.0}
+int-discolor=2 probabilities: {0: 1.0}
+sclerotia=0 probabilities: {1: 1.0}
+sclerotia=1 probabilities: {0: 1.0}
+fruit-pods=0 probabilities: {0: 1.0}
+fruit-pods=3 probabilities: {1: 1.0}
+fruit spots=4 probabilities: {1: 1.0}
+seed=0 probabilities: {1: 1.0}
+mold-growth=0 probabilities: {1: 1.0}
+seed-discolor=0 probabilities: {1: 1.0}
+seed-size=0 probabilities: {1: 1.0}
+shriveling=0 probabilities: {1: 1.0}
+roots=0 probabilities: {0: 1.0}
+roots=1 probabilities: {1: 1.0}
+
+the attribute probabilities for D2:
+date=0 probabilities: {0: 1.0}
+date=1 probabilities: {0: 1.0}
+date=2 probabilities: {0: 1.0}
+date=3 probabilities: {0: 0.75, 1: 0.25}
+date=4 probabilities: {0: 0.875, 1: 0.125}
+date=5 probabilities: {1: 0.25, 0: 0.75}
+date=6 probabilities: {0: 0.625, 1: 0.375}
+plant-stand=0 probabilities: {1: 1.0}
+plant-stand=1 probabilities: {0: 1.0}
+precip=0 probabilities: {1: 1.0}
+precip=1 probabilities: {0: 1.0}
+precip=2 probabilities: {0: 1.0}
+temp=0 probabilities: {0: 1.0}
+temp=1 probabilities: {0: 0.625, 1: 0.375}
+temp=2 probabilities: {1: 0.625, 0: 0.375}
+hail=0 probabilities: {0: 0.625, 1: 0.375}
+hail=1 probabilities: {1: 0.625, 0: 0.375}
+crop-hist=0 probabilities: {0: 0.75, 1: 0.25}
+crop-hist=1 probabilities: {0: 0.75, 1: 0.25}
+crop-hist=2 probabilities: {1: 0.25, 0: 0.75}
+crop-hist=3 probabilities: {0: 0.75, 1: 0.25}
+area-damaged=0 probabilities: {0: 1.0}
+area-damaged=1 probabilities: {0: 1.0}
+area-damaged=2 probabilities: {1: 0.5, 0: 0.5}
+area-damaged=3 probabilities: {0: 0.5, 1: 0.5}
+severity=1 probabilities: {1: 1.0}
+severity=2 probabilities: {0: 1.0}
+seed-tmt=0 probabilities: {1: 0.5, 0: 0.5}
+seed-tmt=1 probabilities: {0: 0.5, 1: 0.5}
+germination=0 probabilities: {0: 0.5, 1: 0.5}
+germination=1 probabilities: {0: 0.75, 1: 0.25}
+germination=2 probabilities: {1: 0.25, 0: 0.75}
+plant-growth=1 probabilities: {1: 1.0}
+leaves=0 probabilities: {0: 1.0}
+leaves=1 probabilities: {1: 1.0}
+leafspots-halo=0 probabilities: {1: 1.0}
+leafspots-marg=2 probabilities: {1: 1.0}
+leafspot-size=2 probabilities: {1: 1.0}
+leaf-shread=0 probabilities: {1: 1.0}
+leaf-malf=0 probabilities: {1: 1.0}
+leaf-mild=0 probabilities: {1: 1.0}
+stem=1 probabilities: {1: 1.0}
+lodging=0 probabilities: {0: 0.25, 1: 0.75}
+lodging=1 probabilities: {1: 0.25, 0: 0.75}
+stem-cankers=0 probabilities: {1: 1.0}
+stem-cankers=1 probabilities: {0: 1.0}
+stem-cankers=2 probabilities: {0: 1.0}
+stem-cankers=3 probabilities: {0: 1.0}
+canker-lesion=0 probabilities: {0: 1.0}
+canker-lesion=1 probabilities: {0: 1.0}
+canker-lesion=2 probabilities: {0: 1.0}
+canker-lesion=3 probabilities: {1: 1.0}
+fruiting-bodies=0 probabilities: {1: 1.0}
+fruiting-bodies=1 probabilities: {0: 1.0}
+external decay=0 probabilities: {1: 1.0}
+external decay=1 probabilities: {0: 1.0}
+mycelium=0 probabilities: {1: 1.0}
+mycelium=1 probabilities: {0: 1.0}
+int-discolor=0 probabilities: {0: 1.0}
+int-discolor=2 probabilities: {1: 1.0}
+sclerotia=0 probabilities: {0: 1.0}
+sclerotia=1 probabilities: {1: 1.0}
+fruit-pods=0 probabilities: {1: 1.0}
+fruit-pods=3 probabilities: {0: 1.0}
+fruit spots=4 probabilities: {1: 1.0}
+seed=0 probabilities: {1: 1.0}
+mold-growth=0 probabilities: {1: 1.0}
+seed-discolor=0 probabilities: {1: 1.0}
+seed-size=0 probabilities: {1: 1.0}
+shriveling=0 probabilities: {1: 1.0}
+roots=0 probabilities: {1: 1.0}
+roots=1 probabilities: {0: 1.0}
+
+the attribute probabilities for D3:
+date=0 probabilities: {1: 0.7142857142857143, 0: 0.2857142857142857}
+date=1 probabilities: {0: 1.0}
+date=2 probabilities: {0: 0.7142857142857143, 1: 0.2857142857142857}
+date=3 probabilities: {0: 1.0}
+date=4 probabilities: {0: 1.0}
+date=5 probabilities: {0: 1.0}
+date=6 probabilities: {0: 1.0}
+plant-stand=0 probabilities: {0: 1.0}
+plant-stand=1 probabilities: {1: 1.0}
+precip=0 probabilities: {0: 1.0}
+precip=1 probabilities: {0: 1.0}
+precip=2 probabilities: {1: 1.0}
+temp=0 probabilities: {1: 1.0}
+temp=1 probabilities: {0: 1.0}
+temp=2 probabilities: {0: 1.0}
+hail=0 probabilities: {1: 1.0}
+hail=1 probabilities: {0: 1.0}
+crop-hist=0 probabilities: {0: 0.7142857142857143, 1: 0.2857142857142857}
+crop-hist=1 probabilities: {1: 0.2857142857142857, 0: 0.7142857142857143}
+crop-hist=2 probabilities: {0: 0.7142857142857143, 1: 0.2857142857142857}
+crop-hist=3 probabilities: {0: 0.8571428571428571, 1: 0.14285714285714285}
+area-damaged=0 probabilities: {0: 1.0}
+area-damaged=1 probabilities: {1: 1.0}
+area-damaged=2 probabilities: {0: 1.0}
+area-damaged=3 probabilities: {0: 1.0}
+severity=1 probabilities: {0: 0.2857142857142857, 1: 0.7142857142857143}
+severity=2 probabilities: {1: 0.2857142857142857, 0: 0.7142857142857143}
+seed-tmt=0 probabilities: {0: 0.5714285714285714, 1: 0.42857142857142855}
+seed-tmt=1 probabilities: {1: 0.5714285714285714, 0: 0.42857142857142855}
+germination=0 probabilities: {0: 1.0}
+germination=1 probabilities: {0: 0.42857142857142855, 1: 0.5714285714285714}
+germination=2 probabilities: {1: 0.42857142857142855, 0: 0.5714285714285714}
+plant-growth=1 probabilities: {1: 1.0}
+leaves=0 probabilities: {1: 1.0}
+leaves=1 probabilities: {0: 1.0}
+leafspots-halo=0 probabilities: {1: 1.0}
+leafspots-marg=2 probabilities: {1: 1.0}
+leafspot-size=2 probabilities: {1: 1.0}
+leaf-shread=0 probabilities: {1: 1.0}
+leaf-malf=0 probabilities: {1: 1.0}
+leaf-mild=0 probabilities: {1: 1.0}
+stem=1 probabilities: {1: 1.0}
+lodging=0 probabilities: {1: 1.0}
+lodging=1 probabilities: {0: 1.0}
+stem-cankers=0 probabilities: {0: 1.0}
+stem-cankers=1 probabilities: {1: 1.0}
+stem-cankers=2 probabilities: {0: 1.0}
+stem-cankers=3 probabilities: {0: 1.0}
+canker-lesion=0 probabilities: {0: 1.0}
+canker-lesion=1 probabilities: {1: 1.0}
+canker-lesion=2 probabilities: {0: 1.0}
+canker-lesion=3 probabilities: {0: 1.0}
+fruiting-bodies=0 probabilities: {1: 1.0}
+fruiting-bodies=1 probabilities: {0: 1.0}
+external decay=0 probabilities: {0: 1.0}
+external decay=1 probabilities: {1: 1.0}
+mycelium=0 probabilities: {1: 0.7142857142857143, 0: 0.2857142857142857}
+mycelium=1 probabilities: {0: 0.7142857142857143, 1: 0.2857142857142857}
+int-discolor=0 probabilities: {1: 1.0}
+int-discolor=2 probabilities: {0: 1.0}
+sclerotia=0 probabilities: {1: 1.0}
+sclerotia=1 probabilities: {0: 1.0}
+fruit-pods=0 probabilities: {0: 1.0}
+fruit-pods=3 probabilities: {1: 1.0}
+fruit spots=4 probabilities: {1: 1.0}
+seed=0 probabilities: {1: 1.0}
+mold-growth=0 probabilities: {1: 1.0}
+seed-discolor=0 probabilities: {1: 1.0}
+seed-size=0 probabilities: {1: 1.0}
+shriveling=0 probabilities: {1: 1.0}
+roots=0 probabilities: {1: 0.8571428571428571, 0: 0.14285714285714285}
+roots=1 probabilities: {0: 0.8571428571428571, 1: 0.14285714285714285}
+percent correct: 100.0%

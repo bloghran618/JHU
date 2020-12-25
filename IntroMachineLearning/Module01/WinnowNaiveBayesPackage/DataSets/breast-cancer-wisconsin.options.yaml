@@ -1,0 +1,13 @@
+missing_attributes: drop
+left_index: true
+one_hot_encode:
+    2: clump_thickness
+    3: cell_size_uniformity
+    4: cell_size_shape
+    5: marginal_adhesion
+    6: single_epithesial_cell_size
+    7: bare_nuclei
+    8: bland_chromatin
+    9: normal_nucleoti
+    10: mitoses    
+result_col: 11

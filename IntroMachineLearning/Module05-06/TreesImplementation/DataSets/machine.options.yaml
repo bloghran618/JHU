@@ -1,0 +1,14 @@
+rename_cols:
+    1: vendor
+    2: model
+    3: MYCT
+    4: MMIN
+    5: MMAX
+    6: CACH
+    7: CHMIN
+    8: CHMAX
+    9: PRP
+result_col: 10
+drop_columns:
+    - model
+    - PRP

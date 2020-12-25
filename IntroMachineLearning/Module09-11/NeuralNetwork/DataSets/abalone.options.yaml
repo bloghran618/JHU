@@ -1,0 +1,16 @@
+order_results: true
+value_encode:
+    0:
+        M: 1
+        I: 0
+        F: -1
+normalize_cols:
+    1: sex
+    2: length
+    3: diameter
+    4: height
+    5: whole_weight
+    6: shucked_weight
+    7: viscera_weight
+    8: shell_weight
+result_col: 9

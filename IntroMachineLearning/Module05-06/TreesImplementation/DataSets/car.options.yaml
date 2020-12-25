@@ -1,0 +1,9 @@
+rename_cols:
+    1: buying
+    2: maint
+    3: doors
+    4: persons
+    5: lug_boot
+    6: safety 
+result_col: 7
+order_results: true

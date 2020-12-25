@@ -1,0 +1,1207 @@
+options: {'left_index': False, 'discretize_groups': 3, 'discretize': {1: 'sepal_length', 2: 'sepal_width', 3: 'petal_length', 4: 'petal_width'}, 'result_col': 5, 'randomize_rows': True}
+real valued column sepal_length discretized to: 
+sepal_length_0-33%
+sepal_length_33-67%
+sepal_length_67-100%
+real valued column sepal_width discretized to: 
+sepal_width_0-33%
+sepal_width_33-67%
+sepal_width_67-100%
+real valued column petal_length discretized to: 
+petal_length_0-33%
+petal_length_33-67%
+petal_length_67-100%
+real valued column petal_width discretized to: 
+petal_width_0-33%
+petal_width_33-67%
+petal_width_67-100%
+     sepal_length_0-33%  sepal_length_33-67%  sepal_length_67-100%  sepal_width_0-33%  sepal_width_33-67%  sepal_width_67-100%  petal_length_0-33%  petal_length_33-67%  petal_length_67-100%  petal_width_0-33%  petal_width_33-67%  petal_width_67-100%           result
+0                     1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+1                     0                    1                     0                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+2                     0                    1                     0                  1                   0                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+3                     0                    1                     0                  1                   0                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+4                     1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+5                     1                    0                     0                  1                   0                    0                   0                    1                     0                  0                   0                    1   Iris-virginica
+6                     0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+7                     0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+8                     0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+9                     0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+10                    1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+11                    0                    0                     1                  1                   0                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+12                    0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+13                    0                    1                     0                  1                   0                    0                   0                    0                     1                  0                   1                    0   Iris-virginica
+14                    0                    0                     1                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+15                    1                    0                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+16                    1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+17                    0                    1                     0                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+18                    1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+19                    0                    1                     0                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+20                    0                    1                     0                  1                   0                    0                   0                    0                     1                  0                   1                    0   Iris-virginica
+21                    0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+22                    0                    0                     1                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+23                    0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+24                    0                    0                     1                  0                   0                    1                   0                    0                     1                  0                   0                    1   Iris-virginica
+25                    0                    0                     1                  1                   0                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+26                    0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+27                    1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+28                    0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   0                    1   Iris-virginica
+29                    0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+..                  ...                  ...                   ...                ...                 ...                  ...                 ...                  ...                   ...                ...                 ...                  ...              ...
+120                   0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+121                   0                    1                     0                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+122                   0                    0                     1                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+123                   0                    0                     1                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+124                   0                    1                     0                  0                   0                    1                   1                    0                     0                  1                   0                    0      Iris-setosa
+125                   0                    1                     0                  1                   0                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+126                   0                    0                     1                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+127                   1                    0                     0                  0                   0                    1                   1                    0                     0                  1                   0                    0      Iris-setosa
+128                   0                    0                     1                  0                   1                    0                   0                    0                     1                  0                   0                    1  Iris-versicolor
+129                   1                    0                     0                  0                   0                    1                   1                    0                     0                  1                   0                    0      Iris-setosa
+130                   1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+131                   0                    1                     0                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+132                   0                    0                     1                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+133                   0                    0                     1                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+134                   1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+135                   0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   0                    1  Iris-versicolor
+136                   0                    0                     1                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+137                   1                    0                     0                  0                   0                    1                   1                    0                     0                  1                   0                    0      Iris-setosa
+138                   0                    0                     1                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+139                   1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+140                   1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+141                   1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+142                   0                    1                     0                  1                   0                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+143                   0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+144                   0                    0                     1                  1                   0                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+145                   1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+146                   1                    0                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+147                   0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+148                   0                    0                     1                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+149                   0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+
+[150 rows x 13 columns]
+the class instances: {'Iris-setosa': 32, 'Iris-virginica': 37, 'Iris-versicolor': 36}
+the class probabilities: {'Iris-setosa': 0.3047619047619048, 'Iris-virginica': 0.3523809523809524, 'Iris-versicolor': 0.34285714285714286}
+conditional probabilities:
+Iris-setosa: [{1: 0.9375, 0: 0.0625}, {0: 0.9375, 1: 0.0625}, {0: 1.0}, {0: 0.96875, 1: 0.03125}, {1: 0.78125, 0: 0.21875}, {0: 0.8125, 1: 0.1875}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}]
+Iris-virginica: [{0: 0.972972972972973, 1: 0.02702702702702703}, {1: 0.5405405405405406, 0: 0.4594594594594595}, {0: 0.5675675675675675, 1: 0.43243243243243246}, {0: 0.5945945945945946, 1: 0.40540540540540543}, {1: 0.5405405405405406, 0: 0.4594594594594595}, {0: 0.9459459459459459, 1: 0.05405405405405406}, {0: 1.0}, {0: 0.8648648648648649, 1: 0.13513513513513514}, {1: 0.8648648648648649, 0: 0.13513513513513514}, {0: 1.0}, {0: 0.8918918918918919, 1: 0.10810810810810811}, {1: 0.8918918918918919, 0: 0.10810810810810811}]
+Iris-versicolor: [{0: 0.8611111111111112, 1: 0.1388888888888889}, {1: 0.8333333333333334, 0: 0.16666666666666666}, {0: 0.9722222222222222, 1: 0.027777777777777776}, {1: 0.6111111111111112, 0: 0.3888888888888889}, {0: 0.6111111111111112, 1: 0.3888888888888889}, {0: 1.0}, {0: 1.0}, {1: 0.9722222222222222, 0: 0.027777777777777776}, {0: 0.9722222222222222, 1: 0.027777777777777776}, {0: 1.0}, {1: 1.0}, {0: 1.0}]
+row: Pandas(Index=105, _1=0, _2=0, _3=1, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-setosa': 0.1647131783621652, 'Iris-virginica': 4.20197058202274e-09, 'Iris-versicolor': 3.458370912334478e-10}
+result prediction normalized: {'Iris-setosa': 99.99999723895345, 'Iris-virginica': 2.5510833485134017e-06, 'Iris-versicolor': 2.0996321309780752e-07}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=106, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-setosa': 1.7852365688121005e-10, 'Iris-virginica': 0.019028104713735727, 'Iris-versicolor': 1.3784078350590282e-08}
+result prediction normalized: {'Iris-setosa': 9.382097091038837e-07, 'Iris-virginica': 99.99992662121649, 'Iris-versicolor': 7.244057379004768e-05}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=107, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-setosa': 1.6124717395722196e-12, 'Iris-virginica': 0.011027651595460479, 'Iris-versicolor': 3.403823429431478e-08}
+result prediction normalized: {'Iris-setosa': 1.4622032155229225e-08, 'Iris-virginica': 99.99969132374741, 'Iris-versicolor': 0.00030866163055405624}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=108, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-setosa': 1.6124717395722196e-12, 'Iris-virginica': 0.011027651595460479, 'Iris-versicolor': 3.403823429431478e-08}
+result prediction normalized: {'Iris-setosa': 1.4622032155229225e-08, 'Iris-virginica': 99.99969132374741, 'Iris-versicolor': 0.00030866163055405624}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=109, _1=0, _2=1, _3=0, _4=0, _5=0, _6=1, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-setosa': 0.1647131783621652, 'Iris-virginica': 4.20197058202274e-09, 'Iris-versicolor': 3.458370912334478e-10}
+result prediction normalized: {'Iris-setosa': 99.99999723895345, 'Iris-virginica': 2.5510833485134017e-06, 'Iris-versicolor': 2.0996321309780752e-07}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=110, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-setosa': 3.628061414037494e-10, 'Iris-virginica': 6.356814138550758e-06, 'Iris-versicolor': 1.3450592584043742e-06}
+result prediction normalized: {'Iris-setosa': 0.004710400094687958, 'Iris-virginica': 82.53205914400708, 'Iris-versicolor': 17.463230455898234}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=111, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-setosa': 1.6124717395722196e-12, 'Iris-virginica': 3.955625715772957e-06, 'Iris-versicolor': 0.08443609494633461}
+result prediction normalized: {'Iris-setosa': 1.9096053692738494e-09, 'Iris-virginica': 0.0046845373598186, 'Iris-versicolor': 99.99531546073057}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=112, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-setosa': 1.7852365688121005e-10, 'Iris-virginica': 6.825393391921965e-06, 'Iris-versicolor': 0.03419312935843302}
+result prediction normalized: {'Iris-setosa': 5.219996846334743e-07, 'Iris-virginica': 0.01995731691992728, 'Iris-versicolor': 99.98004216108039}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=113, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-setosa': 1.6124717395722196e-12, 'Iris-virginica': 3.955625715772957e-06, 'Iris-versicolor': 0.08443609494633461}
+result prediction normalized: {'Iris-setosa': 1.9096053692738494e-09, 'Iris-virginica': 0.0046845373598186, 'Iris-versicolor': 99.99531546073057}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=114, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-setosa': 1.7852365688121005e-10, 'Iris-virginica': 6.825393391921965e-06, 'Iris-versicolor': 0.03419312935843302}
+result prediction normalized: {'Iris-setosa': 5.219996846334743e-07, 'Iris-virginica': 0.01995731691992728, 'Iris-versicolor': 99.98004216108039}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=115, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-setosa': 0.1647131783621652, 'Iris-virginica': 4.20197058202274e-09, 'Iris-versicolor': 3.458370912334478e-10}
+result prediction normalized: {'Iris-setosa': 99.99999723895345, 'Iris-virginica': 2.5510833485134017e-06, 'Iris-versicolor': 2.0996321309780752e-07}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=116, _1=0, _2=1, _3=0, _4=0, _5=0, _6=1, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-setosa': 5.374905798574065e-13, 'Iris-virginica': 0.007141717223726787, 'Iris-versicolor': 1.9450419596751302e-10}
+result prediction normalized: {'Iris-setosa': 7.526068987900281e-09, 'Iris-virginica': 99.99999726898064, 'Iris-versicolor': 2.7234933078751466e-06}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=117, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-setosa': 1.7852365688121005e-10, 'Iris-virginica': 6.825393391921965e-06, 'Iris-versicolor': 0.03419312935843302}
+result prediction normalized: {'Iris-setosa': 5.219996846334743e-07, 'Iris-virginica': 0.01995731691992728, 'Iris-versicolor': 99.98004216108039}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=118, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-setosa': 1.6124717395722196e-12, 'Iris-virginica': 0.00016202242931806032, 'Iris-versicolor': 6.892742444598743e-05}
+result prediction normalized: {'Iris-setosa': 6.981912748736705e-07, 'Iris-virginica': 70.15480873712339, 'Iris-versicolor': 29.845190564685335}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=119, _1=1, _2=0, _3=0, _4=0, _5=0, _6=1, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-setosa': 5.950788562707e-11, 'Iris-virginica': 0.012322963052705046, 'Iris-versicolor': 7.876616200337302e-11}
+result prediction normalized: {'Iris-setosa': 4.829024050857522e-07, 'Iris-virginica': 99.9999988779156, 'Iris-versicolor': 6.39181995293413e-07}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=120, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-setosa': 3.628061414037494e-10, 'Iris-virginica': 9.33967182890837e-08, 'Iris-versicolor': 0.002723744998268858}
+result prediction normalized: {'Iris-setosa': 1.3319662934001128e-05, 'Iris-virginica': 0.0034288636954688478, 'Iris-versicolor': 99.9965578166416}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=121, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-setosa': 0.1647131783621652, 'Iris-virginica': 4.20197058202274e-09, 'Iris-versicolor': 3.458370912334478e-10}
+result prediction normalized: {'Iris-setosa': 99.99999723895345, 'Iris-virginica': 2.5510833485134017e-06, 'Iris-versicolor': 2.0996321309780752e-07}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=122, _1=0, _2=0, _3=1, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-setosa': 1.7852365688121005e-10, 'Iris-virginica': 0.019028104713735727, 'Iris-versicolor': 1.3784078350590282e-08}
+result prediction normalized: {'Iris-setosa': 9.382097091038837e-07, 'Iris-virginica': 99.99992662121649, 'Iris-versicolor': 7.244057379004768e-05}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=123, _1=0, _2=0, _3=1, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-setosa': 0.1647131783621652, 'Iris-virginica': 4.20197058202274e-09, 'Iris-versicolor': 3.458370912334478e-10}
+result prediction normalized: {'Iris-setosa': 99.99999723895345, 'Iris-virginica': 2.5510833485134017e-06, 'Iris-versicolor': 2.0996321309780752e-07}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=124, _1=0, _2=1, _3=0, _4=0, _5=0, _6=1, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-setosa': 1.7852365688121005e-10, 'Iris-virginica': 0.019028104713735727, 'Iris-versicolor': 1.3784078350590282e-08}
+result prediction normalized: {'Iris-setosa': 9.382097091038837e-07, 'Iris-virginica': 99.99992662121649, 'Iris-versicolor': 7.244057379004768e-05}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=125, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-setosa': 1.6124717395722196e-12, 'Iris-virginica': 0.00016202242931806032, 'Iris-versicolor': 6.892742444598743e-05}
+result prediction normalized: {'Iris-setosa': 6.981912748736705e-07, 'Iris-virginica': 70.15480873712339, 'Iris-versicolor': 29.845190564685335}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=126, _1=0, _2=0, _3=1, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-setosa': 1.6124717395722196e-12, 'Iris-virginica': 3.955625715772957e-06, 'Iris-versicolor': 0.08443609494633461}
+result prediction normalized: {'Iris-setosa': 1.9096053692738494e-09, 'Iris-virginica': 0.0046845373598186, 'Iris-versicolor': 99.99531546073057}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=127, _1=1, _2=0, _3=0, _4=0, _5=0, _6=1, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-setosa': 5.950788562707e-11, 'Iris-virginica': 0.012322963052705046, 'Iris-versicolor': 7.876616200337302e-11}
+result prediction normalized: {'Iris-setosa': 4.829024050857522e-07, 'Iris-virginica': 99.9999988779156, 'Iris-versicolor': 6.39181995293413e-07}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=128, _1=0, _2=0, _3=1, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-versicolor')
+result prediction raw: {'Iris-setosa': 1.6124717395722196e-12, 'Iris-virginica': 3.955625715772957e-06, 'Iris-versicolor': 0.08443609494633461}
+result prediction normalized: {'Iris-setosa': 1.9096053692738494e-09, 'Iris-virginica': 0.0046845373598186, 'Iris-versicolor': 99.99531546073057}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=129, _1=1, _2=0, _3=0, _4=0, _5=0, _6=1, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-setosa': 3.8451249174414474e-12, 'Iris-virginica': 0.0005985439197028166, 'Iris-versicolor': 2.7505643874193754e-12}
+result prediction normalized: {'Iris-setosa': 6.424131544062826e-07, 'Iris-virginica': 99.99999889804421, 'Iris-versicolor': 4.595426110877639e-07}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=130, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-setosa': 5.374905798574065e-13, 'Iris-virginica': 0.007141717223726787, 'Iris-versicolor': 1.9450419596751302e-10}
+result prediction normalized: {'Iris-setosa': 7.526068987900281e-09, 'Iris-virginica': 99.99999726898064, 'Iris-versicolor': 2.7234933078751466e-06}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=131, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-setosa': 1.6124717395722196e-12, 'Iris-virginica': 3.955625715772957e-06, 'Iris-versicolor': 0.08443609494633461}
+result prediction normalized: {'Iris-setosa': 1.9096053692738494e-09, 'Iris-virginica': 0.0046845373598186, 'Iris-versicolor': 99.99531546073057}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=132, _1=0, _2=0, _3=1, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-setosa': 0.1647131783621652, 'Iris-virginica': 4.20197058202274e-09, 'Iris-versicolor': 3.458370912334478e-10}
+result prediction normalized: {'Iris-setosa': 99.99999723895345, 'Iris-virginica': 2.5510833485134017e-06, 'Iris-versicolor': 2.0996321309780752e-07}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=133, _1=0, _2=0, _3=1, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-setosa': 1.6124717395722196e-12, 'Iris-virginica': 0.00026922977527979686, 'Iris-versicolor': 4.1696837010535604e-05}
+result prediction normalized: {'Iris-setosa': 5.186020325928994e-07, 'Iris-virginica': 86.58949193842832, 'Iris-versicolor': 13.410507542969624}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=134, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-setosa': 1.7852365688121005e-10, 'Iris-virginica': 6.825393391921965e-06, 'Iris-versicolor': 0.03419312935843302}
+result prediction normalized: {'Iris-setosa': 5.219996846334743e-07, 'Iris-virginica': 0.01995731691992728, 'Iris-versicolor': 99.98004216108039}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=135, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=0, _11=0, _12=1, result='Iris-versicolor')
+result prediction raw: {'Iris-setosa': 1.7852365688121005e-10, 'Iris-virginica': 0.019028104713735727, 'Iris-versicolor': 1.3784078350590282e-08}
+result prediction normalized: {'Iris-setosa': 9.382097091038837e-07, 'Iris-virginica': 99.99992662121649, 'Iris-versicolor': 7.244057379004768e-05}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=136, _1=0, _2=0, _3=1, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-setosa': 3.628061414037494e-10, 'Iris-virginica': 9.33967182890837e-08, 'Iris-versicolor': 0.002723744998268858}
+result prediction normalized: {'Iris-setosa': 1.3319662934001128e-05, 'Iris-virginica': 0.0034288636954688478, 'Iris-versicolor': 99.9965578166416}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=137, _1=1, _2=0, _3=0, _4=0, _5=0, _6=1, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-setosa': 5.950788562707e-11, 'Iris-virginica': 4.420254768101843e-06, 'Iris-versicolor': 0.00019538931061961724}
+result prediction normalized: {'Iris-setosa': 2.97822918481336e-05, 'Iris-virginica': 2.212233154639728, 'Iris-versicolor': 97.78773706306842}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=138, _1=0, _2=0, _3=1, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-setosa': 4.016782279827226e-08, 'Iris-virginica': 1.6115512175371306e-07, 'Iris-versicolor': 0.0011030041728526776}
+result prediction normalized: {'Iris-setosa': 0.0036410100340594346, 'Iris-virginica': 0.01460789693014125, 'Iris-versicolor': 99.9817510930358}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=139, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-setosa': 1.7852365688121005e-10, 'Iris-virginica': 6.825393391921965e-06, 'Iris-versicolor': 0.03419312935843302}
+result prediction normalized: {'Iris-setosa': 5.219996846334743e-07, 'Iris-virginica': 0.01995731691992728, 'Iris-versicolor': 99.98004216108039}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=140, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-setosa': 0.1647131783621652, 'Iris-virginica': 4.20197058202274e-09, 'Iris-versicolor': 3.458370912334478e-10}
+result prediction normalized: {'Iris-setosa': 99.99999723895345, 'Iris-virginica': 2.5510833485134017e-06, 'Iris-versicolor': 2.0996321309780752e-07}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=141, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-setosa': 4.730224609375e-05, 'Iris-virginica': 8.644053768732495e-09, 'Iris-versicolor': 3.74382374954304e-10}
+result prediction normalized: {'Iris-setosa': 99.98093807841896, 'Iris-virginica': 0.018270603955788875, 'Iris-versicolor': 0.0007913176252512759}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=142, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-setosa': 5.950788562707e-11, 'Iris-virginica': 0.012322963052705046, 'Iris-versicolor': 7.876616200337302e-11}
+result prediction normalized: {'Iris-setosa': 4.829024050857522e-07, 'Iris-virginica': 99.9999988779156, 'Iris-versicolor': 6.39181995293413e-07}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=143, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-setosa': 0.0014877319335937502, 'Iris-virginica': 2.435232950944997e-09, 'Iris-versicolor': 8.540058783519836e-10}
+result prediction normalized: {'Iris-setosa': 99.99977890966223, 'Iris-virginica': 0.00016368725520314196, 'Iris-versicolor': 5.740308256774319e-05}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=144, _1=0, _2=0, _3=1, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-setosa': 1.7852365688121005e-10, 'Iris-virginica': 6.825393391921965e-06, 'Iris-versicolor': 0.03419312935843302}
+result prediction normalized: {'Iris-setosa': 5.219996846334743e-07, 'Iris-virginica': 0.01995731691992728, 'Iris-versicolor': 99.98004216108039}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=145, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-setosa': 0.1647131783621652, 'Iris-virginica': 4.20197058202274e-09, 'Iris-versicolor': 3.458370912334478e-10}
+result prediction normalized: {'Iris-setosa': 99.99999723895345, 'Iris-virginica': 2.5510833485134017e-06, 'Iris-versicolor': 2.0996321309780752e-07}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=146, _1=1, _2=0, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-setosa': 0.1647131783621652, 'Iris-virginica': 4.20197058202274e-09, 'Iris-versicolor': 3.458370912334478e-10}
+result prediction normalized: {'Iris-setosa': 99.99999723895345, 'Iris-virginica': 2.5510833485134017e-06, 'Iris-versicolor': 2.0996321309780752e-07}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=147, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-setosa': 1.7852365688121005e-10, 'Iris-virginica': 0.0004645533377376887, 'Iris-versicolor': 1.6885495979473094e-05}
+result prediction normalized: {'Iris-setosa': 3.708126104078816e-05, 'Iris-virginica': 96.4926659298886, 'Iris-versicolor': 3.507296988850348}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=148, _1=0, _2=0, _3=1, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-setosa': 5.950788562707e-11, 'Iris-virginica': 0.012322963052705046, 'Iris-versicolor': 7.876616200337302e-11}
+result prediction normalized: {'Iris-setosa': 4.829024050857522e-07, 'Iris-virginica': 99.9999988779156, 'Iris-versicolor': 6.39181995293413e-07}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=149, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-setosa': 1.6124717395722196e-12, 'Iris-virginica': 3.955625715772957e-06, 'Iris-versicolor': 0.08443609494633461}
+result prediction normalized: {'Iris-setosa': 1.9096053692738494e-09, 'Iris-virginica': 0.0046845373598186, 'Iris-versicolor': 99.99531546073057}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+the class probabilities:
+Iris-setosa: 0.3047619047619048
+Iris-virginica: 0.3523809523809524
+Iris-versicolor: 0.34285714285714286
+the attribute probabilities:
+sepal_length_0-33% probabilities: {1: 0.9375, 0: 0.0625}
+sepal_length_33-67% probabilities: {0: 0.9375, 1: 0.0625}
+sepal_length_67-100% probabilities: {0: 1.0}
+sepal_width_0-33% probabilities: {0: 0.96875, 1: 0.03125}
+sepal_width_33-67% probabilities: {1: 0.78125, 0: 0.21875}
+sepal_width_67-100% probabilities: {0: 0.8125, 1: 0.1875}
+petal_length_0-33% probabilities: {1: 1.0}
+petal_length_33-67% probabilities: {0: 1.0}
+petal_length_67-100% probabilities: {0: 1.0}
+petal_width_0-33% probabilities: {1: 1.0}
+petal_width_33-67% probabilities: {0: 1.0}
+petal_width_67-100% probabilities: {0: 1.0}
+sepal_length_0-33% probabilities: {0: 0.972972972972973, 1: 0.02702702702702703}
+sepal_length_33-67% probabilities: {1: 0.5405405405405406, 0: 0.4594594594594595}
+sepal_length_67-100% probabilities: {0: 0.5675675675675675, 1: 0.43243243243243246}
+sepal_width_0-33% probabilities: {0: 0.5945945945945946, 1: 0.40540540540540543}
+sepal_width_33-67% probabilities: {1: 0.5405405405405406, 0: 0.4594594594594595}
+sepal_width_67-100% probabilities: {0: 0.9459459459459459, 1: 0.05405405405405406}
+petal_length_0-33% probabilities: {0: 1.0}
+petal_length_33-67% probabilities: {0: 0.8648648648648649, 1: 0.13513513513513514}
+petal_length_67-100% probabilities: {1: 0.8648648648648649, 0: 0.13513513513513514}
+petal_width_0-33% probabilities: {0: 1.0}
+petal_width_33-67% probabilities: {0: 0.8918918918918919, 1: 0.10810810810810811}
+petal_width_67-100% probabilities: {1: 0.8918918918918919, 0: 0.10810810810810811}
+sepal_length_0-33% probabilities: {0: 0.8611111111111112, 1: 0.1388888888888889}
+sepal_length_33-67% probabilities: {1: 0.8333333333333334, 0: 0.16666666666666666}
+sepal_length_67-100% probabilities: {0: 0.9722222222222222, 1: 0.027777777777777776}
+sepal_width_0-33% probabilities: {1: 0.6111111111111112, 0: 0.3888888888888889}
+sepal_width_33-67% probabilities: {0: 0.6111111111111112, 1: 0.3888888888888889}
+sepal_width_67-100% probabilities: {0: 1.0}
+petal_length_0-33% probabilities: {0: 1.0}
+petal_length_33-67% probabilities: {1: 0.9722222222222222, 0: 0.027777777777777776}
+petal_length_67-100% probabilities: {0: 0.9722222222222222, 1: 0.027777777777777776}
+petal_width_0-33% probabilities: {0: 1.0}
+petal_width_33-67% probabilities: {1: 1.0}
+petal_width_67-100% probabilities: {0: 1.0}
+percent correct: 100.0%
+options: {'left_index': False, 'discretize_groups': 3, 'discretize': {1: 'sepal_length', 2: 'sepal_width', 3: 'petal_length', 4: 'petal_width'}, 'result_col': 5, 'randomize_rows': True}
+real valued column sepal_length discretized to: 
+sepal_length_0-33%
+sepal_length_33-67%
+sepal_length_67-100%
+real valued column sepal_width discretized to: 
+sepal_width_0-33%
+sepal_width_33-67%
+sepal_width_67-100%
+real valued column petal_length discretized to: 
+petal_length_0-33%
+petal_length_33-67%
+petal_length_67-100%
+real valued column petal_width discretized to: 
+petal_width_0-33%
+petal_width_33-67%
+petal_width_67-100%
+     sepal_length_0-33%  sepal_length_33-67%  sepal_length_67-100%  sepal_width_0-33%  sepal_width_33-67%  sepal_width_67-100%  petal_length_0-33%  petal_length_33-67%  petal_length_67-100%  petal_width_0-33%  petal_width_33-67%  petal_width_67-100%           result
+0                     0                    1                     0                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+1                     0                    0                     1                  1                   0                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+2                     0                    1                     0                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+3                     0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+4                     1                    0                     0                  0                   0                    1                   1                    0                     0                  1                   0                    0      Iris-setosa
+5                     1                    0                     0                  0                   0                    1                   1                    0                     0                  1                   0                    0      Iris-setosa
+6                     0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   0                    1   Iris-virginica
+7                     1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+8                     0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+9                     0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+10                    0                    1                     0                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+11                    1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+12                    0                    0                     1                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+13                    0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+14                    1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+15                    0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+16                    0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+17                    1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+18                    0                    1                     0                  0                   0                    1                   1                    0                     0                  1                   0                    0      Iris-setosa
+19                    1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+20                    0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   0                    1   Iris-virginica
+21                    1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+22                    0                    0                     1                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+23                    0                    1                     0                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+24                    0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+25                    0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+26                    0                    1                     0                  0                   0                    1                   1                    0                     0                  1                   0                    0      Iris-setosa
+27                    1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+28                    1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+29                    0                    0                     1                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+..                  ...                  ...                   ...                ...                 ...                  ...                 ...                  ...                   ...                ...                 ...                  ...              ...
+120                   1                    0                     0                  1                   0                    0                   0                    1                     0                  0                   0                    1   Iris-virginica
+121                   1                    0                     0                  0                   0                    1                   1                    0                     0                  1                   0                    0      Iris-setosa
+122                   1                    0                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+123                   0                    1                     0                  1                   0                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+124                   0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+125                   0                    0                     1                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+126                   0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   0                    1   Iris-virginica
+127                   0                    0                     1                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+128                   0                    0                     1                  0                   0                    1                   0                    0                     1                  0                   0                    1   Iris-virginica
+129                   0                    0                     1                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+130                   0                    0                     1                  0                   0                    1                   0                    0                     1                  0                   0                    1   Iris-virginica
+131                   0                    1                     0                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+132                   1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+133                   0                    1                     0                  0                   0                    1                   1                    0                     0                  1                   0                    0      Iris-setosa
+134                   1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+135                   0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+136                   0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+137                   0                    1                     0                  1                   0                    0                   0                    0                     1                  0                   1                    0   Iris-virginica
+138                   0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+139                   1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+140                   0                    1                     0                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+141                   1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+142                   0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+143                   0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+144                   0                    0                     1                  1                   0                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+145                   0                    1                     0                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+146                   1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+147                   1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+148                   1                    0                     0                  0                   0                    1                   1                    0                     0                  1                   0                    0      Iris-setosa
+149                   0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+
+[150 rows x 13 columns]
+the class instances: {'Iris-virginica': 35, 'Iris-versicolor': 34, 'Iris-setosa': 36}
+the class probabilities: {'Iris-virginica': 0.3333333333333333, 'Iris-versicolor': 0.3238095238095238, 'Iris-setosa': 0.34285714285714286}
+conditional probabilities:
+Iris-virginica: [{0: 1.0}, {1: 0.6, 0: 0.4}, {0: 0.6, 1: 0.4}, {0: 0.6, 1: 0.4}, {1: 0.6, 0: 0.4}, {0: 1.0}, {0: 1.0}, {0: 0.8857142857142857, 1: 0.11428571428571428}, {1: 0.8857142857142857, 0: 0.11428571428571428}, {0: 1.0}, {0: 0.9142857142857143, 1: 0.08571428571428572}, {1: 0.9142857142857143, 0: 0.08571428571428572}]
+Iris-versicolor: [{0: 0.8823529411764706, 1: 0.11764705882352941}, {1: 0.7647058823529411, 0: 0.23529411764705882}, {0: 0.8823529411764706, 1: 0.11764705882352941}, {0: 0.5588235294117647, 1: 0.4411764705882353}, {1: 0.5588235294117647, 0: 0.4411764705882353}, {0: 1.0}, {0: 1.0}, {1: 0.9705882352941176, 0: 0.029411764705882353}, {0: 0.9705882352941176, 1: 0.029411764705882353}, {0: 1.0}, {1: 0.9705882352941176, 0: 0.029411764705882353}, {0: 0.9705882352941176, 1: 0.029411764705882353}]
+Iris-setosa: [{1: 0.8888888888888888, 0: 0.1111111111111111}, {0: 0.8888888888888888, 1: 0.1111111111111111}, {0: 1.0}, {0: 0.9722222222222222, 1: 0.027777777777777776}, {0: 0.2777777777777778, 1: 0.7222222222222222}, {1: 0.25, 0: 0.75}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}]
+row: Pandas(Index=105, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-virginica': 0.028329239350270714, 'Iris-versicolor': 4.5050791332000784e-08, 'Iris-setosa': 5.435954111347994e-10}
+result prediction normalized: {'Iris-virginica': 99.99983905563859, 'Iris-versicolor': 0.00015902551518688008, 'Iris-setosa': 1.918846212309056e-06}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=106, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-virginica': 0.005595899130917675, 'Iris-versicolor': 1.1519486383635405e-09, 'Iris-setosa': 1.061969057162001e-12}
+result prediction normalized: {'Iris-virginica': 99.99997939544045, 'Iris-versicolor': 2.058558194240875e-05, 'Iris-setosa': 1.8977626535126646e-08}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=107, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-virginica': 0.028329239350270714, 'Iris-versicolor': 4.5050791332000784e-08, 'Iris-setosa': 5.435954111347994e-10}
+result prediction normalized: {'Iris-virginica': 99.99983905563859, 'Iris-versicolor': 0.00015902551518688008, 'Iris-setosa': 1.918846212309056e-06}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=108, _1=1, _2=0, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-virginica': 4.145472719700124e-06, 'Iris-versicolor': 0.05342667950723771, 'Iris-setosa': 5.435954111347994e-10}
+result prediction normalized: {'Iris-virginica': 0.007758578833622474, 'Iris-versicolor': 99.99224040378472, 'Iris-setosa': 1.0173816440383785e-06}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=109, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-virginica': 3.7142566911706304e-11, 'Iris-versicolor': 1.7437563256610896e-11, 'Iris-setosa': 0.01828989483310471}
+result prediction normalized: {'Iris-virginica': 2.0307698398373827e-07, 'Iris-versicolor': 9.533987682100981e-08, 'Iris-setosa': 99.99999970158315}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=110, _1=1, _2=0, _3=0, _4=0, _5=0, _6=1, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-virginica': 3.7142566911706304e-11, 'Iris-versicolor': 1.7437563256610896e-11, 'Iris-setosa': 0.01828989483310471}
+result prediction normalized: {'Iris-virginica': 2.0307698398373827e-07, 'Iris-versicolor': 9.533987682100981e-08, 'Iris-setosa': 99.99999970158315}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=111, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=0, _11=0, _12=1, result='Iris-versicolor')
+result prediction raw: {'Iris-virginica': 0.00020962785506039146, 'Iris-versicolor': 3.05777566374612e-05, 'Iris-setosa': 5.9735759465362565e-12}
+result prediction normalized: {'Iris-virginica': 87.27017173559042, 'Iris-versicolor': 12.729825777550202, 'Iris-setosa': 2.4868593850737353e-06}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=112, _1=0, _2=0, _3=1, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-virginica': 2.507123266540176e-09, 'Iris-versicolor': 9.939411056268208e-10, 'Iris-setosa': 0.14266117969821673}
+result prediction normalized: {'Iris-virginica': 1.7573969388982393e-06, 'Iris-versicolor': 6.96714469442189e-07, 'Iris-setosa': 99.99999754588859}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=113, _1=0, _2=0, _3=1, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-virginica': 1.8424323198667222e-06, 'Iris-versicolor': 0.033299176978195254, 'Iris-setosa': 5.9735759465362565e-12}
+result prediction normalized: {'Iris-virginica': 0.0055326604174599486, 'Iris-versicolor': 99.99446732164442, 'Iris-setosa': 1.7938117364594833e-08}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=114, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-virginica': 1.8424323198667222e-06, 'Iris-versicolor': 0.033299176978195254, 'Iris-setosa': 5.9735759465362565e-12}
+result prediction normalized: {'Iris-virginica': 0.0055326604174599486, 'Iris-versicolor': 99.99446732164442, 'Iris-setosa': 1.7938117364594833e-08}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=115, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-virginica': 0.028329239350270714, 'Iris-versicolor': 4.5050791332000784e-08, 'Iris-setosa': 5.435954111347994e-10}
+result prediction normalized: {'Iris-virginica': 99.99983905563859, 'Iris-versicolor': 0.00015902551518688008, 'Iris-setosa': 1.918846212309056e-06}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=116, _1=0, _2=0, _3=1, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-virginica': 2.507123266540176e-09, 'Iris-versicolor': 9.939411056268208e-10, 'Iris-setosa': 0.14266117969821673}
+result prediction normalized: {'Iris-virginica': 1.7573969388982393e-06, 'Iris-versicolor': 6.96714469442189e-07, 'Iris-setosa': 99.99999754588859}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=117, _1=0, _2=0, _3=1, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-virginica': 1.8424323198667222e-06, 'Iris-versicolor': 0.002191863774655906, 'Iris-setosa': 9.663918420174207e-11}
+result prediction normalized: {'Iris-virginica': 0.083987191759928, 'Iris-versicolor': 99.91600840294736, 'Iris-setosa': 4.405292725033093e-06}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=118, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-virginica': 4.145472719700124e-06, 'Iris-versicolor': 0.05342667950723771, 'Iris-setosa': 5.435954111347994e-10}
+result prediction normalized: {'Iris-virginica': 0.007758578833622474, 'Iris-versicolor': 99.99224040378472, 'Iris-setosa': 1.0173816440383785e-06}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=119, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-virginica': 2.507123266540176e-09, 'Iris-versicolor': 9.939411056268208e-10, 'Iris-setosa': 0.14266117969821673}
+result prediction normalized: {'Iris-virginica': 1.7573969388982393e-06, 'Iris-versicolor': 6.96714469442189e-07, 'Iris-setosa': 99.99999754588859}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=120, _1=1, _2=0, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-virginica': 4.145472719700124e-06, 'Iris-versicolor': 0.05342667950723771, 'Iris-setosa': 5.435954111347994e-10}
+result prediction normalized: {'Iris-virginica': 0.007758578833622474, 'Iris-versicolor': 99.99224040378472, 'Iris-setosa': 1.0173816440383785e-06}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=121, _1=1, _2=0, _3=0, _4=0, _5=0, _6=1, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-virginica': 4.145472719700124e-06, 'Iris-versicolor': 0.05342667950723771, 'Iris-setosa': 5.435954111347994e-10}
+result prediction normalized: {'Iris-virginica': 0.007758578833622474, 'Iris-versicolor': 99.99224040378472, 'Iris-setosa': 1.0173816440383785e-06}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=122, _1=1, _2=0, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-virginica': 2.507123266540176e-09, 'Iris-versicolor': 9.939411056268208e-10, 'Iris-setosa': 0.14266117969821673}
+result prediction normalized: {'Iris-virginica': 1.7573969388982393e-06, 'Iris-versicolor': 6.96714469442189e-07, 'Iris-setosa': 99.99999754588859}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=123, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-virginica': 2.507123266540176e-09, 'Iris-versicolor': 4.250406043798904e-10, 'Iris-setosa': 0.0002857796067672611}
+result prediction normalized: {'Iris-virginica': 0.0008772835722984263, 'Iris-versicolor': 0.00014872868229444795, 'Iris-setosa': 99.99897398774542}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=124, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-virginica': 2.507123266540176e-09, 'Iris-versicolor': 9.939411056268208e-10, 'Iris-setosa': 0.14266117969821673}
+result prediction normalized: {'Iris-virginica': 1.7573969388982393e-06, 'Iris-versicolor': 6.96714469442189e-07, 'Iris-setosa': 99.99999754588859}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=125, _1=0, _2=0, _3=1, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-virginica': 0.0004716626738858808, 'Iris-versicolor': 4.9060311760548856e-05, 'Iris-setosa': 5.435954111347994e-10}
+result prediction normalized: {'Iris-virginica': 90.57832945874537, 'Iris-versicolor': 9.421566148927308, 'Iris-setosa': 0.00010439232733083129}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=126, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-virginica': 2.507123266540176e-09, 'Iris-versicolor': 9.939411056268208e-10, 'Iris-setosa': 0.14266117969821673}
+result prediction normalized: {'Iris-virginica': 1.7573969388982393e-06, 'Iris-versicolor': 6.96714469442189e-07, 'Iris-setosa': 99.99999754588859}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=127, _1=0, _2=0, _3=1, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-virginica': 0.012590773044564763, 'Iris-versicolor': 1.8482375931077246e-09, 'Iris-setosa': 9.663918420174207e-11}
+result prediction normalized: {'Iris-virginica': 99.99998455316071, 'Iris-versicolor': 1.467929968296338e-05, 'Iris-setosa': 7.675396016748963e-07}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=128, _1=0, _2=0, _3=1, _4=0, _5=0, _6=1, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-virginica': 0.028329239350270714, 'Iris-versicolor': 4.5050791332000784e-08, 'Iris-setosa': 5.435954111347994e-10}
+result prediction normalized: {'Iris-virginica': 99.99983905563859, 'Iris-versicolor': 0.00015902551518688008, 'Iris-setosa': 1.918846212309056e-06}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=129, _1=0, _2=0, _3=1, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-virginica': 1.8424323198667222e-06, 'Iris-versicolor': 0.033299176978195254, 'Iris-setosa': 5.9735759465362565e-12}
+result prediction normalized: {'Iris-virginica': 0.0055326604174599486, 'Iris-versicolor': 99.99446732164442, 'Iris-setosa': 1.7938117364594833e-08}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=130, _1=0, _2=0, _3=1, _4=0, _5=0, _6=1, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-virginica': 4.145472719700124e-06, 'Iris-versicolor': 0.05342667950723771, 'Iris-setosa': 5.435954111347994e-10}
+result prediction normalized: {'Iris-virginica': 0.007758578833622474, 'Iris-versicolor': 99.99224040378472, 'Iris-setosa': 1.0173816440383785e-06}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=131, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-virginica': 2.507123266540176e-09, 'Iris-versicolor': 4.250406043798904e-10, 'Iris-setosa': 0.0002857796067672611}
+result prediction normalized: {'Iris-virginica': 0.0008772835722984263, 'Iris-versicolor': 0.00014872868229444795, 'Iris-setosa': 99.99897398774542}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=132, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-virginica': 2.507123266540176e-09, 'Iris-versicolor': 9.939411056268208e-10, 'Iris-setosa': 0.14266117969821673}
+result prediction normalized: {'Iris-virginica': 1.7573969388982393e-06, 'Iris-versicolor': 6.96714469442189e-07, 'Iris-setosa': 99.99999754588859}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=133, _1=0, _2=1, _3=0, _4=0, _5=0, _6=1, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-virginica': 2.507123266540176e-09, 'Iris-versicolor': 9.939411056268208e-10, 'Iris-setosa': 0.14266117969821673}
+result prediction normalized: {'Iris-virginica': 1.7573969388982393e-06, 'Iris-versicolor': 6.96714469442189e-07, 'Iris-setosa': 99.99999754588859}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=134, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-virginica': 0.012590773044564763, 'Iris-versicolor': 1.8482375931077246e-09, 'Iris-setosa': 9.663918420174207e-11}
+result prediction normalized: {'Iris-virginica': 99.99998455316071, 'Iris-versicolor': 1.467929968296338e-05, 'Iris-setosa': 7.675396016748963e-07}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=135, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-virginica': 2.507123266540176e-09, 'Iris-versicolor': 9.939411056268208e-10, 'Iris-setosa': 0.14266117969821673}
+result prediction normalized: {'Iris-virginica': 1.7573969388982393e-06, 'Iris-versicolor': 6.96714469442189e-07, 'Iris-setosa': 99.99999754588859}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=136, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-virginica': 2.7295293627655144e-08, 'Iris-versicolor': 0.0013661200811567287, 'Iris-setosa': 3.823088605783204e-10}
+result prediction normalized: {'Iris-virginica': 0.0019979752155393268, 'Iris-versicolor': 99.99797404034001, 'Iris-setosa': 2.7984444444394995e-05}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=137, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=1, _12=0, result='Iris-virginica')
+result prediction raw: {'Iris-virginica': 1.8424323198667222e-06, 'Iris-versicolor': 0.002191863774655906, 'Iris-setosa': 9.663918420174207e-11}
+result prediction normalized: {'Iris-virginica': 0.083987191759928, 'Iris-versicolor': 99.91600840294736, 'Iris-setosa': 4.405292725033093e-06}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=138, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-virginica': 0.028329239350270714, 'Iris-versicolor': 4.5050791332000784e-08, 'Iris-setosa': 5.435954111347994e-10}
+result prediction normalized: {'Iris-virginica': 99.99983905563859, 'Iris-versicolor': 0.00015902551518688008, 'Iris-setosa': 1.918846212309056e-06}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=139, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-virginica': 0.012590773044564761, 'Iris-versicolor': 2.8078748060111293e-08, 'Iris-setosa': 5.9735759465362565e-12}
+result prediction normalized: {'Iris-virginica': 99.99977694253649, 'Iris-versicolor': 0.0002230100195514938, 'Iris-setosa': 4.744397028590681e-08}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=140, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-virginica': 4.145472719700124e-06, 'Iris-versicolor': 0.05342667950723771, 'Iris-setosa': 5.435954111347994e-10}
+result prediction normalized: {'Iris-virginica': 0.007758578833622474, 'Iris-versicolor': 99.99224040378472, 'Iris-setosa': 1.0173816440383785e-06}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=141, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-virginica': 1.8424323198667222e-06, 'Iris-versicolor': 0.033299176978195254, 'Iris-setosa': 5.9735759465362565e-12}
+result prediction normalized: {'Iris-virginica': 0.0055326604174599486, 'Iris-versicolor': 99.99446732164442, 'Iris-setosa': 1.7938117364594833e-08}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=142, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-virginica': 0.012590773044564763, 'Iris-versicolor': 1.8482375931077246e-09, 'Iris-setosa': 9.663918420174207e-11}
+result prediction normalized: {'Iris-virginica': 99.99998455316071, 'Iris-versicolor': 1.467929968296338e-05, 'Iris-setosa': 7.675396016748963e-07}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=143, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-virginica': 0.012590773044564763, 'Iris-versicolor': 1.8482375931077246e-09, 'Iris-setosa': 9.663918420174207e-11}
+result prediction normalized: {'Iris-virginica': 99.99998455316071, 'Iris-versicolor': 1.467929968296338e-05, 'Iris-setosa': 7.675396016748963e-07}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=144, _1=0, _2=0, _3=1, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-virginica': 0.005595899130917675, 'Iris-versicolor': 1.1519486383635405e-09, 'Iris-setosa': 1.061969057162001e-12}
+result prediction normalized: {'Iris-virginica': 99.99997939544045, 'Iris-versicolor': 2.058558194240875e-05, 'Iris-setosa': 1.8977626535126646e-08}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=145, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-virginica': 0.028329239350270714, 'Iris-versicolor': 4.5050791332000784e-08, 'Iris-setosa': 5.435954111347994e-10}
+result prediction normalized: {'Iris-virginica': 99.99983905563859, 'Iris-versicolor': 0.00015902551518688008, 'Iris-setosa': 1.918846212309056e-06}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=146, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-virginica': 1.8424323198667222e-06, 'Iris-versicolor': 0.033299176978195254, 'Iris-setosa': 5.9735759465362565e-12}
+result prediction normalized: {'Iris-virginica': 0.0055326604174599486, 'Iris-versicolor': 99.99446732164442, 'Iris-setosa': 1.7938117364594833e-08}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=147, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-virginica': 0.00011066109121199498, 'Iris-versicolor': 3.05777566374612e-05, 'Iris-setosa': 5.9735759465362565e-12}
+result prediction normalized: {'Iris-virginica': 78.35031807228475, 'Iris-versicolor': 21.649677698301186, 'Iris-setosa': 4.229414063371656e-06}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=148, _1=1, _2=0, _3=0, _4=0, _5=0, _6=1, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-virginica': 2.507123266540176e-09, 'Iris-versicolor': 9.939411056268208e-10, 'Iris-setosa': 0.14266117969821673}
+result prediction normalized: {'Iris-virginica': 1.7573969388982393e-06, 'Iris-versicolor': 6.96714469442189e-07, 'Iris-setosa': 99.99999754588859}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=149, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-virginica': 1.8424323198667222e-06, 'Iris-versicolor': 0.033299176978195254, 'Iris-setosa': 5.9735759465362565e-12}
+result prediction normalized: {'Iris-virginica': 0.0055326604174599486, 'Iris-versicolor': 99.99446732164442, 'Iris-setosa': 1.7938117364594833e-08}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+the class probabilities:
+Iris-virginica: 0.3333333333333333
+Iris-versicolor: 0.3238095238095238
+Iris-setosa: 0.34285714285714286
+
+the attribute probabilities for Iris-virginica:
+sepal_length_0-33% probabilities: {0: 1.0}
+sepal_length_33-67% probabilities: {1: 0.6, 0: 0.4}
+sepal_length_67-100% probabilities: {0: 0.6, 1: 0.4}
+sepal_width_0-33% probabilities: {0: 0.6, 1: 0.4}
+sepal_width_33-67% probabilities: {1: 0.6, 0: 0.4}
+sepal_width_67-100% probabilities: {0: 1.0}
+petal_length_0-33% probabilities: {0: 1.0}
+petal_length_33-67% probabilities: {0: 0.8857142857142857, 1: 0.11428571428571428}
+petal_length_67-100% probabilities: {1: 0.8857142857142857, 0: 0.11428571428571428}
+petal_width_0-33% probabilities: {0: 1.0}
+petal_width_33-67% probabilities: {0: 0.9142857142857143, 1: 0.08571428571428572}
+petal_width_67-100% probabilities: {1: 0.9142857142857143, 0: 0.08571428571428572}
+
+the attribute probabilities for Iris-versicolor:
+sepal_length_0-33% probabilities: {0: 0.8823529411764706, 1: 0.11764705882352941}
+sepal_length_33-67% probabilities: {1: 0.7647058823529411, 0: 0.23529411764705882}
+sepal_length_67-100% probabilities: {0: 0.8823529411764706, 1: 0.11764705882352941}
+sepal_width_0-33% probabilities: {0: 0.5588235294117647, 1: 0.4411764705882353}
+sepal_width_33-67% probabilities: {1: 0.5588235294117647, 0: 0.4411764705882353}
+sepal_width_67-100% probabilities: {0: 1.0}
+petal_length_0-33% probabilities: {0: 1.0}
+petal_length_33-67% probabilities: {1: 0.9705882352941176, 0: 0.029411764705882353}
+petal_length_67-100% probabilities: {0: 0.9705882352941176, 1: 0.029411764705882353}
+petal_width_0-33% probabilities: {0: 1.0}
+petal_width_33-67% probabilities: {1: 0.9705882352941176, 0: 0.029411764705882353}
+petal_width_67-100% probabilities: {0: 0.9705882352941176, 1: 0.029411764705882353}
+
+the attribute probabilities for Iris-setosa:
+sepal_length_0-33% probabilities: {1: 0.8888888888888888, 0: 0.1111111111111111}
+sepal_length_33-67% probabilities: {0: 0.8888888888888888, 1: 0.1111111111111111}
+sepal_length_67-100% probabilities: {0: 1.0}
+sepal_width_0-33% probabilities: {0: 0.9722222222222222, 1: 0.027777777777777776}
+sepal_width_33-67% probabilities: {0: 0.2777777777777778, 1: 0.7222222222222222}
+sepal_width_67-100% probabilities: {1: 0.25, 0: 0.75}
+petal_length_0-33% probabilities: {1: 1.0}
+petal_length_33-67% probabilities: {0: 1.0}
+petal_length_67-100% probabilities: {0: 1.0}
+petal_width_0-33% probabilities: {1: 1.0}
+petal_width_33-67% probabilities: {0: 1.0}
+petal_width_67-100% probabilities: {0: 1.0}
+percent correct: 100.0%
+options: {'left_index': False, 'discretize_groups': 3, 'discretize': {1: 'sepal_length', 2: 'sepal_width', 3: 'petal_length', 4: 'petal_width'}, 'result_col': 5, 'randomize_rows': True}
+real valued column sepal_length discretized to: 
+sepal_length_0-33%
+sepal_length_33-67%
+sepal_length_67-100%
+real valued column sepal_width discretized to: 
+sepal_width_0-33%
+sepal_width_33-67%
+sepal_width_67-100%
+real valued column petal_length discretized to: 
+petal_length_0-33%
+petal_length_33-67%
+petal_length_67-100%
+real valued column petal_width discretized to: 
+petal_width_0-33%
+petal_width_33-67%
+petal_width_67-100%
+     sepal_length_0-33%  sepal_length_33-67%  sepal_length_67-100%  sepal_width_0-33%  sepal_width_33-67%  sepal_width_67-100%  petal_length_0-33%  petal_length_33-67%  petal_length_67-100%  petal_width_0-33%  petal_width_33-67%  petal_width_67-100%           result
+0                     0                    0                     1                  0                   1                    0                   0                    0                     1                  0                   0                    1  Iris-versicolor
+1                     0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+2                     1                    0                     0                  0                   0                    1                   1                    0                     0                  1                   0                    0      Iris-setosa
+3                     0                    1                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+4                     0                    0                     1                  1                   0                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+5                     0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+6                     1                    0                     0                  1                   0                    0                   0                    1                     0                  0                   0                    1   Iris-virginica
+7                     1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+8                     1                    0                     0                  0                   0                    1                   1                    0                     0                  1                   0                    0      Iris-setosa
+9                     0                    1                     0                  1                   0                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+10                    0                    0                     1                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+11                    0                    1                     0                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+12                    0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+13                    0                    0                     1                  1                   0                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+14                    1                    0                     0                  0                   0                    1                   1                    0                     0                  1                   0                    0      Iris-setosa
+15                    0                    0                     1                  0                   0                    1                   0                    0                     1                  0                   0                    1   Iris-virginica
+16                    0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+17                    0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+18                    1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+19                    1                    0                     0                  0                   0                    1                   1                    0                     0                  1                   0                    0      Iris-setosa
+20                    0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   0                    1   Iris-virginica
+21                    1                    0                     0                  0                   0                    1                   1                    0                     0                  1                   0                    0      Iris-setosa
+22                    0                    1                     0                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+23                    0                    1                     0                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+24                    1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+25                    1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+26                    0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+27                    0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+28                    0                    1                     0                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+29                    0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+..                  ...                  ...                   ...                ...                 ...                  ...                 ...                  ...                   ...                ...                 ...                  ...              ...
+120                   0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+121                   0                    1                     0                  1                   0                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+122                   0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   0                    1   Iris-virginica
+123                   0                    1                     0                  1                   0                    0                   0                    0                     1                  0                   1                    0   Iris-virginica
+124                   0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+125                   0                    0                     1                  1                   0                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+126                   0                    0                     1                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+127                   0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+128                   0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+129                   0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+130                   1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+131                   0                    0                     1                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+132                   1                    0                     0                  1                   0                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+133                   0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+134                   0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+135                   0                    1                     0                  0                   0                    1                   1                    0                     0                  1                   0                    0      Iris-setosa
+136                   1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+137                   1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+138                   0                    1                     0                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+139                   1                    0                     0                  0                   0                    1                   1                    0                     0                  1                   0                    0      Iris-setosa
+140                   0                    1                     0                  0                   1                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+141                   0                    0                     1                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+142                   0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+143                   0                    1                     0                  1                   0                    0                   0                    0                     1                  0                   1                    0   Iris-virginica
+144                   0                    1                     0                  1                   0                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+145                   0                    1                     0                  1                   0                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+146                   0                    1                     0                  1                   0                    0                   0                    1                     0                  0                   1                    0  Iris-versicolor
+147                   0                    1                     0                  0                   1                    0                   0                    0                     1                  0                   0                    1   Iris-virginica
+148                   1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+149                   1                    0                     0                  0                   1                    0                   1                    0                     0                  1                   0                    0      Iris-setosa
+
+[150 rows x 13 columns]
+the class instances: {'Iris-versicolor': 36, 'Iris-setosa': 35, 'Iris-virginica': 34}
+the class probabilities: {'Iris-versicolor': 0.34285714285714286, 'Iris-setosa': 0.3333333333333333, 'Iris-virginica': 0.3238095238095238}
+conditional probabilities:
+Iris-versicolor: [{0: 0.8611111111111112, 1: 0.1388888888888889}, {0: 0.3055555555555556, 1: 0.6944444444444444}, {1: 0.16666666666666666, 0: 0.8333333333333334}, {0: 0.5555555555555556, 1: 0.4444444444444444}, {1: 0.5555555555555556, 0: 0.4444444444444444}, {0: 1.0}, {0: 1.0}, {0: 0.027777777777777776, 1: 0.9722222222222222}, {1: 0.027777777777777776, 0: 0.9722222222222222}, {0: 1.0}, {0: 0.05555555555555555, 1: 0.9444444444444444}, {1: 0.05555555555555555, 0: 0.9444444444444444}]
+Iris-setosa: [{1: 0.8857142857142857, 0: 0.11428571428571428}, {0: 0.8857142857142857, 1: 0.11428571428571428}, {0: 1.0}, {0: 1.0}, {0: 0.2857142857142857, 1: 0.7142857142857143}, {1: 0.2857142857142857, 0: 0.7142857142857143}, {1: 1.0}, {0: 1.0}, {0: 1.0}, {1: 1.0}, {0: 1.0}, {0: 1.0}]
+Iris-virginica: [{0: 0.9705882352941176, 1: 0.029411764705882353}, {0: 0.5, 1: 0.5}, {1: 0.47058823529411764, 0: 0.5294117647058824}, {1: 0.3235294117647059, 0: 0.6764705882352942}, {0: 0.38235294117647056, 1: 0.6176470588235294}, {0: 0.9411764705882353, 1: 0.058823529411764705}, {0: 1.0}, {0: 0.8529411764705882, 1: 0.14705882352941177}, {1: 0.8529411764705882, 0: 0.14705882352941177}, {0: 1.0}, {0: 0.9411764705882353, 1: 0.058823529411764705}, {1: 0.9411764705882353, 0: 0.058823529411764705}]
+row: Pandas(Index=105, _1=0, _2=0, _3=1, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-versicolor': 1.1051374770881419e-08, 'Iris-setosa': 9.32922788058467e-11, 'Iris-virginica': 0.01874029197627315}
+result prediction normalized: {'Iris-versicolor': 5.897116337746288e-05, 'Iris-setosa': 4.978162743888757e-07, 'Iris-virginica': 99.99994053102034}
+the predicted class is: Iris-virginica
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=106, _1=0, _2=0, _3=1, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-versicolor': 0.04445980628706017, 'Iris-setosa': 5.41697102743626e-10, 'Iris-virginica': 2.4481212462501967e-06}
+result prediction normalized: {'Iris-versicolor': 99.99449271534674, 'Iris-setosa': 1.2183302519243529e-06, 'Iris-virginica': 0.005506066323003716}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=107, _1=1, _2=0, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-versicolor': 4.655475366998148e-11, 'Iris-setosa': 0.021346661113424956, 'Iris-virginica': 1.3153641670123796e-10}
+result prediction normalized: {'Iris-versicolor': 2.180891570546626e-07, 'Iris-setosa': 99.99999916571886, 'Iris-virginica': 6.161919885500545e-07}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=108, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-versicolor': 3.689993259637736e-08, 'Iris-setosa': 0.0022212966819380813, 'Iris-virginica': 1.1219044526025589e-07}
+result prediction normalized: {'Iris-versicolor': 0.0016610773513461839, 'Iris-setosa': 99.9932885880126, 'Iris-virginica': 0.005050334636046203}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=109, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-versicolor': 7.072879853364108e-09, 'Iris-setosa': 8.292647004964149e-13, 'Iris-virginica': 0.0055483680178199995}
+result prediction normalized: {'Iris-versicolor': 0.00012747659876424902, 'Iris-setosa': 1.4946082173904933e-08, 'Iris-virginica': 99.99987250845514}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=110, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-versicolor': 0.0284542760237185, 'Iris-setosa': 4.81508535772112e-12, 'Iris-virginica': 7.248060832583398e-07}
+result prediction normalized: {'Iris-versicolor': 99.99745278201692, 'Iris-setosa': 1.6921754406920777e-08, 'Iris-virginica': 0.0025472010613212816}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=111, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-versicolor': 6.987320822879866e-06, 'Iris-setosa': 2.8920606429812476e-10, 'Iris-virginica': 5.622738100428332e-06}
+result prediction normalized: {'Iris-versicolor': 55.40942051080046, 'Iris-setosa': 0.002293402698570194, 'Iris-virginica': 44.588286086500965}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-virginica
+
+row: Pandas(Index=112, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-versicolor': 2.6187048939364584e-09, 'Iris-setosa': 0.13341663195890602, 'Iris-virginica': 3.399710462431997e-09}
+result prediction normalized: {'Iris-versicolor': 1.962802341325371e-06, 'Iris-setosa': 99.99999548900689, 'Iris-virginica': 2.5481907758835084e-06}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=113, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-versicolor': 4.655475366998148e-11, 'Iris-setosa': 0.021346661113424956, 'Iris-virginica': 1.3153641670123796e-10}
+result prediction normalized: {'Iris-versicolor': 2.180891570546626e-07, 'Iris-setosa': 99.99999916571886, 'Iris-virginica': 6.161919885500545e-07}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=114, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-versicolor': 8.03736346973194e-08, 'Iris-setosa': 4.81508535772112e-12, 'Iris-virginica': 0.006241914020047499}
+result prediction normalized: {'Iris-versicolor': 0.0012876274723455186, 'Iris-setosa': 7.714017428276322e-08, 'Iris-virginica': 99.99871229538748}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=115, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-versicolor': 1.1051374770881419e-08, 'Iris-setosa': 9.32922788058467e-11, 'Iris-virginica': 0.01874029197627315}
+result prediction normalized: {'Iris-versicolor': 5.897116337746288e-05, 'Iris-setosa': 4.978162743888757e-07, 'Iris-virginica': 99.99994053102034}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=116, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-versicolor': 1.255838042145616e-07, 'Iris-setosa': 5.41697102743626e-10, 'Iris-virginica': 0.021082828473307287}
+result prediction normalized: {'Iris-versicolor': 0.0005956651076868435, 'Iris-setosa': 2.5693604765161197e-06, 'Iris-virginica': 99.99940176553184}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=117, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-versicolor': 0.0284542760237185, 'Iris-setosa': 4.81508535772112e-12, 'Iris-virginica': 7.248060832583398e-07}
+result prediction normalized: {'Iris-versicolor': 99.99745278201692, 'Iris-setosa': 1.6921754406920777e-08, 'Iris-virginica': 0.0025472010613212816}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=118, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-versicolor': 7.072879853364108e-09, 'Iris-setosa': 8.292647004964149e-13, 'Iris-virginica': 0.0055483680178199995}
+result prediction normalized: {'Iris-versicolor': 0.00012747659876424902, 'Iris-setosa': 1.4946082173904933e-08, 'Iris-virginica': 99.99987250845514}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=119, _1=1, _2=0, _3=0, _4=0, _5=0, _6=1, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-versicolor': 4.655475366998148e-11, 'Iris-setosa': 0.021346661113424956, 'Iris-virginica': 1.3153641670123796e-10}
+result prediction normalized: {'Iris-versicolor': 2.180891570546626e-07, 'Iris-setosa': 99.99999916571886, 'Iris-virginica': 6.161919885500545e-07}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=120, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-versicolor': 1.9646888481566967e-10, 'Iris-setosa': 1.492676460893547e-11, 'Iris-virginica': 0.000725070820510568}
+result prediction normalized: {'Iris-versicolor': 2.7096501745374028e-05, 'Iris-setosa': 2.0586623864551434e-06, 'Iris-virginica': 99.99997084483586}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=121, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-versicolor': 0.0284542760237185, 'Iris-setosa': 4.81508535772112e-12, 'Iris-virginica': 7.248060832583398e-07}
+result prediction normalized: {'Iris-versicolor': 99.99745278201692, 'Iris-setosa': 1.6921754406920777e-08, 'Iris-virginica': 0.0025472010613212816}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=122, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-versicolor': 0.04445980628706017, 'Iris-setosa': 5.41697102743626e-10, 'Iris-virginica': 2.4481212462501967e-06}
+result prediction normalized: {'Iris-versicolor': 99.99449271534674, 'Iris-setosa': 1.2183302519243529e-06, 'Iris-virginica': 0.005506066323003716}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=123, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=1, _12=0, result='Iris-virginica')
+result prediction raw: {'Iris-versicolor': 2.6187048939364584e-09, 'Iris-setosa': 0.13341663195890602, 'Iris-virginica': 3.399710462431997e-09}
+result prediction normalized: {'Iris-versicolor': 1.962802341325371e-06, 'Iris-setosa': 99.99999548900689, 'Iris-virginica': 2.5481907758835084e-06}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=124, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-versicolor': 4.655475366998148e-11, 'Iris-setosa': 0.021346661113424956, 'Iris-virginica': 1.3153641670123796e-10}
+result prediction normalized: {'Iris-versicolor': 2.180891570546626e-07, 'Iris-setosa': 99.99999916571886, 'Iris-virginica': 6.161919885500545e-07}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=125, _1=0, _2=0, _3=1, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-versicolor': 9.845770250421627e-05, 'Iris-setosa': 4.81508535772112e-12, 'Iris-virginica': 0.000185550357314135}
+result prediction normalized: {'Iris-versicolor': 34.66722067603735, 'Iris-setosa': 1.695404447030704e-06, 'Iris-virginica': 65.3327776285582}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=126, _1=0, _2=0, _3=1, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-versicolor': 4.655475366998148e-11, 'Iris-setosa': 0.021346661113424956, 'Iris-virginica': 1.3153641670123796e-10}
+result prediction normalized: {'Iris-versicolor': 2.180891570546626e-07, 'Iris-setosa': 99.99999916571886, 'Iris-virginica': 6.161919885500545e-07}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=127, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-versicolor': 1.255838042145616e-07, 'Iris-setosa': 5.41697102743626e-10, 'Iris-virginica': 0.021082828473307287}
+result prediction normalized: {'Iris-versicolor': 0.0005956651076868435, 'Iris-setosa': 2.5693604765161197e-06, 'Iris-virginica': 99.99940176553184}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=128, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-versicolor': 1.255838042145616e-07, 'Iris-setosa': 5.41697102743626e-10, 'Iris-virginica': 0.021082828473307287}
+result prediction normalized: {'Iris-versicolor': 0.0005956651076868435, 'Iris-setosa': 2.5693604765161197e-06, 'Iris-virginica': 99.99940176553184}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=129, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-versicolor': 2.6187048939364584e-09, 'Iris-setosa': 0.13341663195890602, 'Iris-virginica': 3.399710462431997e-09}
+result prediction normalized: {'Iris-versicolor': 1.962802341325371e-06, 'Iris-setosa': 99.99999548900689, 'Iris-virginica': 2.5481907758835084e-06}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=130, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-versicolor': 2.6187048939364584e-09, 'Iris-setosa': 0.13341663195890602, 'Iris-virginica': 3.399710462431997e-09}
+result prediction normalized: {'Iris-versicolor': 1.962802341325371e-06, 'Iris-setosa': 99.99999548900689, 'Iris-virginica': 2.5481907758835084e-06}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=131, _1=0, _2=0, _3=1, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-versicolor': 0.04445980628706017, 'Iris-setosa': 5.41697102743626e-10, 'Iris-virginica': 2.4481212462501967e-06}
+result prediction normalized: {'Iris-versicolor': 99.99449271534674, 'Iris-setosa': 1.2183302519243529e-06, 'Iris-virginica': 0.005506066323003716}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=132, _1=1, _2=0, _3=0, _4=1, _5=0, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-versicolor': 0.0284542760237185, 'Iris-setosa': 4.81508535772112e-12, 'Iris-virginica': 7.248060832583398e-07}
+result prediction normalized: {'Iris-versicolor': 99.99745278201692, 'Iris-setosa': 1.6921754406920777e-08, 'Iris-virginica': 0.0025472010613212816}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=133, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-versicolor': 1.255838042145616e-07, 'Iris-setosa': 5.41697102743626e-10, 'Iris-virginica': 0.021082828473307287}
+result prediction normalized: {'Iris-versicolor': 0.0005956651076868435, 'Iris-setosa': 2.5693604765161197e-06, 'Iris-virginica': 99.99940176553184}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=134, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-versicolor': 0.04445980628706017, 'Iris-setosa': 5.41697102743626e-10, 'Iris-virginica': 2.4481212462501967e-06}
+result prediction normalized: {'Iris-versicolor': 99.99449271534674, 'Iris-setosa': 1.2183302519243529e-06, 'Iris-virginica': 0.005506066323003716}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=135, _1=0, _2=1, _3=0, _4=0, _5=0, _6=1, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-versicolor': 1.255838042145616e-07, 'Iris-setosa': 5.41697102743626e-10, 'Iris-virginica': 0.021082828473307287}
+result prediction normalized: {'Iris-versicolor': 0.0005956651076868435, 'Iris-setosa': 2.5693604765161197e-06, 'Iris-virginica': 99.99940176553184}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=136, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-versicolor': 2.6187048939364584e-09, 'Iris-setosa': 0.13341663195890602, 'Iris-virginica': 3.399710462431997e-09}
+result prediction normalized: {'Iris-versicolor': 1.962802341325371e-06, 'Iris-setosa': 99.99999548900689, 'Iris-virginica': 2.5481907758835084e-06}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=137, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-versicolor': 1.1051374770881419e-08, 'Iris-setosa': 9.32922788058467e-11, 'Iris-virginica': 0.01874029197627315}
+result prediction normalized: {'Iris-versicolor': 5.897116337746288e-05, 'Iris-setosa': 4.978162743888757e-07, 'Iris-virginica': 99.99994053102034}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=138, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-versicolor': 6.559988017133753e-10, 'Iris-setosa': 0.0003554074691100929, 'Iris-virginica': 4.340701751140854e-09}
+result prediction normalized: {'Iris-versicolor': 0.00018457394290240621, 'Iris-setosa': 99.99859411218414, 'Iris-virginica': 0.0012213138729504954}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=139, _1=1, _2=0, _3=0, _4=0, _5=0, _6=1, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-versicolor': 2.6187048939364584e-09, 'Iris-setosa': 0.13341663195890602, 'Iris-virginica': 3.399710462431997e-09}
+result prediction normalized: {'Iris-versicolor': 1.962802341325371e-06, 'Iris-setosa': 99.99999548900689, 'Iris-virginica': 2.5481907758835084e-06}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=140, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-versicolor': 0.04445980628706017, 'Iris-setosa': 5.41697102743626e-10, 'Iris-virginica': 2.4481212462501967e-06}
+result prediction normalized: {'Iris-versicolor': 99.99449271534674, 'Iris-setosa': 1.2183302519243529e-06, 'Iris-virginica': 0.005506066323003716}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=141, _1=0, _2=0, _3=1, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-versicolor': 9.845770250421627e-05, 'Iris-setosa': 4.81508535772112e-12, 'Iris-virginica': 0.000185550357314135}
+result prediction normalized: {'Iris-versicolor': 34.66722067603735, 'Iris-setosa': 1.695404447030704e-06, 'Iris-virginica': 65.3327776285582}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=142, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-versicolor': 2.6187048939364584e-09, 'Iris-setosa': 0.13341663195890602, 'Iris-virginica': 3.399710462431997e-09}
+result prediction normalized: {'Iris-versicolor': 1.962802341325371e-06, 'Iris-setosa': 99.99999548900689, 'Iris-virginica': 2.5481907758835084e-06}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=143, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=1, _12=0, result='Iris-virginica')
+result prediction raw: {'Iris-versicolor': 0.04445980628706017, 'Iris-setosa': 5.41697102743626e-10, 'Iris-virginica': 2.4481212462501967e-06}
+result prediction normalized: {'Iris-versicolor': 99.99449271534674, 'Iris-setosa': 1.2183302519243529e-06, 'Iris-virginica': 0.005506066323003716}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=144, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-versicolor': 6.559988017133753e-10, 'Iris-setosa': 0.0003554074691100929, 'Iris-virginica': 4.340701751140854e-09}
+result prediction normalized: {'Iris-versicolor': 0.00018457394290240621, 'Iris-setosa': 99.99859411218414, 'Iris-virginica': 0.0012213138729504954}
+the predicted class is: Iris-setosa
+the actual class is: Iris-setosa
+
+row: Pandas(Index=145, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-versicolor': 1.1051374770881419e-08, 'Iris-setosa': 9.32922788058467e-11, 'Iris-virginica': 0.01874029197627315}
+result prediction normalized: {'Iris-versicolor': 5.897116337746288e-05, 'Iris-setosa': 4.978162743888757e-07, 'Iris-virginica': 99.99994053102034}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=146, _1=0, _2=1, _3=0, _4=1, _5=0, _6=0, _7=0, _8=1, _9=0, _10=0, _11=1, _12=0, result='Iris-versicolor')
+result prediction raw: {'Iris-versicolor': 0.0284542760237185, 'Iris-setosa': 4.81508535772112e-12, 'Iris-virginica': 7.248060832583398e-07}
+result prediction normalized: {'Iris-versicolor': 99.99745278201692, 'Iris-setosa': 1.6921754406920777e-08, 'Iris-virginica': 0.0025472010613212816}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=147, _1=0, _2=1, _3=0, _4=0, _5=1, _6=0, _7=0, _8=0, _9=1, _10=0, _11=0, _12=1, result='Iris-virginica')
+result prediction raw: {'Iris-versicolor': 1.1051374770881419e-08, 'Iris-setosa': 9.32922788058467e-11, 'Iris-virginica': 0.01874029197627315}
+result prediction normalized: {'Iris-versicolor': 5.897116337746288e-05, 'Iris-setosa': 4.978162743888757e-07, 'Iris-virginica': 99.99994053102034}
+the predicted class is: Iris-virginica
+the actual class is: Iris-virginica
+
+row: Pandas(Index=148, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-versicolor': 0.003912462953261296, 'Iris-setosa': 9.32922788058467e-11, 'Iris-virginica': 2.1761077744446193e-06}
+result prediction normalized: {'Iris-versicolor': 99.94440864199919, 'Iris-setosa': 2.383164197974746e-06, 'Iris-virginica': 0.05558897483663899}
+the predicted class is: Iris-versicolor
+the actual class is: Iris-versicolor
+
+row: Pandas(Index=149, _1=1, _2=0, _3=0, _4=0, _5=1, _6=0, _7=1, _8=0, _9=0, _10=1, _11=0, _12=0, result='Iris-setosa')
+result prediction raw: {'Iris-versicolor': 0.00015384016016283794, 'Iris-setosa': 5.41697102743626e-10, 'Iris-virginica': 0.0006267190390400504}
+result prediction normalized: {'Iris-versicolor': 19.708953985438594, 'Iris-setosa': 6.939854496198399e-05, 'Iris-virginica': 80.29097661601645}
+the predicted class is: Iris-virginica
+the actual class is: Iris-versicolor
+
+the class probabilities:
+Iris-versicolor: 0.34285714285714286
+Iris-setosa: 0.3333333333333333
+Iris-virginica: 0.3238095238095238
+
+the attribute probabilities for Iris-versicolor:
+sepal_length_0-33% probabilities: {0: 0.8611111111111112, 1: 0.1388888888888889}
+sepal_length_33-67% probabilities: {0: 0.3055555555555556, 1: 0.6944444444444444}
+sepal_length_67-100% probabilities: {1: 0.16666666666666666, 0: 0.8333333333333334}
+sepal_width_0-33% probabilities: {0: 0.5555555555555556, 1: 0.4444444444444444}
+sepal_width_33-67% probabilities: {1: 0.5555555555555556, 0: 0.4444444444444444}
+sepal_width_67-100% probabilities: {0: 1.0}
+petal_length_0-33% probabilities: {0: 1.0}
+petal_length_33-67% probabilities: {0: 0.027777777777777776, 1: 0.9722222222222222}
+petal_length_67-100% probabilities: {1: 0.027777777777777776, 0: 0.9722222222222222}
+petal_width_0-33% probabilities: {0: 1.0}
+petal_width_33-67% probabilities: {0: 0.05555555555555555, 1: 0.9444444444444444}
+petal_width_67-100% probabilities: {1: 0.05555555555555555, 0: 0.9444444444444444}
+
+the attribute probabilities for Iris-setosa:
+sepal_length_0-33% probabilities: {1: 0.8857142857142857, 0: 0.11428571428571428}
+sepal_length_33-67% probabilities: {0: 0.8857142857142857, 1: 0.11428571428571428}
+sepal_length_67-100% probabilities: {0: 1.0}
+sepal_width_0-33% probabilities: {0: 1.0}
+sepal_width_33-67% probabilities: {0: 0.2857142857142857, 1: 0.7142857142857143}
+sepal_width_67-100% probabilities: {1: 0.2857142857142857, 0: 0.7142857142857143}
+petal_length_0-33% probabilities: {1: 1.0}
+petal_length_33-67% probabilities: {0: 1.0}
+petal_length_67-100% probabilities: {0: 1.0}
+petal_width_0-33% probabilities: {1: 1.0}
+petal_width_33-67% probabilities: {0: 1.0}
+petal_width_67-100% probabilities: {0: 1.0}
+
+the attribute probabilities for Iris-virginica:
+sepal_length_0-33% probabilities: {0: 0.9705882352941176, 1: 0.029411764705882353}
+sepal_length_33-67% probabilities: {0: 0.5, 1: 0.5}
+sepal_length_67-100% probabilities: {1: 0.47058823529411764, 0: 0.5294117647058824}
+sepal_width_0-33% probabilities: {1: 0.3235294117647059, 0: 0.6764705882352942}
+sepal_width_33-67% probabilities: {0: 0.38235294117647056, 1: 0.6176470588235294}
+sepal_width_67-100% probabilities: {0: 0.9411764705882353, 1: 0.058823529411764705}
+petal_length_0-33% probabilities: {0: 1.0}
+petal_length_33-67% probabilities: {0: 0.8529411764705882, 1: 0.14705882352941177}
+petal_length_67-100% probabilities: {1: 0.8529411764705882, 0: 0.14705882352941177}
+petal_width_0-33% probabilities: {0: 1.0}
+petal_width_33-67% probabilities: {0: 0.9411764705882353, 1: 0.058823529411764705}
+petal_width_67-100% probabilities: {1: 0.9411764705882353, 0: 0.058823529411764705}
+percent correct: 93.33333333333333%

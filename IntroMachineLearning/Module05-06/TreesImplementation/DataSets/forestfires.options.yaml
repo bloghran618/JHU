@@ -1,0 +1,16 @@
+left_index: false
+headers: true
+rename_cols:
+    1: x_loc
+    2: y_loc
+    3: month
+    4: day
+    5: FFMC
+    6: DMC
+    7: DC
+    8: ISI
+    9: Temp
+    10: RH
+    11: wind
+    12: rain
+result_col: 13

@@ -1,0 +1,2 @@
+set: machine
+early_stopping: true

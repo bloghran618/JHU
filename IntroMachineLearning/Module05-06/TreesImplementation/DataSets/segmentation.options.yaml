@@ -1,0 +1,23 @@
+left_index: false
+skiprows: [0, 1, 2, 3, 4]
+rename_cols:
+    2: region-centroid-col
+    3: region-centroid-row
+    4: region-pixel-count
+    5: short-line-density-5
+    6: short-line-density-2
+    7: vedge-mean
+    8: vegde-sd
+    9: hedge-mean
+    10: hedge-sd
+    11: intensity-mean
+    12: rawred-mean
+    13: rawblue-mean
+    14: rawgreen-mean
+    15: exred-mean
+    16: exblue-mean
+    17: exgreen-mean
+    18: value-mean
+    19: saturatoin-mean
+    20: hue-mean
+result_col: 1

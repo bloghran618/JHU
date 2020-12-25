@@ -1,0 +1,38 @@
+one_hot_encode:
+    1: date
+    2: plant-stand
+    3: precip
+    4: temp
+    5: hail
+    6: crop-hist
+    7: area-damaged
+    8: severity
+    9: seed-tmt
+    10: germination
+    11: plant-growth
+    12: leaves
+    13: leafspots-halo
+    14: leafspots-marg
+    15: leafspot-size
+    16: leaf-shread
+    17: leaf-malf
+    18: leaf-mild
+    19: stem
+    20: lodging
+    21: stem-cankers
+    22: canker-lesion
+    23: fruiting-bodies
+    24: external decay
+    25: mycelium
+    26: int-discolor
+    27: sclerotia
+    28: fruit-pods
+    29: fruit spots
+    30: seed
+    31: mold-growth
+    32: seed-discolor
+    33: seed-size
+    34: shriveling
+    35: roots
+result_col: 36
+randomize_rows: true

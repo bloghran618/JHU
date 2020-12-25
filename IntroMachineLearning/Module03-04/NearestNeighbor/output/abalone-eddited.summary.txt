@@ -1,0 +1,23 @@
+reduce training set for cross 0 from 3007 points to 3007 points
+the model for cross 0 is: k=25, sigma=0.05, epsilon=25
+the number wrong for cross 0 is 0 of 752
+
+reduce training set for cross 1 from 3007 points to 3007 points
+the model for cross 1 is: k=10, sigma=0.05, epsilon=25
+the number wrong for cross 1 is 0 of 752
+
+reduce training set for cross 2 from 3007 points to 727 points
+the model for cross 2 is: k=10, sigma=0.1, epsilon=25
+the number wrong for cross 2 is 0 of 752
+
+reduce training set for cross 3 from 3007 points to 694 points
+the model for cross 3 is: k=25, sigma=0.05, epsilon=25
+the number wrong for cross 3 is 0 of 752
+
+reduce training set for cross 4 from 3008 points to 782 points
+the model for cross 4 is: k=10, sigma=0.1, epsilon=25
+the number wrong for cross 4 is 0 of 751
+
+the loss for all 5 cross validations is: 0
+
+model accuracy is: 100.00%

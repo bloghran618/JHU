@@ -1,0 +1,38 @@
+left_index: false
+headers: true
+value_encode:
+    2:
+        jan: 1
+        feb: 2
+        mar: 3
+        apr: 4
+        may: 5
+        jun: 6
+        jul: 7
+        aug: 8
+        sep: 9
+        oct: 10
+        nov: 11
+        dec: 12
+    3:
+        mon: 1
+        tue: 2
+        wed: 3
+        thu: 4
+        fri: 5
+        sat: 6
+        sun: 7
+normalize_cols:
+    1: x_loc
+    2: y_loc
+    3: month
+    4: day
+    5: FFMC
+    6: DMC
+    7: DC
+    8: ISI
+    9: Temp
+    10: RH
+    11: wind
+    12: rain
+result_col: 13

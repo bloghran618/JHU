@@ -1,0 +1,14 @@
+left_index: true
+discretize_groups: 3
+discretize:
+    2: RI
+    3: Na
+    4: Mg
+    5: Al
+    6: Si
+    7: K
+    8: Ca
+    9: Ba
+    10: mitoses    
+result_col: 11
+randomize_rows: true

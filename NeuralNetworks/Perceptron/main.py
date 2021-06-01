@@ -147,23 +147,25 @@ input2 = Node(0, 1, [], 0)
 output = Node(1, 0, [0.24, 0.88], 0)
 net = Network(2, 5, [input1, input2], [output])
 
+net.print_weights()
 for iter in range(75):
     ff = net.feed_forward([0.8, 0.9])
     net.back_prop(ff, 0.95)
 ff = net.feed_forward([0.8, 0.9])
 print(f"Q2 sol: {ff}")
+net.print_weights()
 
-print("----------------------------")
-print("Q3")
-
-# question3
-input1 = Node(0, 0, [], 0)
-input2 = Node(0, 1, [], 0)
-output = Node(1, 0, [0.24, 0.88], 0)
-net = Network(2, 5, [input1, input2], [output])
-
-for iter in range(30):
-    ff = net.feed_forward([0.8, 0.9])
-    net.back_prop(ff, 0.15)
-ff = net.feed_forward([0.8, 0.9])
-print(f"Q3 sol: {ff}")
+# print("----------------------------")
+# print("Q3")
+#
+# # question3
+# input1 = Node(0, 0, [], 0)
+# input2 = Node(0, 1, [], 0)
+# output = Node(1, 0, [0.24, 0.88], 0)
+# net = Network(2, 5, [input1, input2], [output])
+#
+# for iter in range(30):
+#     ff = net.feed_forward([0.8, 0.9])
+#     net.back_prop(ff, 0.15)
+# ff = net.feed_forward([0.8, 0.9])
+# print(f"Q3 sol: {ff}")
